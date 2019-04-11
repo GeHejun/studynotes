@@ -6,6 +6,7 @@ public class ArrayList<T> implements List<T>,RandomAccess {
 
     private Object[] table;
     private Object[] EMPTY_TABLE = {};
+    private int size;
 
     public ArrayList() {
         table = EMPTY_TABLE;
@@ -30,19 +31,27 @@ public class ArrayList<T> implements List<T>,RandomAccess {
         return old;
     }
 
-    public boolean add(int index, T data) {
+    public void add(int index, T data) {
+        checkRange(index);
+        ensureEnoughCapacity(size - 1,table);
+        for (int i = size; i > index; i--) {
+            table[i] = table[i-1];
+        }
+        table[index] = data;
+        size++;
+    }
+
+
+    public void add(T data) {
+        ensureEnoughCapacity(size - 1,table);
+        table[size] = data;
+        size ++;
+    }
+
+    public void remove(int index) {
         checkRange(index);
 
-        return false;
-    }
-
-
-    public boolean add(T data) {
-        return false;
-    }
-
-    public T remove(int index) {
-        return null;
+        size--;
     }
 
     public boolean remove(T data) {

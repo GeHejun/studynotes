@@ -43,7 +43,7 @@ public interface List<T> {
      * @param data
      * @return
      */
-    boolean add(int index, T data);
+    void add(int index, T data);
 
     /**
      * 添加元素
@@ -51,7 +51,7 @@ public interface List<T> {
      * @param data
      * @return
      */
-    boolean add(T data);
+    void add(T data);
 
     /**
      * 根据index移除元素
@@ -59,7 +59,7 @@ public interface List<T> {
      * @param index
      * @return
      */
-    T remove(int index);
+    void remove(int index);
 
     /**
      * 根据data移除元素
