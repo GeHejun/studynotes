@@ -1,4 +1,4 @@
-package com.ghj.list.link;
+package com.ghj.list;
 
 import com.ghj.list.List;
 import org.omg.CORBA.NO_IMPLEMENT;

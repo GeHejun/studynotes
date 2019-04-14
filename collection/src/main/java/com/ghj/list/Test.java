@@ -1,6 +1,7 @@
-package com.ghj.list.array;
+package com.ghj.list;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class Test {
@@ -22,13 +23,27 @@ public class Test {
         List list = new ArrayList(0);
         list.add("aaa");
         //myself
-        com.ghj.list.List listSelf = new com.ghj.list.array.ArrayList();
+        com.ghj.list.List listSelf = new com.ghj.list.ArrayList();
         listSelf.add("aaa");
         listSelf.add("aaa");
         listSelf.add(null);
         listSelf.removeAll("aaa");
         Class<Object[]> aClass = Object[].class;
         System.out.println("self list:" + listSelf);
+
+        //jdk
+        LinkedList linkedList = new LinkedList();
+        linkedList.add("aaa");
+        linkedList.add("bbb");
+        linkedList.add("aaa");
+        linkedList.remove("aaa");
+        System.out.println(linkedList.toString());
+
+        //self
+        com.ghj.list.LinkedList linkedList1 = new com.ghj.list.LinkedList();
+        linkedList1.add("aaa");
+        linkedList1.add("bbb");
+        System.out.println(linkedList1.removeAll("aaa"));
 
 
     }

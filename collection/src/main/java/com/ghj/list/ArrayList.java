@@ -1,4 +1,4 @@
-package com.ghj.list.array;
+package com.ghj.list;
 
 
 import com.ghj.list.List;
