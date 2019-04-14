@@ -1,7 +1,7 @@
-package array;
+package com.ghj.list.array;
 
 
-import org.omg.PortableInterceptor.INACTIVE;
+import com.ghj.list.List;
 
 import java.util.Arrays;
 import java.util.Collection;

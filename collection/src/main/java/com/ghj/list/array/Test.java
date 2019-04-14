@@ -1,4 +1,4 @@
-package array;
+package com.ghj.list.array;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,7 +22,7 @@ public class Test {
         List list = new ArrayList(0);
         list.add("aaa");
         //myself
-        array.List listSelf = new array.ArrayList();
+        com.ghj.list.List listSelf = new com.ghj.list.array.ArrayList();
         listSelf.add("aaa");
         listSelf.add("aaa");
         listSelf.add(null);
