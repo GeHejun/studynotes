@@ -1,9 +1,10 @@
 package array;
 
+
 /**
  * list的顶级接口
  */
-public interface List<T> {
+public interface List<T>  {
 
     /**
      * 判断链表是否为空
@@ -12,12 +13,6 @@ public interface List<T> {
      */
     boolean isEmpty();
 
-    /**
-     * 链表长度
-     *
-     * @return
-     */
-    int length();
 
     /**
      * 获取元素
@@ -51,7 +46,7 @@ public interface List<T> {
      * @param data
      * @return
      */
-    void add(T data);
+    boolean add(T data);
 
     /**
      * 根据index移除元素
