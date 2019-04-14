@@ -1,0 +1,51 @@
+--查看是否开启慢查询日志
+show variables like 'slow_query_log';
+--设置慢查询的日志文件保存路径
+set global slow_query_log_file = '/home/mysql/sql_log/mysql-slow.log';
+--开启没使用索引的sql记录到日志
+set global log_queries_not_using_indexes=on;
+--低于多少秒的查询为慢查询
+set global long_query_time = 1;
+--开启慢查询日志开启
+set global slow_query_log = on;
+
+
+--查看慢查询日志工具
+--1.mysql自带
+--查看前三个慢查询sql
+mysqldumpslow -t 3 /home/mysql/sql_log/mysql-slow.log | more
+--2.pt-query-digest
+pt-query-digest /home/mysql/sql_log/mysql-slow.log | more
+--输出到文件
+pt-query-digest slow.log > slow_log.report
+--输出到数据表
+"pt-query-digest slow.log -review \
+h=127.0.0.1,D=test,p=root,P=3306,u=root,t=query_review \
+--create-reviewtable \
+--review-history t = hostname_slow"
+--如何通过慢查询日志发现有问题的sql
+--1.查询次数多且每次查询占用时间长的sql  通常为pt-query-digest分析的前几个查询
+--2.IO大的sql 注意pt-query-digest分析中的Rows examine项
+--未命中索引的sql 注意pt-query-digest分析中的Rows examine 和 Rows Send的对比
+
+
+--分析sql查询
+explain sql
+--explain返回各列的含义
+--table:现实这一行的数据是关于哪张表的
+--type:这是重要的列，显示连接使用了哪种类型。从最好到最差的连接类型为const、eq_reg、ref、range、index、ALL
+--possible_keys：显示可能应用在这张表中的索引。如果为空，没有可能用到的索引。
+--key:实际使用的索引。如果为NULL，则没有使用索引
+--key_len:使用索引的长度。在不损失精确性的情况下，长度越短越好
+--ref:显示索引的哪一列被使用了，如果可能的化，是一个常数
+--rows:mysql认为必须检查的用来返回请求数据的行数
+
+--count()和max()函数的优化
+--max(col)的可以在所在列建立索引
+--count(*)包含null,count(id)不会包含id为空的行
+--子查询优化
+--改为 join 连接查询时，关注两表之间 是否是一对多的关系，若有，则需要去重 distinct
+--优化limit查询
+--当limit 后面的数据越大,IO越高,性能越差;
+-- 1.可以使用有索引的列或主键进行order by操作,避免过多的扫描;
+-- 2.记录上次返回的主键，在下次查询时使用主键过滤(要求顺序排序)
