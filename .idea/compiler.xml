@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="collection" />
         <module name="foundation" />
+        <module name="mysql" />
       </profile>
     </annotationProcessing>
   </component>
