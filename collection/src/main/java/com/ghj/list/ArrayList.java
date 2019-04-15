@@ -1,8 +1,6 @@
 package com.ghj.list;
 
 
-import com.ghj.list.List;
-
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.RandomAccess;
@@ -326,7 +324,7 @@ public class ArrayList<T> implements List<T>, RandomAccess {
         //原来的容量扩容到原来的1.5倍
         //这里用到移位操作 都是整数，所以不是严格的1.5倍
         int oldValue = table.length;
-        int newValue = table.length + table.length >> 1;
+        int newValue = oldValue + oldValue >> 1;
         //如果minCapacity还是比原来数组的1.5倍大，那么数组容量用minCapacity
         //1.会发生此类问题的情况当all方法参数是数组时
         //2.当调用无参的构造函数然后第一次添加元素时

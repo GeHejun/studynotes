@@ -1,8 +1,5 @@
 package com.ghj.list;
 
-import com.ghj.list.List;
-import org.omg.CORBA.NO_IMPLEMENT;
-
 import java.util.Collection;
 
 public class LinkedList<T> implements List<T> {
