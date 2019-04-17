@@ -2,7 +2,7 @@ package com.ghj.map;
 
 import java.util.Objects;
 
-public class HashMap {
+public class HashMap<K, V> {
     /**
      * static可以修饰方法、属性和内部类
      * static修饰内部类，这个内部类就可以直接作为一个普通类来使用，而不需要实力一个外部类
@@ -84,6 +84,21 @@ public class HashMap {
             value = newValue;
             return oldValue;
         }
+    }
+
+
+    public int hash(K k) {
+        int h;
+        return (k == null) ? 0: (h = k.hashCode()) ^ (h >>> 16);
+    }
+
+    public V put(K k, V v) {
+        return putVal(hash(k), k, v,true, false);
+    }
+
+
+    final V putVal(int hash, K k, V v,boolean onlyIfAbsent, boolean evict) {
+
     }
 
 }
