@@ -1,6 +1,7 @@
 package com.ghj;
 
 import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class Test {
     public static void main(String[] args) {
@@ -43,17 +44,24 @@ public class Test {
 //        linkedList1.add("bbb");
 //        System.out.println(linkedList1.removeAll("aaa"));
 
-        System.out.println(Objects.hashCode(new Object()));
-        System.out.println(Objects.hashCode(new ArrayList<>()));
-        System.out.println(Objects.hashCode(new ArrayList<>()));
-        System.out.println(Objects.hashCode(new HashMap<>()));
-        HashMap<Object, Object> objectObjectHashMap = new HashMap<>();
-        objectObjectHashMap.put("aaa","bbb");
-        System.out.println(Objects.hashCode(objectObjectHashMap));
+//        System.out.println(Objects.hashCode(new Object()));
+//        System.out.println(Objects.hashCode(new ArrayList<>()));
+//        System.out.println(Objects.hashCode(new ArrayList<>()));
+//        System.out.println(Objects.hashCode(new HashMap<>()));
+//        HashMap<Object, Object> objectObjectHashMap = new HashMap<>();
+//        objectObjectHashMap.put("aaa","bbb");
+//        System.out.println(Objects.hashCode(objectObjectHashMap));
+//
+//        System.out.println(Objects.hashCode(Integer.valueOf(10)));
+//        System.out.println(Objects.hashCode(Integer.valueOf(11)));
+//        System.out.println(Objects.hashCode(Integer.valueOf(50)));
 
-        System.out.println(Objects.hashCode(Integer.valueOf(10)));
-        System.out.println(Objects.hashCode(Integer.valueOf(11)));
-        System.out.println(Objects.hashCode(Integer.valueOf(50)));
+        HashMap hashMap = new HashMap(4);
+        hashMap.put(null,null);
+        hashMap.put(null,null);
+        hashMap.put(null,null);
+        hashMap.put(null,null);
+
 
 
 
