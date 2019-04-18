@@ -97,6 +97,7 @@ public class ArrayList<T> implements List<T>, RandomAccess {
      * 因为size是根据插入或者删除数据而变化的所以判断size是否是0就可以判断出是否是空数组了
      * @return
      */
+    @Override
     public boolean isEmpty() {
         return size == 0;
     }
@@ -107,6 +108,7 @@ public class ArrayList<T> implements List<T>, RandomAccess {
      * @param index
      * @return
      */
+    @Override
     public T get(int index) {
         checkRange(index);
         return (T) table[index];
@@ -118,6 +120,7 @@ public class ArrayList<T> implements List<T>, RandomAccess {
      * @param data
      * @return
      */
+    @Override
     public T set(int index, T data) {
         checkRange(index);
         T old = (T) table[index];
@@ -130,6 +133,7 @@ public class ArrayList<T> implements List<T>, RandomAccess {
      * @param index
      * @param data
      */
+    @Override
     public void add(int index, T data) {
         checkRange(index);
         //确保空间足够
@@ -146,6 +150,7 @@ public class ArrayList<T> implements List<T>, RandomAccess {
      * @param data
      * @return
      */
+    @Override
     public boolean add(T data) {
         //确保空间足够
         ensureEnoughCapacity(size + 1);
@@ -172,6 +177,7 @@ public class ArrayList<T> implements List<T>, RandomAccess {
      * @param data
      * @return
      */
+    @Override
     public boolean remove(T data) {
         if (data == null) {
             for (int i = 0; i < size; i++) {
@@ -196,6 +202,7 @@ public class ArrayList<T> implements List<T>, RandomAccess {
      * @param data
      * @return
      */
+    @Override
     public boolean removeAll(T data) {
         boolean flag = false;
         if (data == null) {
@@ -219,6 +226,7 @@ public class ArrayList<T> implements List<T>, RandomAccess {
     /**
      * 清空数组
      */
+    @Override
     public void clear() {
         for (int i = 0; i < size; i++) {
             table[i] = null;
@@ -231,6 +239,7 @@ public class ArrayList<T> implements List<T>, RandomAccess {
      * @param data
      * @return
      */
+    @Override
     public boolean contains(T data) {
         return indexOf(data) > 0;
     }
@@ -243,6 +252,7 @@ public class ArrayList<T> implements List<T>, RandomAccess {
      * @param data
      * @return
      */
+    @Override
     public int indexOf(T data) {
         if ( data == null ) {
             for (int i = 0; i < size; i++) {
@@ -265,6 +275,7 @@ public class ArrayList<T> implements List<T>, RandomAccess {
      * @param data
      * @return
      */
+    @Override
     public int lastIndexOf(T data) {
         if (data == null) {
             for (int i = size - 1; i >= 0; i--) {

@@ -3,6 +3,37 @@ package com.ghj.map;
 import java.util.Objects;
 
 public class HashMap<K, V> {
+
+    /**
+     * 默认的数组大小
+     */
+    static final int DEFAULT_INITIAL_CAPACITY = 1 << 4;
+
+    /**
+     * 默认的扩容因子大小
+     */
+    static final float DEFAULT_LOAD_FACTOR = 0.75f;
+
+    /**
+     * 最大容量
+     */
+    static final int MAXIMUM_CAPACITY = 1 << 30;
+
+    /**
+     * 转换成红黑树的链表阈值大小
+     */
+    static final int TREEIFY_THRESHOLD = 8;
+
+    /**
+     * 从红黑树转化成链表的阈值大小
+     */
+    static final int UNTREEIFY_THRESHOLD = 6;
+
+    /**
+     * 转化成红黑树的最小的table容量阈值
+     */
+    static final int MIN_TREEIFY_CAPACITY = 64;
+
     /**
      * static可以修饰方法、属性和内部类
      * static修饰内部类，这个内部类就可以直接作为一个普通类来使用，而不需要实力一个外部类
@@ -45,6 +76,7 @@ public class HashMap<K, V> {
          * 异或运算：相同为0 不同为1
          * @return
          */
+        @Override
         public final int hashCode() {
             return Objects.hashCode(key) ^ Objects.hashCode(value);
         }
