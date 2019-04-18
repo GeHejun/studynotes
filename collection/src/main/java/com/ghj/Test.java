@@ -65,6 +65,12 @@ public class Test {
 
 
 
+        int a = 1 << 30;
+        int b = Integer.MAX_VALUE;
+
+        System.out.println(a);
+        System.out.println(b);
+
 
 
 

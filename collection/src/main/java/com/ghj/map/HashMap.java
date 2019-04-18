@@ -1,5 +1,6 @@
 package com.ghj.map;
 
+import javax.swing.tree.TreeNode;
 import java.util.Objects;
 
 public class HashMap<K, V> {
@@ -33,6 +34,11 @@ public class HashMap<K, V> {
      * 转化成红黑树的最小的table容量阈值
      */
     static final int MIN_TREEIFY_CAPACITY = 64;
+
+    /**
+     * 扩容阈值 容量 * 加载因子
+     */
+    private int threshold;
 
     /**
      * static可以修饰方法、属性和内部类
@@ -119,6 +125,16 @@ public class HashMap<K, V> {
     }
 
     /**
+     * 数组
+     */
+    Node[] table;
+
+    /**
+     * 加载因子  用于计算扩容阈值
+     */
+    float loadFactor;
+
+    /**
      * 计算key的hash值，如果key为null，那么hash值为0
      * @param k
      * @return
@@ -128,14 +144,74 @@ public class HashMap<K, V> {
         return (k == null) ? 0: (h = k.hashCode()) ^ (h >>> 16);
     }
 
+    /**
+     * 无参构造器
+     * 加载因子 = 默认的加载因子大小
+     */
+    public HashMap() {
+        this.loadFactor = DEFAULT_LOAD_FACTOR;
+    }
 
+    /**
+     *
+     * @param k
+     * @param v
+     * @return
+     */
     public V put(K k, V v) {
-        return putVal(hash(k), k, v,true, false);
+        return putVal(hash(k), k, v,false, true);
     }
 
 
     final V putVal(int hash, K k, V v,boolean onlyIfAbsent, boolean evict) {
+        Node[] tab;Node p;int n,i;
+        if ((tab = table) == null || (n = tab.length) == 0) {
+            n = (tab = resize()).length;
+        }
         return null;
+    }
+
+    final Node[] resize() {
+        Node[] oldTab = table;
+        int oldCap = (oldTab == null) ? 0 :oldTab.length;
+        int oldThr = threshold;
+        int newCap,newThr = 0;
+        if (oldCap > 0) {
+            if (oldCap > MAXIMUM_CAPACITY) {
+                threshold = Integer.MAX_VALUE;
+                return oldTab;
+            } else if ((newCap = oldCap << 1) < MAXIMUM_CAPACITY &&
+                    oldCap >= DEFAULT_INITIAL_CAPACITY){
+                newThr = oldThr << 1;
+            }
+        } else if (oldThr > 0) {
+            newCap = oldThr;
+        } else {
+            newCap = DEFAULT_INITIAL_CAPACITY;
+            newThr = (int)(DEFAULT_INITIAL_CAPACITY * DEFAULT_LOAD_FACTOR);
+        }
+
+        if (newThr == 0) {
+            float ft = (float)newCap * loadFactor;
+            newThr = (newCap < MAXIMUM_CAPACITY && ft < (float) MAXIMUM_CAPACITY)? (int)ft :Integer.MAX_VALUE;
+        }
+        threshold = newThr;
+        Node[] newTab = new Node[newCap];
+        table = newTab;
+        if (oldTab != null) {
+            for (int j = 0; j < oldCap; j++) {
+                Node e;
+                if ((e = oldTab[j]) != null) {
+                    oldTab[j] = null;
+                    if (e.next == null) {
+                        newTab[e.hash & (newCap - 1)] = e;
+                    } else if (e instanceof TreeNode){
+
+                    }
+                }
+            }
+        }
+        return newTab;
     }
 
 }
