@@ -118,11 +118,16 @@ public class HashMap<K, V> {
         }
     }
 
-
+    /**
+     * 计算key的hash值，如果key为null，那么hash值为0
+     * @param k
+     * @return
+     */
     public int hash(K k) {
         int h;
         return (k == null) ? 0: (h = k.hashCode()) ^ (h >>> 16);
     }
+
 
     public V put(K k, V v) {
         return putVal(hash(k), k, v,true, false);
