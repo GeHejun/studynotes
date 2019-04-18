@@ -56,11 +56,13 @@ public class Test {
 //        System.out.println(Objects.hashCode(Integer.valueOf(11)));
 //        System.out.println(Objects.hashCode(Integer.valueOf(50)));
 
-        HashMap hashMap = new HashMap(4);
-        hashMap.put(null,null);
-        hashMap.put(null,null);
-        hashMap.put(null,null);
-        hashMap.put(null,null);
+//        HashMap hashMap = new HashMap(4);
+//        hashMap.put(null,null);
+//        hashMap.put(null,null);
+//        hashMap.put(null,null);
+//        hashMap.put(null,null);
+
+
 
 
 

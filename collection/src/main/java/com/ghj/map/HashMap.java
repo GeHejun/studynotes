@@ -98,7 +98,7 @@ public class HashMap<K, V> {
 
 
     final V putVal(int hash, K k, V v,boolean onlyIfAbsent, boolean evict) {
-
+        return null;
     }
 
 }
