@@ -17,12 +17,19 @@ public class Test {
         }
         n = n / 10;
         while (num % n > 0) {
-            String res = num / n + Enum.getNameById(n);
+            String res;
+            if (num / n == 0) {
+                res = "零";
+            } else {
+                res = num / n + Enum.getNameById(n);
+            }
+
             num = num - (num / n ) * n;
             n = n / 10;
             stringBuilder.append(res);
 
         }
+
 
         System.out.println(stringBuilder);
     }
