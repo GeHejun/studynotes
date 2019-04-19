@@ -1,5 +1,7 @@
 package com.ghj.map;
 
+import sun.misc.Unsafe;
+
 import javax.swing.tree.TreeNode;
 import java.util.Objects;
 
@@ -170,6 +172,8 @@ public class HashMap<K, V> {
         }
         return null;
     }
+
+
 
     final Node[] resize() {
         Node[] oldTab = table;
