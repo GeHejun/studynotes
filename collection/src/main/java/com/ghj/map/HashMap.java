@@ -1,8 +1,8 @@
 package com.ghj.map;
 
-import sun.misc.Unsafe;
 
-import javax.swing.tree.TreeNode;
+import apple.laf.JRSUIUtils;
+
 import java.util.Objects;
 
 public class HashMap<K, V> {
@@ -123,6 +123,43 @@ public class HashMap<K, V> {
             V oldValue = value;
             value = newValue;
             return oldValue;
+        }
+    }
+
+    static class TreeNode<K,V> extends LinkedHashMap.Entry<K,V>{
+        TreeNode<K,V> parent;
+        TreeNode<K,V> left;
+        TreeNode<K,V> right;
+        TreeNode<K,V> prev;
+        boolean red;
+
+        TreeNode(int hash,K k,V v,Node<K,V> next) {
+            super(hash,k,v,next);
+        }
+
+        /**
+         * 获取树的根节点
+         * @return
+         */
+        final TreeNode<K,V> root() {
+            for (TreeNode<K,V> r = this,p;;) {
+                if ((p = r.parent) == null) {
+                    return r;
+                }
+                r = p;
+            }
+        }
+
+        static <K,V> void moveRootToFront(Node<K,V>[] tab,TreeNode<K,V> root) {
+            int n;
+            if (root != null && tab != null && (n = tab.length) > 0) {
+                int index = (n - 1) & root.hash;
+                TreeNode<K,V> first = (TreeNode<K,V>)tab[index];
+                if (root != first) {
+                    Node<K,V> rn;
+                    tab[index] = root;
+                }
+            }
         }
     }
 
