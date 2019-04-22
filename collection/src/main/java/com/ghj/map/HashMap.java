@@ -1,7 +1,6 @@
 package com.ghj.map;
 
 
-import apple.laf.JRSUIUtils;
 
 import java.util.Objects;
 
@@ -126,6 +125,11 @@ public class HashMap<K, V> {
         }
     }
 
+    /**
+     * 树节点
+     * @param <K>
+     * @param <V>
+     */
     static class TreeNode<K,V> extends LinkedHashMap.Entry<K,V>{
         TreeNode<K,V> parent;
         TreeNode<K,V> left;
@@ -158,9 +162,15 @@ public class HashMap<K, V> {
                 if (root != first) {
                     Node<K,V> rn;
                     tab[index] = root;
+                    TreeNode<K,V> rp = root.prev;
+                    if ((rn = root.next) != null) {
+                        ((TreeNode<K,V>) rn).prev = rp;
+                    }
                 }
             }
         }
+
+
     }
 
     /**
