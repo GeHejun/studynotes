@@ -63,6 +63,14 @@ public class Test {
 //        hashMap.put(null,null);
 
 
+            int i = 1;
+            int j = i++;
+            if (i == (++j) && (i++) == j) {
+                i += j;
+            }
+        System.out.println(i);
+
+
 
 
         int a = 1 << 30;
