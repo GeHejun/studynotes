@@ -6,7 +6,8 @@ import javax.swing.plaf.basic.BasicInternalFrameTitlePane;
  */
 public class HouseRobber {
     public static void main(String[] args) {
-
+        int[] nums = new int[]{2,7,9,3,1};
+        System.out.println(houseRobber(nums));
     }
 
     /**
@@ -16,7 +17,7 @@ public class HouseRobber {
      */
     public static int houseRobber(int[] numbers) {
         if (numbers.length == 0) {
-            throw new IllegalArgumentException();
+            return 0;
         }
         if (numbers.length == 1) {
             return numbers[0];
@@ -32,13 +33,13 @@ public class HouseRobber {
             if (i == 1) {
                 y = numbers[1];
             }
-            if (i > 2) {
+            if (i > 1) {
                 int tmp = x;
                 x = y;
-                y = Math.max(tmp + numbers[i],x);
+                y = tmp + numbers[i];
             }
         }
-        return y;
+        return Math.max(x,y);
 
     }
 }
