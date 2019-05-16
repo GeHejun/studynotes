@@ -1,13 +1,11 @@
-import javax.swing.plaf.basic.BasicInternalFrameTitlePane;
-
 /**
- * @Description 抢银行
- * @Author GeHejun
+ * @description 抢银行
+ * @author GeHejun
  */
 public class HouseRobber {
     public static void main(String[] args) {
-        int[] nums = new int[]{2,7,9,3,1};
-        System.out.println(houseRobber(nums));
+        int[] numbers = new int[]{2,1,1,2};
+        System.out.println(houseRobber(numbers));
     }
 
     /**
@@ -25,21 +23,15 @@ public class HouseRobber {
         if (numbers.length == 2) {
             return Math.max(numbers[0],numbers[1]);
         }
-        int x = 0,y = 0;
-        for (int i = 0; i < numbers.length - 1; i++) {
-            if (i == 0) {
-                x = numbers[0];
-            }
-            if (i == 1) {
-                y = numbers[1];
-            }
+        int x = numbers[0],y = Math.max(x,numbers[1]);
+        for (int i = 2; i <= numbers.length - 1; i++) {
             if (i > 1) {
                 int tmp = x;
                 x = y;
-                y = tmp + numbers[i];
+                y = Math.max(tmp + numbers[i],x);
             }
         }
-        return Math.max(x,y);
-
+        return y;
     }
+
 }
