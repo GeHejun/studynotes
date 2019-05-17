@@ -1,6 +1,6 @@
 /**
- * @Description 找出一个数组中重复的数
- * @Author GeHejun
+ *  找出一个数组中重复的数
+ * @author GeHejun
  */
 public class RepeatNumber {
     public static void main(String[] args) {

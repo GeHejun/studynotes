@@ -1,8 +1,8 @@
 import java.util.HashMap;
 
 /**
- * @Description 爬楼梯问题
- * @Author GeHejun
+ * 爬楼梯问题
+ * @author GeHejun
  */
 public class ClimbStairs {
     public static void main(String[] args) {

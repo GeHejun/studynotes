@@ -1,6 +1,6 @@
 /**
- * @Description 抢银行
- * @Author GeHejun
+ * 抢银行
+ * @author GeHejun
  */
 public class AnnularHouseRobber {
     public static void main(String[] args) {

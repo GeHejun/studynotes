@@ -1,5 +1,5 @@
 /**
- * @description 抢银行
+ * 抢银行
  * @author GeHejun
  */
 public class HouseRobber {
