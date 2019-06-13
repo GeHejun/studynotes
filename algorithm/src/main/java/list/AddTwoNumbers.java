@@ -1,12 +1,10 @@
 package list;
 
-import java.math.BigInteger;
-import java.util.List;
-
 /**
- * @author gehj
+ *
+ * @author GeHejun
  */
-public class ListAddTwoNumbers {
+public class AddTwoNumbers {
 
 
 
@@ -16,10 +14,10 @@ public class ListAddTwoNumbers {
 
         ListNode l4 = new ListNode(5);
 
-        System.out.println(listAddTwoNumbers(l1,l4).toString());
+        System.out.println(addTwoNumbers(l1,l4).toString());
 
     }
-    public static ListNode listAddTwoNumbers(ListNode l1, ListNode l2) {
+    public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 
         int nextVal = 0;
         ListNode res = new ListNode(0);
@@ -43,13 +41,7 @@ public class ListAddTwoNumbers {
     }
 
 
-    static class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int val) {
-            this.val = val;
-        }
-    }
+
 
 
 }
