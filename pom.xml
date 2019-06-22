@@ -13,6 +13,7 @@
         <module>foundation</module>
         <module>mysql</module>
         <module>algorithm</module>
+        <module>spring</module>
     </modules>
 
 
