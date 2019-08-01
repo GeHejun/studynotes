@@ -163,6 +163,7 @@ public class ArrayList<T> implements List<T>, RandomAccess {
      * 把指定位置的元素移除
      * @param index
      */
+    @Override
     public void remove(int index) {
         checkRange(index);
         for (int i = index; i < size; i++) {
