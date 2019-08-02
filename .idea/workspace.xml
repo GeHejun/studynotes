@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1735b1db-e4e4-49c3-b0e9-3803553dd2df" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/list/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/main/java/list/ListNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/main/java/tree/BinaryTree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,15 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/tree/RBTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3520">
-              <caret line="162" column="13" selection-start-line="162" selection-start-column="13" selection-end-line="162" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/tree/TreeNode.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -77,11 +67,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/tree/BinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="628">
-              <caret line="83" column="27" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="27" />
+            <state relative-caret-position="232">
+              <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/concurrent/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -98,8 +97,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://D:/gehj/soft/java/jdk_171/src.zip!/java/util/Stack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="946">
-              <caret line="66" column="14" selection-start-line="66" selection-start-column="14" selection-end-line="66" selection-end-column="14" />
+            <state relative-caret-position="154">
+              <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -107,8 +106,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://D:/gehj/soft/java/jdk_171/src.zip!/java/util/Vector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13112">
-              <caret line="644" column="21" selection-start-line="644" selection-start-column="21" selection-end-line="644" selection-end-column="21" />
+            <state relative-caret-position="606">
+              <caret line="623" column="13" selection-start-line="623" selection-start-column="13" selection-end-line="623" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -184,37 +183,38 @@
             <path>
               <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="studynotes" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="collection" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="studynotes" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="collection" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="studynotes" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studynotes" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="collection" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="studynotes" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studynotes" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studynotes" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -226,7 +226,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564732891704" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564735131497" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -321,7 +321,7 @@
       <workItem from="1563346862454" duration="5248000" />
       <workItem from="1564641188853" duration="4175000" />
       <workItem from="1564727242008" duration="47000" />
-      <workItem from="1564731733923" duration="633000" />
+      <workItem from="1564731733923" duration="3051000" />
     </task>
     <task id="LOCAL-00001" summary="designpattern">
       <created>1561616972270</created>
@@ -358,17 +358,24 @@
       <option name="project" value="LOCAL" />
       <updated>1564645051996</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="concurrent-model">
+      <created>1564732958515</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1564732958515</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13962000" />
+    <option name="totallyTimeSpent" value="16380000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -380,7 +387,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32959327" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.2917251" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.29064587" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -415,7 +422,8 @@
     <MESSAGE value="designpattern-observer" />
     <MESSAGE value="红黑树" />
     <MESSAGE value="bfs - dfs" />
-    <option name="LAST_COMMIT_MESSAGE" value="bfs - dfs" />
+    <MESSAGE value="concurrent-model" />
+    <option name="LAST_COMMIT_MESSAGE" value="concurrent-model" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/designpattern/pom.xml">
@@ -587,20 +595,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/gehj/soft/java/jdk_171/src.zip!/java/util/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="946">
-          <caret line="66" column="14" selection-start-line="66" selection-start-column="14" selection-end-line="66" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/gehj/soft/java/jdk_171/src.zip!/java/util/Vector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13112">
-          <caret line="644" column="21" selection-start-line="644" selection-start-column="21" selection-end-line="644" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/gehj/soft/java/jdk_171/src.zip!/java/util/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1804">
@@ -608,10 +602,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/concurrent/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/gehj/soft/java/jdk_171/src.zip!/java/util/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="606">
+          <caret line="623" column="13" selection-start-line="623" selection-start-column="13" selection-end-line="623" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/gehj/soft/java/jdk_171/src.zip!/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/tree/BinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
-          <caret line="83" column="27" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="27" />
+        <state relative-caret-position="232">
+          <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -635,6 +650,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
+          <last-edited>Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -657,6 +673,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -668,7 +685,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>designpattern</last-edited>
+          <last-edited>concurrent</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -681,6 +698,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

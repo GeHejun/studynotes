@@ -27,13 +27,27 @@ public class BinaryTree {
         System.out.print("广度优先遍历结果：");
         new BinaryTree().breadthFirstSearch(head);
         System.out.println();
-        System.out.print("深度优先遍历结果：");
+
+        System.out.print("深度(前序)优先遍历结果：");
         new BinaryTree().depthFirstSearch(head);
         System.out.println();
-        System.out.print("深度优先遍历(递归实现)结果：");
+
+        System.out.print("深度(前序)优先遍历(递归实现)结果：");
         new BinaryTree().depthFirstSearchByRecursion(head);
         System.out.println();
+
+        System.out.print("深度(中序)优先遍历(递归实现)结果：");
+        new BinaryTree().midFirstSearchByRecursion(head);
+        System.out.println();
+
+        System.out.print("深度(中序)优先遍历结果：");
+        new BinaryTree().midFirstSearch(head);
+        System.out.println();
+
     }
+
+
+
 
     /**
      * 广度优先遍历--使用队列
@@ -77,6 +91,8 @@ public class BinaryTree {
             if (node.left != null) {
                 myStack.push(node.left);
             }
+
+
         }
     }
 
@@ -91,6 +107,41 @@ public class BinaryTree {
         depthFirstSearchByRecursion(root.left);
         depthFirstSearchByRecursion(root.right);
 
+    }
+
+    /**
+     * 中序优先遍历
+     * @param root
+     */
+    public void midFirstSearch(TreeNode<Integer> root) {
+        if (root == null) {
+            return;
+        }
+        Stack<TreeNode<Integer>> myStack = new Stack<>();
+        while (!myStack.empty() || root != null) {
+            if (root != null) {
+                myStack.add(root);
+                root = root.left;
+            } else {
+                root = myStack.pop();
+                System.out.print(root.val + " ");
+                root = root.right;
+            }
+        }
+
+    }
+
+    /**
+     * 中序优先遍历--使用递归
+     * @param root
+     */
+    public void midFirstSearchByRecursion(TreeNode<Integer> root) {
+        if (root == null) {
+            return;
+        }
+        midFirstSearchByRecursion(root.left);
+        System.out.print(root.val + " ");
+        midFirstSearchByRecursion(root.right);
     }
 
 }
