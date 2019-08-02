@@ -1,5 +1,8 @@
 package list;
 
+/**
+ * @author GeHejun
+ */
 public class ListNode {
         int val;
         ListNode next;

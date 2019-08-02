@@ -5,7 +5,7 @@ import java.util.Queue;
 import java.util.Stack;
 
 /**
- * 树的广度优先遍历  BFS
+ * 树的遍历
  * @author gehj
  * @date 2019/8/1 14:33
  */
@@ -59,7 +59,7 @@ public class BinaryTree {
     }
 
     /**
-     * 深度优先遍历--使用栈
+     * 深度优先遍历--使用栈--前序优先遍历
      * @param root
      */
     public void depthFirstSearch(TreeNode<Integer> root) {
@@ -81,7 +81,7 @@ public class BinaryTree {
     }
 
     /**
-     * 深度优先遍历--使用递归
+     * 深度优先遍历--使用递归--前序优先遍历
      */
     public void depthFirstSearchByRecursion(TreeNode<Integer> root) {
         if (root == null) {

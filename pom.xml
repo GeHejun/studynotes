@@ -15,6 +15,7 @@
         <module>algorithm</module>
         <module>spring</module>
         <module>designpattern</module>
+        <module>concurrent</module>
     </modules>
 
 
