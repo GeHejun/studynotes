@@ -28,12 +28,14 @@ public class BinaryTree {
         new BinaryTree().breadthFirstSearch(head);
         System.out.println();
 
-        System.out.print("深度(前序)优先遍历结果：");
-        new BinaryTree().depthFirstSearch(head);
-        System.out.println();
+
 
         System.out.print("深度(前序)优先遍历(递归实现)结果：");
         new BinaryTree().depthFirstSearchByRecursion(head);
+        System.out.println();
+
+        System.out.print("深度(前序)优先遍历结果：");
+        new BinaryTree().depthFirstSearch(head);
         System.out.println();
 
         System.out.print("深度(中序)优先遍历(递归实现)结果：");
@@ -42,6 +44,14 @@ public class BinaryTree {
 
         System.out.print("深度(中序)优先遍历结果：");
         new BinaryTree().midFirstSearch(head);
+        System.out.println();
+
+        System.out.print("深度(后序)优先遍历(递归实现)结果：");
+        new BinaryTree().backFirstSearchByRecursion(head);
+        System.out.println();
+
+        System.out.print("深度(后序)优先遍历结果：");
+        new BinaryTree().backFirstSearch(head);
         System.out.println();
 
     }
@@ -142,6 +152,27 @@ public class BinaryTree {
         midFirstSearchByRecursion(root.left);
         System.out.print(root.val + " ");
         midFirstSearchByRecursion(root.right);
+    }
+
+
+    /**
+     * 后序优先遍历
+     * @param root
+     */
+    public void backFirstSearch(TreeNode<Integer> root) {
+
+    }
+
+    /**
+     * 后序优先遍历 -- 使用递归
+     */
+    public void backFirstSearchByRecursion(TreeNode<Integer> root) {
+        if (root == null) {
+            return;
+        }
+        backFirstSearchByRecursion(root.left);
+        backFirstSearchByRecursion(root.right);
+        System.out.print(root.val + " ");
     }
 
 }
