@@ -1,5 +1,7 @@
 package com.ghj.strategy;
 
+import java.math.BigDecimal;
+
 /**
  * @author gehj
  * @version 1.0
@@ -8,4 +10,19 @@ package com.ghj.strategy;
  */
 public class Order {
 
+    String uid;
+
+    String orderId;
+
+    BigDecimal amount;
+
+    public Order(String uid, String orderId, BigDecimal amount) {
+        this.uid = uid;
+        this.orderId = orderId;
+        this.amount = amount;
+    }
+
+    public void pay(PayType payType) {
+        payType.payment.pay();
+    }
 }
