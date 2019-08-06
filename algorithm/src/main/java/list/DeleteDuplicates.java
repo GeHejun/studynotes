@@ -3,8 +3,9 @@ package list;
 import java.util.HashMap;
 import java.util.List;
 
+
 /**
- *
+ * @author GeHejun
  */
 public class DeleteDuplicates {
     public static void main(String[] args) {
