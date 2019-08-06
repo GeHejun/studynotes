@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1735b1db-e4e4-49c3-b0e9-3803553dd2df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/strategy/AliPay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/strategy/PayState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/strategy/PayType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/strategy/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/strategy/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/strategy/UnionPay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/strategy/WeChatPay.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/strategy/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/strategy/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designpattern/target/classes/com/ghj/responsibilitychain/Input.class" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/target/classes/com/ghj/responsibilitychain/Input.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designpattern/target/classes/com/ghj/responsibilitychain/Output.class" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/target/classes/com/ghj/responsibilitychain/Output.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designpattern/target/classes/com/ghj/singleInstance/VoicePlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/target/classes/com/ghj/singleInstance/VoicePlayer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/strategy/AliPay.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/strategy/AliPay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/strategy/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/strategy/Payment.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/foundation/target/" />
@@ -23,6 +14,7 @@
     <ignored path="$PROJECT_DIR$/collection/target/" />
     <ignored path="$PROJECT_DIR$/algorithm/target/" />
     <ignored path="$PROJECT_DIR$/designpattern/target/" />
+    <ignored path="$PROJECT_DIR$/concurrent/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,99 +28,33 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designpattern/src/main/java/com/ghj/strategy/Order.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-              <folding>
-                <element signature="e#424#425#0" expanded="true" />
-                <element signature="e#446#447#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/designpattern/src/main/java/com/ghj/strategy/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designpattern/src/main/java/com/ghj/strategy/PayState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designpattern/src/main/java/com/ghj/strategy/AliPay.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designpattern/src/main/java/com/ghj/strategy/WeChatPay.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="16" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designpattern/src/main/java/com/ghj/strategy/UnionPay.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designpattern/src/main/java/com/ghj/strategy/PayType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-              <folding>
-                <element signature="e#233#234#0" expanded="true" />
-                <element signature="e#270#271#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/designpattern/src/main/java/com/ghj/strategy/Payment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            <state relative-caret-position="352">
+              <caret line="16" column="45" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/list/SwapPairs.java">
+        <entry file="file://$PROJECT_DIR$/designpattern/src/main/java/com/ghj/strategy/Order.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-69">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="465">
+              <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/list/DeleteDuplicates.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/designpattern/src/main/java/com/ghj/strategy/AliPay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
+            <state relative-caret-position="264">
+              <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -171,29 +97,31 @@
         <option value="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/responsibilitychain/Output.java" />
         <option value="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/singleInstance/VoicePlayer.java" />
         <option value="$PROJECT_DIR$/algorithm/src/main/java/list/DeleteDuplicates.java" />
-        <option value="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/strategy/Payment.java" />
         <option value="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/strategy/PayState.java" />
         <option value="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/strategy/UnionPay.java" />
         <option value="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/strategy/WeChatPay.java" />
-        <option value="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/strategy/AliPay.java" />
         <option value="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/strategy/StrategyMain.java" />
         <option value="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/strategy/PayType.java" />
         <option value="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/strategy/Order.java" />
         <option value="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/strategy/Test.java" />
+        <option value="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/strategy/Payment.java" />
+        <option value="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/strategy/AliPay.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="111" />
-    <option name="y" value="82" />
-    <option name="width" value="1612" />
-    <option name="height" value="871" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="535" />
+    <option name="y" value="37" />
+    <option name="width" value="1385" />
+    <option name="height" value="965" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -204,94 +132,6 @@
             <path>
               <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="studynotes" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studynotes" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studynotes" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studynotes" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studynotes" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="list" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studynotes" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studynotes" type="462c0819:PsiDirectoryNode" />
-              <item name="collection" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studynotes" type="462c0819:PsiDirectoryNode" />
-              <item name="collection" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studynotes" type="462c0819:PsiDirectoryNode" />
-              <item name="collection" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studynotes" type="462c0819:PsiDirectoryNode" />
-              <item name="collection" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studynotes" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studynotes" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studynotes" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studynotes" type="462c0819:PsiDirectoryNode" />
               <item name="designpattern" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -323,16 +163,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ghj" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studynotes" type="462c0819:PsiDirectoryNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ghj" type="462c0819:PsiDirectoryNode" />
-              <item name="singleInstance" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
@@ -348,15 +178,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565072399097" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565102221932" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -440,6 +268,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.BinaryTree" />
+      <item itemvalue="Application.ContextSubject" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Test (1)" />
+      <item itemvalue="Application.VoicePlayer" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Test (1)" />
@@ -543,13 +378,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22254000" />
+    <option name="totallyTimeSpent" value="22375000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="822" y="38" width="1026" height="965" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20895523" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33231708" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -561,7 +395,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32959327" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.18151447" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.18151447" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -572,7 +406,7 @@
       <window_info anchor="bottom" id="Statistic" order="11" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32516703" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32416952" />
       <window_info anchor="bottom" id="Messages" order="15" />
       <window_info anchor="bottom" id="JRebel Executor" order="16" />
       <window_info anchor="bottom" id="JRebel Console" order="17" side_tool="true" />
@@ -697,27 +531,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/gehj/soft/java/jdk_171/src.zip!/java/util/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/gehj/soft/java/jdk_171/src.zip!/java/util/Vector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12650">
-          <caret line="623" column="13" selection-start-line="623" selection-start-column="13" selection-end-line="623" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/gehj/soft/java/jdk_171/src.zip!/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1804">
-          <caret line="105" column="11" selection-start-line="105" selection-start-column="11" selection-end-line="105" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/gehj/soft/java/jdk_171/src.zip!/java/util/Stack.java" />
+    <entry file="jar://D:/gehj/soft/java/jdk_171/src.zip!/java/util/Vector.java" />
+    <entry file="jar://D:/gehj/soft/java/jdk_171/src.zip!/java/util/LinkedList.java" />
     <entry file="file://$PROJECT_DIR$/designpattern/src/main/java/com/ghj/observer/ContextSubject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -868,20 +684,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/designpattern/src/main/java/com/ghj/strategy/Payment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designpattern/src/main/java/com/ghj/strategy/AliPay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/designpattern/src/main/java/com/ghj/strategy/PayType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -893,21 +695,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/designpattern/src/main/java/com/ghj/strategy/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-          <folding>
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/designpattern/src/main/java/com/ghj/strategy/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpattern/src/main/java/com/ghj/strategy/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpattern/src/main/java/com/ghj/strategy/Payment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="45" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpattern/src/main/java/com/ghj/strategy/AliPay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
         </state>
       </provider>
     </entry>

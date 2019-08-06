@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="algorithm" />
         <module name="collection" />
+        <module name="concurrent" />
         <module name="designpattern" />
         <module name="foundation" />
         <module name="mysql" />
@@ -19,6 +20,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="algorithm" options="-parameters" />
       <module name="collection" options="-parameters" />
+      <module name="concurrent" options="-parameters" />
       <module name="designpattern" options="-parameters" />
       <module name="foundation" options="-parameters" />
       <module name="mysql" options="-parameters" />

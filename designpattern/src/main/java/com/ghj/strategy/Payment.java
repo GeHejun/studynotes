@@ -1,5 +1,7 @@
 package com.ghj.strategy;
 
+import java.math.BigDecimal;
+
 /**
  * @author gehj
  * @version 1.0
@@ -12,5 +14,5 @@ public interface Payment {
      * 支付
      * @return
      */
-    PayState pay();
+    PayState pay(String uid, BigDecimal amount);
 }

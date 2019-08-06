@@ -22,7 +22,15 @@ public class Order {
         this.amount = amount;
     }
 
+    public String getUid() {
+        return uid;
+    }
+
+    public BigDecimal getAmount() {
+        return amount;
+    }
+
     public void pay(PayType payType) {
-        payType.payment.pay();
+        payType.payment.pay(this.getUid(), this.getAmount());
     }
 }

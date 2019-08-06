@@ -1,5 +1,7 @@
 package com.ghj.strategy;
 
+import java.math.BigDecimal;
+
 /**
  * @author gehj
  * @version 1.0
@@ -8,7 +10,7 @@ package com.ghj.strategy;
  */
 public class WeChatPay implements Payment {
     @Override
-    public PayState pay() {
+    public PayState pay(String uid, BigDecimal amount) {
         System.out.println("--------------------------");
         System.out.println("欢迎使用微信支付");
         System.out.println("使用微信支付扣款520.0元");
