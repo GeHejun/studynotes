@@ -1,7 +1,5 @@
 package com.ghj.responsibilitychain;
 
-import org.omg.PortableInterceptor.INACTIVE;
-
 /**
  * @author gehj
  * @date 2019/6/2714:56

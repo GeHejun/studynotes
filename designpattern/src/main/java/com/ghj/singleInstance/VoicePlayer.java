@@ -19,11 +19,11 @@ public class VoicePlayer {
         return voicePlayer;
     }
 
-    public void paly(String src) {
+    public void play(String src) {
         System.out.println("play 音乐,链接 "+ src);
     }
 
     public static void main(String[] args) {
-        VoicePlayer.getInstance().paly("123...");
+        VoicePlayer.getInstance().play("123...");
     }
 }
