@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1735b1db-e4e4-49c3-b0e9-3803553dd2df" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/tree/TreesGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,30 +26,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designpattern/src/main/java/com/ghj/adaptor/objectAdaptor/Ps2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designpattern/src/main/java/com/ghj/adaptor/objectAdaptor/Adaptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
-              <folding>
-                <element signature="e#502#503#0" expanded="true" />
-                <element signature="e#532#533#0" expanded="true" />
-                <element signature="e#573#574#0" expanded="true" />
-                <element signature="e#600#601#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring/src/main/java/com/ghj/BeanCreator.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -90,11 +67,42 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/foundation/src/main/java/com/ghj/aqs/ReentrantLock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+            <state relative-caret-position="198">
+              <caret line="9" column="26" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/list/AddTwoNumbers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="19" column="68" lean-forward="true" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/tree/BinaryTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="211">
+              <caret line="147" column="16" selection-start-line="147" selection-start-column="16" selection-end-line="147" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/tree/TreesGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+              <folding>
+                <element signature="e#320#321#0" expanded="true" />
+                <element signature="e#346#347#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,15 +116,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/gehj/soft/java/jdk_171/src.zip!/java/util/HashMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="2221" column="39" selection-start-line="2221" selection-start-column="38" selection-end-line="2221" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -124,8 +123,8 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="package-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -140,7 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/responsibilitychain/InPut.java" />
         <option value="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/responsibilitychain/Filter.java" />
         <option value="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/responsibilitychain/FirstFilter.java" />
         <option value="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/responsibilitychain/SecondFilter.java" />
@@ -191,6 +189,7 @@
         <option value="$PROJECT_DIR$/algorithm/src/main/java/tree/MyRBTree.java" />
         <option value="$PROJECT_DIR$/foundation/src/main/java/com/ghj/aqs/Lock.java" />
         <option value="$PROJECT_DIR$/foundation/src/main/java/com/ghj/aqs/ReentrantLock.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/tree/TreesGenerator.java" />
       </list>
     </option>
   </component>
@@ -221,108 +220,13 @@
             <path>
               <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="studynotes" type="462c0819:PsiDirectoryNode" />
-              <item name="foundation" type="462c0819:PsiDirectoryNode" />
+              <item name="collection" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="studynotes" type="462c0819:PsiDirectoryNode" />
-              <item name="foundation" type="462c0819:PsiDirectoryNode" />
+              <item name="collection" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studynotes" type="462c0819:PsiDirectoryNode" />
-              <item name="foundation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studynotes" type="462c0819:PsiDirectoryNode" />
-              <item name="foundation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studynotes" type="462c0819:PsiDirectoryNode" />
-              <item name="foundation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ghj" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studynotes" type="462c0819:PsiDirectoryNode" />
-              <item name="foundation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ghj" type="462c0819:PsiDirectoryNode" />
-              <item name="aqs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studynotes" type="462c0819:PsiDirectoryNode" />
-              <item name="mysql" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studynotes" type="462c0819:PsiDirectoryNode" />
-              <item name="mysql" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studynotes" type="462c0819:PsiDirectoryNode" />
-              <item name="mysql" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studynotes" type="462c0819:PsiDirectoryNode" />
-              <item name="mysql" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studynotes" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studynotes" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studynotes" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studynotes" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studynotes" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ghj" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -336,7 +240,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565158901915" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565160840596" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/concurrent" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -456,7 +360,7 @@
       <workItem from="1564731733923" duration="5109000" />
       <workItem from="1565058547909" duration="71000" />
       <workItem from="1565068435469" duration="3745000" />
-      <workItem from="1565147885628" duration="6058000" />
+      <workItem from="1565147885628" duration="8278000" />
     </task>
     <task id="LOCAL-00001" summary="designpattern">
       <created>1561616972270</created>
@@ -612,11 +516,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565158860817</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="rbtree">
+      <created>1565159026337</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1565159026337</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32918000" />
+    <option name="totallyTimeSpent" value="35138000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -644,7 +555,7 @@
       <window_info anchor="bottom" id="Statistic" order="11" weight="0.32962137" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.23942094" />
+      <window_info anchor="bottom" id="Version Control" order="14" visible="true" weight="0.23942094" />
       <window_info anchor="bottom" id="Messages" order="15" />
       <window_info anchor="bottom" id="JRebel Executor" order="16" />
       <window_info anchor="bottom" id="JRebel Console" order="17" side_tool="true" />
@@ -676,27 +587,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="rbtree" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/list/DeleteDuplicates.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designpattern/src/main/java/com/ghj/strategy/PayState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designpattern/src/main/java/com/ghj/strategy/PayType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/designpattern/src/main/java/com/ghj/strategy/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -1070,8 +960,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/foundation/src/main/java/com/ghj/aqs/ReentrantLock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        <state relative-caret-position="198">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/list/AddTwoNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="19" column="68" lean-forward="true" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/tree/BinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="147" column="16" selection-start-line="147" selection-start-column="16" selection-end-line="147" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/tree/TreesGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding>
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
