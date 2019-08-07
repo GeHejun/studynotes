@@ -9,22 +9,23 @@ import java.util.concurrent.TimeUnit;
  */
 public class ReentrantLock implements Lock{
 
+    @Override
     public void lock() {
 
     }
-
+    @Override
     public boolean tryLock() {
         return false;
     }
-
+    @Override
     public boolean tryLock(Long time, TimeUnit timeUnit) {
         return false;
     }
-
+    @Override
     public boolean unLock() {
         return false;
     }
-
+    @Override
     public void lockInterruptibly() throws InterruptedException {
 
     }

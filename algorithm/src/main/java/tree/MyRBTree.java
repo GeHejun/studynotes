@@ -89,8 +89,8 @@ public class MyRBTree<T extends Comparable<T>, D> {
     }
  
     public Boolean isRed(RBNode<T, D> node) {
-        return (node != null && node.color == RED) ? true : false;
- 
+        return (node != null && node.color.equals(RED)) ? true : false;
+
     }
  
     public Boolean isBlack(RBNode<T, D> node) {
