@@ -23,7 +23,7 @@ public class MyRBTree<T extends Comparable<T>, D> {
         private RBNode rightChild;
  
  
-        public RBNode(Boolean col, T key, D data, RBNode paret, RBNode leftChild, RBNode rightChild) {
+        public RBNode(Boolean col, T key, D data, RBNode parent, RBNode leftChild, RBNode rightChild) {
             this.color = col;
             this.key = key;
             this.data = data;
