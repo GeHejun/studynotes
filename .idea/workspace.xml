@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1735b1db-e4e4-49c3-b0e9-3803553dd2df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/adaptor/classAdaptor/Adaptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/adaptor/classAdaptor/Ps2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/adaptor/classAdaptor/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/adaptor/classAdaptor/Usb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/adaptor/classAdaptor/UsbImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/adaptor/interfaceAdaptor/Adaptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/adaptor/interfaceAdaptor/Target.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/adaptor/interfaceAdaptor/TargetUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/adaptor/interfaceAdaptor/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/adaptor/objectAdaptor/Adaptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/adaptor/objectAdaptor/Ps2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/adaptor/objectAdaptor/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/adaptor/objectAdaptor/Usb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/adaptor/objectAdaptor/UsbImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/adaptor/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrent/concurrent.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/foundation/target/" />
@@ -76,15 +59,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designpattern/src/main/java/com/ghj/adaptor/interfaceAdaptor/Target.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/designpattern/src/main/java/com/ghj/adaptor/interfaceAdaptor/Adaptor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="132">
@@ -102,11 +76,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/designpattern/src/main/java/com/ghj/adaptor/classAdaptor/Adaptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+            <state relative-caret-position="440">
+              <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/tree/RBTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="132" column="27" lean-forward="true" selection-start-line="132" selection-start-column="27" selection-end-line="132" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -245,58 +228,46 @@
             <path>
               <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="studynotes" type="462c0819:PsiDirectoryNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="studynotes" type="462c0819:PsiDirectoryNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="studynotes" type="462c0819:PsiDirectoryNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studynotes" type="462c0819:PsiDirectoryNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="studynotes" type="462c0819:PsiDirectoryNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ghj" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="studynotes" type="462c0819:PsiDirectoryNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ghj" type="462c0819:PsiDirectoryNode" />
-              <item name="adaptor" type="462c0819:PsiDirectoryNode" />
+              <item name="list" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="studynotes" type="462c0819:PsiDirectoryNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ghj" type="462c0819:PsiDirectoryNode" />
-              <item name="adaptor" type="462c0819:PsiDirectoryNode" />
-              <item name="classAdaptor" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -310,7 +281,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565149944672" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565149956003" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/concurrent" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -430,7 +401,7 @@
       <workItem from="1564731733923" duration="5109000" />
       <workItem from="1565058547909" duration="71000" />
       <workItem from="1565068435469" duration="3745000" />
-      <workItem from="1565147885628" duration="1830000" />
+      <workItem from="1565147885628" duration="2076000" />
     </task>
     <task id="LOCAL-00001" summary="designpattern">
       <created>1561616972270</created>
@@ -523,11 +494,32 @@
       <option name="project" value="LOCAL" />
       <updated>1565146703030</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="adaptor模式">
+      <created>1565149731333</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1565149731333</updated>
+    </task>
+    <task id="LOCAL-00015" summary="adaptor模式">
+      <created>1565149948754</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1565149948754</updated>
+    </task>
+    <task id="LOCAL-00016" summary="adaptor模式">
+      <created>1565149960835</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1565149960835</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28690000" />
+    <option name="totallyTimeSpent" value="28936000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -582,16 +574,10 @@
     <MESSAGE value="concurrent-model" />
     <MESSAGE value="strategy模式" />
     <MESSAGE value="template模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="template模式" />
+    <MESSAGE value="adaptor模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="adaptor模式" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/designpattern/src/main/java/com/ghj/responsibilitychain/SecondFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/designpattern/src/main/java/com/ghj/responsibilitychain/Input.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -980,8 +966,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/designpattern/src/main/java/com/ghj/adaptor/classAdaptor/Adaptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        <state relative-caret-position="440">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/tree/RBTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="132" column="27" lean-forward="true" selection-start-line="132" selection-start-column="27" selection-end-line="132" selection-end-column="27" />
         </state>
       </provider>
     </entry>
