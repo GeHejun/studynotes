@@ -12,8 +12,8 @@ public class WeChatPay implements Payment {
     @Override
     public PayState pay(String uid, BigDecimal amount) {
         System.out.println("--------------------------");
-        System.out.println("欢迎使用微信支付");
-        System.out.println("使用微信支付扣款520.0元");
+        System.out.println("欢迎"+ uid +"使用微信支付");
+        System.out.println("使用微信支付扣款" + amount.doubleValue() + "元");
         System.out.println("微信支付完成");
         System.out.println("--------------------------");
         return new PayState(200, "微信支付成功", 520.0);

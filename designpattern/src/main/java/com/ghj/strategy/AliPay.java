@@ -12,8 +12,8 @@ public class AliPay implements Payment {
     @Override
     public PayState pay(String uid, BigDecimal amount) {
         System.out.println("--------------------------");
-        System.out.println("欢迎使用支付宝支付");
-        System.out.println("使用支付宝支付扣款520.0元");
+        System.out.println("欢迎"+ uid +"使用支付宝支付");
+        System.out.println("使用支付宝支付扣款"+ amount.doubleValue() +"元");
         System.out.println("支付宝支付完成");
         System.out.println("--------------------------");
         return new PayState(200, "支付宝支付成功", 520.0);
