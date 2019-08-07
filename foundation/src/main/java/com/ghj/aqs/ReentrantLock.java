@@ -10,9 +10,7 @@ import java.util.concurrent.TimeUnit;
 public class ReentrantLock implements Lock{
 
     @Override
-    public void lock() {
-
-    }
+    public void lock() {}
     @Override
     public boolean tryLock() {
         return false;
@@ -26,7 +24,5 @@ public class ReentrantLock implements Lock{
         return false;
     }
     @Override
-    public void lockInterruptibly() throws InterruptedException {
-
-    }
+    public void lockInterruptibly() throws InterruptedException {}
 }
