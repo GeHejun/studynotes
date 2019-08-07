@@ -4,6 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ConcurrentHashMap;
 
+/**
+ * @see "https://blog.csdn.net/weixin_40037053/article/details/89947885"
+ * @see "http://www.360doc.com/content/18/0904/19/25944647_783893127.shtml"
+ * @param <T>
+ * @param <D>
+ */
+
 public class MyRBTree<T extends Comparable<T>, D> {
  
     private RBNode<T, D> root;//根节点
