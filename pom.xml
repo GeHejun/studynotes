@@ -16,6 +16,7 @@
         <module>spring</module>
         <module>designpattern</module>
         <module>concurrent</module>
+        <module>jvm</module>
     </modules>
 
 
