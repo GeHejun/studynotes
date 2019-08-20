@@ -2,213 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1735b1db-e4e4-49c3-b0e9-3803553dd2df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/AVLTreeST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Accumulator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/AcyclicLP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/AcyclicSP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/AdjMatrixEdgeWeightedDigraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Alphabet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/AmericanFlag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/AmericanFlagX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Arbitrage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/AssignmentProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Average.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/BST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/BTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Bag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/BellmanFordSP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/BinaryDump.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/BinaryIn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/BinaryInsertion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/BinaryOut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/BinarySearchST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/BinaryStdIn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/BinaryStdOut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/BinomialMinPQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Bipartite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/BipartiteMatching.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/BipartiteX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/BlackFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/BoruvkaMST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/BoyerMoore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/BreadthFirstDirectedPaths.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/BreadthFirstPaths.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/CC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/CPM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/ClosestPair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/CollisionSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Complex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Count.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Cycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Date.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/DeDup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/DegreesOfSeparation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/DepthFirstDirectedPaths.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/DepthFirstOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/DepthFirstPaths.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/DepthFirstSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Digraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/DigraphGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/DijkstraAllPairsSP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/DijkstraSP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/DijkstraUndirectedSP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/DirectedCycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/DirectedCycleX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/DirectedDFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/DirectedEdge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/DirectedEulerianCycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/DirectedEulerianPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/DoublingRatio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/DoublingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Draw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/DrawListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Edge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/EdgeWeightedDigraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/EdgeWeightedDirectedCycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/EdgeWeightedGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/EulerianCycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/EulerianPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/FFT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/FarthestPair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/FenwickTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/FibonacciMinPQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/FileIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/FlowEdge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/FlowNetwork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/FloydWarshall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/FordFulkerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/FrequencyCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/GREP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/GabowSCC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/GaussJordanElimination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/GaussianElimination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Genome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/GlobalMincut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/GrahamScan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/GraphGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/GrayscalePicture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Heap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/HexDump.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/HopcroftKarp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Huffman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/In.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/IndexBinomialMinPQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/IndexFibonacciMinPQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/IndexMaxPQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/IndexMinPQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/IndexMultiwayMinPQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/InplaceMSD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Insertion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/InsertionX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Interval1D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Interval2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Inversions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/KMP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/KWIK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Knuth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/KosarajuSharirSCC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/KruskalMST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/LSD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/LZW.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/LazyPrimMST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/LinearProbingHashST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/LinearProgramming.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/LinearRegression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/LinkedBag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/LinkedQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/LinkedStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/LongestCommonSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/LongestRepeatedSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/LookupCSV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/LookupIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/MSD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/MaxPQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Merge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/MergeBU.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/MergeX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/MinPQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Multiway.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/MultiwayMinPQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/NFA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/NonrecursiveDFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/NonrecursiveDirectedDFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Out.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Particle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/PatriciaSET.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/PatriciaST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Picture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/PictureDump.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Point2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Polynomial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/PrimMST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Quick.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Quick3string.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Quick3way.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/QuickBentleyMcIlroy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/QuickFindUF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/QuickUnionUF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/QuickX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/RabinKarp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/RandomSeq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/RectHV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/RedBlackBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/ResizingArrayBag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/ResizingArrayQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/ResizingArrayStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/RunLength.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/SET.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/ST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/SegmentTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Selection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/SeparateChainingHashST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/SequentialSearchST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Shell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/SparseVector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/StaticSETofInts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/StdArrayIO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/StdAudio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/StdDraw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/StdIn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/StdOut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/StdRandom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/StdStats.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Stopwatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/StopwatchCPU.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/SuffixArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/SuffixArrayX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/SymbolDigraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/SymbolGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/TST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/TarjanSCC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/ThreeSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/ThreeSumFast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/TopM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Topological.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/TopologicalX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Transaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/TransitiveClosure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/TrieSET.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/TrieST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/TwoPersonZeroSumGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/UF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Vector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/WeightedQuickUnionUF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/WhiteFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Whitelist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/ghj/aop/AopMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/ghj/ioc/IMessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/ghj/ioc/IocMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/ghj/ioc/MessageServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/graph/Graph.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/graph/GraphDescriper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/graph/GraphUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/ghj/BeanCreateProcess.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/ghj/BeanCreator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/ghj/Red.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/ghj/aop/AopMain.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/foundation/target/" />
@@ -233,93 +31,95 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring/src/main/java/com/ghj/aop/AopMain.java">
+        <entry file="file://$PROJECT_DIR$/spring/src/main/java/com/ghj/ioc/IocMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+            <state relative-caret-position="264">
+              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/algs4/Accumulator.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE-sources.jar!/org/springframework/beans/factory/config/BeanDefinitionHolder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-264" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/algs4/Graph.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1286">
-              <caret line="174" column="15" lean-forward="true" selection-start-line="174" selection-start-column="15" selection-end-line="174" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/algs4/GrahamScan.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-912">
-              <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/algs4/GlobalMincut.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/algs4/GraphGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2826">
-              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/algs4/In.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1308">
-              <caret line="67" column="78" selection-start-line="67" selection-start-column="78" selection-end-line="67" selection-end-column="78" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/gehj/soft/java/jdk_171/src.zip!/java/lang/ref/ReferenceQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="48" column="34" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/gehj/soft/java/jdk_171/src.zip!/java/lang/Runtime.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
-              <caret line="60" column="55" selection-start-line="60" selection-start-column="55" selection-end-line="60" selection-end-column="55" />
+            <state relative-caret-position="220">
+              <caret line="45" column="13" lean-forward="true" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
               <folding>
-                <element signature="e#1272#1273#0" expanded="true" />
-                <element signature="e#1309#1310#0" expanded="true" />
+                <element signature="e#1983#1984#0" expanded="true" />
+                <element signature="e#2026#2027#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/gehj/soft/java/jdk_171/src.zip!/java/util/concurrent/locks/Lock.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE-sources.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4356">
-              <caret line="231" column="26" selection-start-line="231" selection-start-column="9" selection-end-line="231" selection-end-column="26" />
+            <state relative-caret-position="221">
+              <caret line="54" column="30" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE-sources.jar!/org/springframework/context/annotation/AnnotatedBeanDefinitionReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="245" column="41" lean-forward="true" selection-start-line="245" selection-start-column="41" selection-end-line="245" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE-sources.jar!/org/springframework/beans/factory/support/BeanDefinitionReaderUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="165" column="31" lean-forward="true" selection-start-line="165" selection-start-column="31" selection-end-line="165" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE-sources.jar!/org/springframework/context/annotation/ClassPathBeanDefinitionScanner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="280" column="73" selection-start-line="280" selection-start-column="73" selection-end-line="280" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE-sources.jar!/org/springframework/context/annotation/AnnotationConfigUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="485">
+              <caret line="150" selection-start-line="150" selection-end-line="150" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE-sources.jar!/org/springframework/beans/factory/support/BeanDefinitionRegistry.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE-sources.jar!/org/springframework/context/support/GenericApplicationContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="322" column="34" lean-forward="true" selection-start-line="322" selection-start-column="34" selection-end-line="322" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="901" column="72" selection-start-line="901" selection-start-column="62" selection-end-line="901" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -330,8 +130,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="package-info" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -339,6 +139,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>balance</find>
+      <find>reader</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -347,10 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/responsibilitychain/Output.java" />
-        <option value="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/singleInstance/VoicePlayer.java" />
-        <option value="$PROJECT_DIR$/algorithm/src/main/java/list/DeleteDuplicates.java" />
-        <option value="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/strategy/PayState.java" />
         <option value="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/strategy/StrategyMain.java" />
         <option value="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/strategy/PayType.java" />
         <option value="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/strategy/Order.java" />
@@ -398,6 +195,10 @@
         <option value="$PROJECT_DIR$/algorithm/src/main/java/graph/Graph.java" />
         <option value="$PROJECT_DIR$/algorithm/src/main/java/graph/Bag.java" />
         <option value="$PROJECT_DIR$/algorithm/src/main/java/algs4/Accumulator.java" />
+        <option value="$PROJECT_DIR$/spring/src/main/java/com/ghj/ioc/IOCMain.java" />
+        <option value="$PROJECT_DIR$/spring/src/main/java/com/ghj/ioc/IMessageService.java" />
+        <option value="$PROJECT_DIR$/spring/src/main/java/com/ghj/ioc/MessageServiceImpl.java" />
+        <option value="$PROJECT_DIR$/spring/src/main/java/com/ghj/ioc/IocMain.java" />
       </list>
     </option>
   </component>
@@ -418,7 +219,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -429,33 +229,53 @@
             <path>
               <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="studynotes" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="studynotes" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="studynotes" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="studynotes" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studynotes" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ghj" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studynotes" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ghj" type="462c0819:PsiDirectoryNode" />
+              <item name="ioc" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -463,7 +283,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566193997183" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566277286516" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/concurrent" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -487,7 +307,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MergeSort">
+  <component name="RunManager" selected="Application.IocMain">
     <configuration name="FinalizeCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FinalizeCase" />
       <module name="jvm" />
@@ -508,12 +328,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.MergeSort" />
-      <module name="algorithm" />
+    <configuration name="IocMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ghj.ioc.IocMain" />
+      <module name="spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sort.*" />
+          <option name="PATTERN" value="com.ghj.ioc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -521,12 +341,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ghj.strategy.Test" />
-      <module name="designpattern" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort.MergeSort" />
+      <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ghj.strategy.*" />
+          <option name="PATTERN" value="sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -542,19 +362,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test (1)" />
       <item itemvalue="Application.FinalizeCase" />
       <item itemvalue="Application.WaitNotifyCase" />
       <item itemvalue="Application.Heap" />
       <item itemvalue="Application.MergeSort" />
+      <item itemvalue="Application.IocMain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IocMain" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.Heap" />
         <item itemvalue="Application.WaitNotifyCase" />
         <item itemvalue="Application.FinalizeCase" />
-        <item itemvalue="Application.Test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -586,7 +406,8 @@
       <workItem from="1565925422105" duration="2333000" />
       <workItem from="1566006827777" duration="4451000" />
       <workItem from="1566179936870" duration="751000" />
-      <workItem from="1566193171936" duration="1066000" />
+      <workItem from="1566193171936" duration="1230000" />
+      <workItem from="1566270830749" duration="3597000" />
     </task>
     <task id="LOCAL-00001" summary="designpattern">
       <created>1561616972270</created>
@@ -791,11 +612,18 @@
       <option name="project" value="LOCAL" />
       <updated>1566021164162</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="algs4">
+      <created>1566194519501</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1566194519501</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60977000" />
+    <option name="totallyTimeSpent" value="64738000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -812,14 +640,14 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.28730512" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.32628062" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" visible="true" weight="0.22160356" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" visible="true" weight="0.04899777" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.32628062" />
       <window_info anchor="bottom" id="Statistic" order="11" weight="0.32962137" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
@@ -853,19 +681,8 @@
     <MESSAGE value="adaptor模式" />
     <MESSAGE value="rbtree" />
     <MESSAGE value="graph" />
-    <option name="LAST_COMMIT_MESSAGE" value="graph" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/algorithm/src/main/java/sort/HeapSort.java</url>
-          <line>32</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="algs4" />
+    <option name="LAST_COMMIT_MESSAGE" value="algs4" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -877,195 +694,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/designpattern/src/main/java/com/ghj/adaptor/classAdaptor/UsbImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding>
-            <element signature="e#198#199#0" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designpattern/src/main/java/com/ghj/adaptor/objectAdaptor/UsbImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="e#201#202#0" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designpattern/src/main/java/com/ghj/adaptor/objectAdaptor/Usb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designpattern/src/main/java/com/ghj/adaptor/interfaceAdaptor/Target.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designpattern/src/main/java/com/ghj/adaptor/interfaceAdaptor/TargetUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designpattern/src/main/java/com/ghj/adaptor/package-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designpattern/src/main/java/com/ghj/adaptor/objectAdaptor/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designpattern/src/main/java/com/ghj/adaptor/objectAdaptor/Adaptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
-          <folding>
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designpattern/src/main/java/com/ghj/adaptor/objectAdaptor/Ps2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designpattern/src/main/java/com/ghj/adaptor/interfaceAdaptor/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designpattern/src/main/java/com/ghj/adaptor/interfaceAdaptor/Adaptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designpattern/src/main/java/com/ghj/adaptor/classAdaptor/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designpattern/src/main/java/com/ghj/adaptor/classAdaptor/Adaptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/collection/src/main/java/com/ghj/map/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="225" column="30" lean-forward="true" selection-start-line="225" selection-start-column="30" selection-end-line="225" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/gehj/soft/java/jdk_171/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="2221" column="39" selection-start-line="2221" selection-start-column="38" selection-end-line="2221" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/tree/RBTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="198" column="56" lean-forward="true" selection-start-line="198" selection-start-column="56" selection-end-line="198" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/tree/MyRBTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1694">
-          <caret line="91" column="53" selection-start-line="91" selection-start-column="53" selection-end-line="91" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysql/src/main/java/sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foundation/src/main/java/com/ghj/aqs/AbstractQueueSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foundation/src/main/java/com/ghj/aqs/Lock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foundation/src/main/java/com/ghj/aqs/ReentrantLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/list/AddTwoNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="68" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/tree/BinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3190">
-          <caret line="147" column="16" selection-start-line="147" selection-start-column="16" selection-end-line="147" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/tree/TreesGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jvm/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1137,6 +765,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/graph/GraphDescriper.java" />
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/graph/GraphUtils.java" />
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/graph/GraphGenerator.java" />
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/graph/Graph.java" />
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/graph/Bag.java" />
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/algs4/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2992">
+          <caret line="174" column="15" selection-start-line="174" selection-start-column="15" selection-end-line="174" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/algs4/GrahamScan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/algs4/GlobalMincut.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1034">
+          <caret line="66" column="44" selection-start-line="66" selection-start-column="44" selection-end-line="66" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/algs4/GraphGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/algs4/In.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="67" column="78" selection-start-line="67" selection-start-column="78" selection-end-line="67" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://D:/gehj/soft/java/jdk_171/src.zip!/java/lang/Runtime.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="704">
@@ -1155,38 +823,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/graph/GraphDescriper.java">
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/algs4/Heap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/graph/GraphUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/graph/GraphGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-946">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/graph/Graph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="113" column="101" selection-start-line="113" selection-start-column="101" selection-end-line="113" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/graph/Bag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
+        <state relative-caret-position="342">
+          <caret line="72" column="15" selection-start-line="72" selection-start-column="15" selection-end-line="72" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -1198,42 +838,174 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/algs4/Accumulator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-264" />
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/algs4/In.java">
+    <entry file="file://$PROJECT_DIR$/spring/src/main/java/com/ghj/ioc/IMessageService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1308">
-          <caret line="67" column="78" selection-start-line="67" selection-start-column="78" selection-end-line="67" selection-end-column="78" />
+        <state relative-caret-position="198">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/algs4/GraphGenerator.java">
+    <entry file="file://$PROJECT_DIR$/spring/src/main/java/com/ghj/ioc/MessageServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2826">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        <state relative-caret-position="220">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding>
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/algs4/Graph.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE.jar!/org/springframework/context/annotation/ComponentScan.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1286">
-          <caret line="174" column="15" lean-forward="true" selection-start-line="174" selection-start-column="15" selection-end-line="174" selection-end-column="15" />
+        <state relative-caret-position="176">
+          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/algs4/GrahamScan.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-912">
-          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+        <state relative-caret-position="229">
+          <caret line="67" column="22" lean-forward="true" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/algs4/GlobalMincut.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE.jar!/org/springframework/context/annotation/ClassPathBeanDefinitionScanner.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+        <state relative-caret-position="167">
+          <caret line="116" column="63" selection-start-line="116" selection-start-column="59" selection-end-line="116" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE-sources.jar!/org/springframework/context/annotation/ComponentScan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="85" column="15" selection-start-line="85" selection-start-column="15" selection-end-line="85" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE.jar!/org/springframework/beans/factory/config/BeanDefinitionHolder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="1122" column="36" selection-start-line="1122" selection-start-column="36" selection-end-line="1122" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE-sources.jar!/org/springframework/beans/factory/BeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1804">
+          <caret line="187" column="10" selection-start-line="187" selection-start-column="10" selection-end-line="187" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE-sources.jar!/org/springframework/context/annotation/ClassPathScanningCandidateComponentProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="310" column="42" lean-forward="true" selection-start-line="310" selection-start-column="42" selection-end-line="310" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE-sources.jar!/org/springframework/context/annotation/AnnotationBeanNameGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="69" column="18" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE-sources.jar!/org/springframework/beans/factory/support/BeanNameGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="356" column="16" selection-start-line="356" selection-start-column="16" selection-end-line="356" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE-sources.jar!/org/springframework/context/annotation/AnnotationConfigUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="150" selection-start-line="150" selection-end-line="150" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE-sources.jar!/org/springframework/beans/factory/config/BeanDefinitionHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="45" column="13" lean-forward="true" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+          <folding>
+            <element signature="e#1983#1984#0" expanded="true" />
+            <element signature="e#2026#2027#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE-sources.jar!/org/springframework/context/annotation/ClassPathBeanDefinitionScanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="280" column="73" selection-start-line="280" selection-start-column="73" selection-end-line="280" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring/src/main/java/com/ghj/ioc/IocMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE-sources.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="54" column="30" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE-sources.jar!/org/springframework/context/annotation/AnnotatedBeanDefinitionReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="245" column="41" lean-forward="true" selection-start-line="245" selection-start-column="41" selection-end-line="245" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE-sources.jar!/org/springframework/beans/factory/support/BeanDefinitionReaderUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="165" column="31" lean-forward="true" selection-start-line="165" selection-start-column="31" selection-end-line="165" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE-sources.jar!/org/springframework/beans/factory/support/BeanDefinitionRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE-sources.jar!/org/springframework/context/support/GenericApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="322" column="34" lean-forward="true" selection-start-line="322" selection-start-column="34" selection-end-line="322" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="901" column="72" selection-start-line="901" selection-start-column="62" selection-end-line="901" selection-end-column="72" />
         </state>
       </provider>
     </entry>
