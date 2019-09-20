@@ -12,4 +12,6 @@
         <property name="advice" ref="logAdvice"/>
         <property name="pattern" value="com.ghj.aop.*.test.*"/>
      </bean>
+
+    <bean class="org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator"/>
 </beans>
