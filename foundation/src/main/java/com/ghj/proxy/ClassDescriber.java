@@ -115,7 +115,7 @@ class ClassDescriber {
                 }
             }
             sb.append(parameterEnd).append(b).append(start).append(rn);
-            sb.append("return ").append(h.invoke());
+            //sb.append("return ").append(h.invoke());
             return sb.toString();
         }
 
