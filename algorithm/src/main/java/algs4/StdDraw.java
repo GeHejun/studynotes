@@ -1776,7 +1776,7 @@ public final class StdDraw implements ActionListener, MouseListener, MouseMotion
         }
 
         // need to change from ARGB to RGB for JPEG
-        // reference: http://archives.java.sun.com/cgi-bin/wa?A2=ind0404&L=java2d-interest&D=0&P=2727
+        // gc: http://archives.java.sun.com/cgi-bin/wa?A2=ind0404&L=java2d-interest&D=0&P=2727
         else if ("jpg".equalsIgnoreCase(suffix)) {
             WritableRaster raster = onscreenImage.getRaster();
             WritableRaster newRaster;

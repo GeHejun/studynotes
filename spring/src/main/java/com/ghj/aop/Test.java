@@ -1,5 +1,6 @@
 package com.ghj.aop;
 
+import org.springframework.beans.BeanUtils;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -17,5 +18,6 @@ public class Test {
         AopService aopService = context.getBean(AopService.class);
 
         aopService.testAop();
+
     }
 }

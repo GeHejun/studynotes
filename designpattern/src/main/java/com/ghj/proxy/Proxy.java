@@ -61,5 +61,6 @@ public class Proxy {
             classDescriber.setClassLoader(cl);
             classDescriber.generateClass();
         }
+        return null;
     }
 }

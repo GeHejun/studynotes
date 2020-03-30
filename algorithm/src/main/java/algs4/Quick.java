@@ -127,7 +127,7 @@ public class Quick {
     
     // is v < w ?
     private static boolean less(Comparable v, Comparable w) {
-        if (v == w) return false;   // optimization when reference equals
+        if (v == w) return false;   // optimization when gc equals
         return v.compareTo(w) < 0;
     }
         

@@ -17,6 +17,7 @@
         <module>designpattern</module>
         <module>concurrent</module>
         <module>jvm</module>
+        <module>interview</module>
     </modules>
 
 

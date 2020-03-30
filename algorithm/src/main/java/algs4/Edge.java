@@ -84,7 +84,7 @@ public class Edge implements Comparable<Edge> {
     /**
      * Compares two edges by weight.
      * Note that {@code compareTo()} is not consistent with {@code equals()},
-     * which uses the reference equality implementation inherited from {@code Object}.
+     * which uses the gc equality implementation inherited from {@code Object}.
      *
      * @param  that the other edge
      * @return a negative integer, zero, or positive integer depending on whether

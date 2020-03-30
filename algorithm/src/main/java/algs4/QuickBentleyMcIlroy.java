@@ -127,13 +127,13 @@ public class QuickBentleyMcIlroy {
     
     // is v < w ?
     private static boolean less(Comparable v, Comparable w) {
-        if (v == w) return false;    // optimization when reference equal
+        if (v == w) return false;    // optimization when gc equal
         return v.compareTo(w) < 0;
     }
 
     // does v == w ?
     private static boolean eq(Comparable v, Comparable w) {
-        if (v == w) return true;    // optimization when reference equal
+        if (v == w) return true;    // optimization when gc equal
         return v.compareTo(w) == 0;
     }
         

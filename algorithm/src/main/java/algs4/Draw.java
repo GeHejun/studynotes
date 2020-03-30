@@ -1336,7 +1336,7 @@ public final class Draw implements ActionListener, MouseListener, MouseMotionLis
         }
 
         // need to change from ARGB to RGB for jpeg
-        // reference: http://archives.java.sun.com/cgi-bin/wa?A2=ind0404&L=java2d-interest&D=0&P=2727
+        // gc: http://archives.java.sun.com/cgi-bin/wa?A2=ind0404&L=java2d-interest&D=0&P=2727
         else if ("jpg".equalsIgnoreCase(suffix)) {
             WritableRaster raster = offscreenImage.getRaster();
             WritableRaster newRaster;

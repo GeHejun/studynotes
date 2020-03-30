@@ -11,6 +11,7 @@
         <module name="concurrent" />
         <module name="designpattern" />
         <module name="foundation" />
+        <module name="interview" />
         <module name="jvm" />
         <module name="mysql" />
         <module name="spring" />
@@ -24,6 +25,7 @@
       <module name="concurrent" options="-parameters" />
       <module name="designpattern" options="-parameters" />
       <module name="foundation" options="-parameters" />
+      <module name="interview" options="-parameters" />
       <module name="jvm" options="-parameters" />
       <module name="mysql" options="-parameters" />
       <module name="spring" options="-parameters" />
