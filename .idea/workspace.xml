@@ -16,20 +16,18 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1735b1db-e4e4-49c3-b0e9-3803553dd2df" name="Default Changelist" comment="spring aop">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrent/src/main/java/com/ghj/aqs/ConditionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrent/src/main/java/com/ghj/thread/DelayThreadPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="1735b1db-e4e4-49c3-b0e9-3803553dd2df" name="Default Changelist" comment="算法">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrent/src/main/java/com/ghj/aqs/AbstractQueueSynchronizer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrent/src/main/java/com/ghj/aqs/Lock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrent/src/main/java/com/ghj/aqs/ReentrantLock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrent/src/main/java/com/ghj/aqs/Thread8Monitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrent/src/main/java/com/ghj/aqs/Thread8Monitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview/interview.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +101,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -115,20 +113,6 @@
       <recent name="$PROJECT_DIR$/foundation" />
       <recent name="C:\Users\gehj\myself-project\studynotes\algorithm\src\main\java\algs4" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="ReverseInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReverseInt" />
-      <module name="algorithm" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.ReverseInt" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\gehj\AppData\Roaming\Subversion</configuration>
@@ -203,6 +187,8 @@
       <workItem from="1586272153846" duration="1132000" />
       <workItem from="1586587855253" duration="282000" />
       <workItem from="1586596418458" duration="2046000" />
+      <workItem from="1586598598046" duration="221000" />
+      <workItem from="1586608742835" duration="386000" />
     </task>
     <task id="LOCAL-00001" summary="designpattern">
       <created>1561616972270</created>
@@ -456,7 +442,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585556675231</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="算法">
+      <created>1586598649347</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1586598649347</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -467,7 +460,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -501,13 +506,14 @@
     <MESSAGE value="graph" />
     <MESSAGE value="algs4" />
     <MESSAGE value="spring aop" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring aop" />
+    <MESSAGE value="算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="算法" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="295" y="147" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586588148324">
+    <state x="295" y="147" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586609082932">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state x="295" y="147" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.963@0.23.1920.963" timestamp="1586588148324" />
+    <state x="295" y="147" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.963@0.23.1920.963" timestamp="1586609082932" />
     <state x="812" y="199" key="#xdebugger.evaluate" timestamp="1586598369502">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
@@ -544,10 +550,14 @@
       <screen x="0" y="23" width="1920" height="963" />
     </state>
     <state width="1865" height="208" key="GridCell.Tab.1.right/0.23.1920.963@0.23.1920.963" timestamp="1586598593752" />
-    <state x="546" y="188" key="SettingsEditor" timestamp="1586596578175">
+    <state x="546" y="188" key="SettingsEditor" timestamp="1586609160080">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state x="546" y="188" key="SettingsEditor/0.23.1920.963@0.23.1920.963" timestamp="1586596578175" />
+    <state x="546" y="188" key="SettingsEditor/0.23.1920.963@0.23.1920.963" timestamp="1586609160080" />
+    <state x="566" y="228" key="Vcs.Push.Dialog.v2" timestamp="1586598659541">
+      <screen x="0" y="23" width="1920" height="963" />
+    </state>
+    <state x="566" y="228" key="Vcs.Push.Dialog.v2/0.23.1920.963@0.23.1920.963" timestamp="1586598659541" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

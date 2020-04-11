@@ -1,7 +1,7 @@
 package list;
 
 import java.util.HashMap;
-import java.util.List;
+import java.util.Map;
 
 
 /**
@@ -18,10 +18,9 @@ public class DeleteDuplicates {
         l3.next = l4;
         deleteDuplicates(l1);
     }
-    public static ListNode deleteDuplicates(ListNode head) {
-        HashMap map = new HashMap(16);
+    public static void deleteDuplicates(ListNode head) {
+        Map map = new HashMap(16);
         ListNode node = head;
-        ListNode res = node;
         for (;node != null && node.next != null; node = node.next) {
             if (map.get(node.val) == null) {
                 map.put(node.val,node.val);
@@ -30,6 +29,5 @@ public class DeleteDuplicates {
                 node.next = node.next.next;
             }
         }
-        return res;
     }
 }
