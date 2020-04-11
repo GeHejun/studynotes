@@ -1,5 +1,6 @@
 package com.ghj.aqs;
 
+import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -29,6 +30,7 @@ public class Thread8Monitor {
 //        new Thread(() -> number.printTwo()).start();
         new Thread(() -> number1.printTwo()).start();
 //        new Thread(() -> number.printThree()).start();
+
     }
 
 }
