@@ -8,7 +8,7 @@ public class TryFinally {
     }
 
     public static Integer add(Integer a, Integer b) {
-        Integer c = 0;
+        int c = 0;
         try {
             return c;
         } finally {
