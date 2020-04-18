@@ -26,510 +26,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1735b1db-e4e4-49c3-b0e9-3803553dd2df" name="Default Changelist" comment="算法">
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/IsUnique.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/LengthOfLongestSubString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/list/CanJump.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/list/MaxArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/list/TwoSumEqualsTarget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/sort/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/NumberIn2DArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/RepeatNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/ReplaceSpace.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/AVLTreeST.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Accumulator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/AcyclicLP.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/AcyclicSP.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/AdjMatrixEdgeWeightedDigraph.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Alphabet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/AmericanFlag.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/AmericanFlagX.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Arbitrage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/AssignmentProblem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Average.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/BST.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/BTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Bag.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/BellmanFordSP.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/BinaryDump.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/BinaryIn.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/BinaryInsertion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/BinaryOut.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/BinarySearch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/BinarySearchST.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/BinaryStdIn.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/BinaryStdOut.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/BinomialMinPQ.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Bipartite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/BipartiteMatching.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/BipartiteX.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/BlackFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/BoruvkaMST.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/BoyerMoore.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/BreadthFirstDirectedPaths.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/BreadthFirstPaths.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/CC.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/CPM.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Cat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/ClosestPair.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/CollisionSystem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Complex.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Count.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Counter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Cycle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Date.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/DeDup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/DegreesOfSeparation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/DepthFirstDirectedPaths.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/DepthFirstOrder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/DepthFirstPaths.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/DepthFirstSearch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Digraph.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/DigraphGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/DijkstraAllPairsSP.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/DijkstraSP.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/DijkstraUndirectedSP.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/DirectedCycle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/DirectedCycleX.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/DirectedDFS.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/DirectedEdge.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/DirectedEulerianCycle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/DirectedEulerianPath.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/DoublingRatio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/DoublingTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Draw.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/DrawListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Edge.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/EdgeWeightedDigraph.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/EdgeWeightedDirectedCycle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/EdgeWeightedGraph.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/EulerianCycle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/EulerianPath.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/FFT.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/FarthestPair.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/FenwickTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/FibonacciMinPQ.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/FileIndex.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/FlowEdge.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/FlowNetwork.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/FloydWarshall.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/FordFulkerson.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/FrequencyCounter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/GREP.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/GabowSCC.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/GaussJordanElimination.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/GaussianElimination.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Genome.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/GlobalMincut.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/GrahamScan.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Graph.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/GraphGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/GrayscalePicture.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Heap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/HexDump.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/HopcroftKarp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Huffman.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/In.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/IndexBinomialMinPQ.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/IndexFibonacciMinPQ.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/IndexMaxPQ.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/IndexMinPQ.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/IndexMultiwayMinPQ.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/InplaceMSD.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Insertion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/InsertionX.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Interval1D.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Interval2D.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Inversions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/KMP.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/KWIK.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Knuth.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/KosarajuSharirSCC.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/KruskalMST.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/LSD.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/LZW.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/LazyPrimMST.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/LinearProbingHashST.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/LinearProgramming.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/LinearRegression.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/LinkedBag.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/LinkedQueue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/LinkedStack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/LongestCommonSubstring.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/LongestRepeatedSubstring.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/LookupCSV.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/LookupIndex.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/MSD.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/MaxPQ.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Merge.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/MergeBU.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/MergeX.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/MinPQ.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Multiway.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/MultiwayMinPQ.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/NFA.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/NonrecursiveDFS.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/NonrecursiveDirectedDFS.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Out.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Particle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/PatriciaSET.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/PatriciaST.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Picture.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/PictureDump.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Point2D.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Polynomial.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/PrimMST.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Queue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Quick.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Quick3string.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Quick3way.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/QuickBentleyMcIlroy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/QuickFindUF.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/QuickUnionUF.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/QuickX.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/RabinKarp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/RandomSeq.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/RectHV.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/RedBlackBST.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/ResizingArrayBag.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/ResizingArrayQueue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/ResizingArrayStack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/RunLength.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/SET.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/ST.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/SegmentTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Selection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/SeparateChainingHashST.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/SequentialSearchST.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Shell.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/SparseVector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Stack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/StaticSETofInts.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/StdArrayIO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/StdAudio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/StdDraw.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/StdIn.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/StdOut.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/StdRandom.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/StdStats.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Stopwatch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/StopwatchCPU.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/SuffixArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/SuffixArrayX.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/SymbolDigraph.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/SymbolGraph.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/TST.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/TarjanSCC.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/ThreeSum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/ThreeSumFast.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/TopM.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Topological.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/TopologicalX.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Transaction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/TransitiveClosure.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/TrieSET.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/TrieST.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/TwoPersonZeroSumGame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/UF.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Vector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/WeightedQuickUnionUF.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/WhiteFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/algs4/Whitelist.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/ReverseInt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/AVLTreeST$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/AVLTreeST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Accumulator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/AcyclicLP.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/AcyclicSP.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/AdjMatrixEdgeWeightedDigraph$AdjIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/AdjMatrixEdgeWeightedDigraph.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Alphabet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/AmericanFlag.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/AmericanFlagX.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Arbitrage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/AssignmentProblem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Average.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/BST$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/BST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/BTree$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/BTree$Entry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/BTree$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/BTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Bag$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Bag$ListIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Bag$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Bag.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/BellmanFordSP.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/BinaryDump.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/BinaryIn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/BinaryInsertion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/BinaryOut.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/BinarySearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/BinarySearchST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/BinaryStdIn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/BinaryStdOut.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/BinomialMinPQ$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/BinomialMinPQ$MyComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/BinomialMinPQ$MyIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/BinomialMinPQ$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/BinomialMinPQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Bipartite.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/BipartiteMatching.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/BipartiteX.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/BlackFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/BoruvkaMST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/BoyerMoore.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/BreadthFirstDirectedPaths.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/BreadthFirstPaths.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/CC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/CPM.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Cat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/ClosestPair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/CollisionSystem$Event.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/CollisionSystem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Complex.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Count.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Counter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Cycle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Date.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/DeDup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/DegreesOfSeparation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/DepthFirstDirectedPaths.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/DepthFirstOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/DepthFirstPaths.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/DepthFirstSearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Digraph.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/DigraphGenerator$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/DigraphGenerator$Edge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/DigraphGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/DijkstraAllPairsSP.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/DijkstraSP.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/DijkstraUndirectedSP.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/DirectedCycle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/DirectedCycleX.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/DirectedDFS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/DirectedEdge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/DirectedEulerianCycle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/DirectedEulerianPath.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/DoublingRatio.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/DoublingTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Draw$RetinaImageIcon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Draw.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/DrawListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Edge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/EdgeWeightedDigraph.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/EdgeWeightedDirectedCycle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/EdgeWeightedGraph.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/EulerianCycle$Edge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/EulerianCycle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/EulerianPath$Edge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/EulerianPath.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/FFT.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/FarthestPair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/FenwickTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/FibonacciMinPQ$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/FibonacciMinPQ$MyComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/FibonacciMinPQ$MyIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/FibonacciMinPQ$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/FibonacciMinPQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/FileIndex.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/FlowEdge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/FlowNetwork.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/FloydWarshall.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/FordFulkerson.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/FrequencyCounter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/GREP.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/GabowSCC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/GaussJordanElimination.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/GaussianElimination.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Genome.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/GlobalMincut$CutPhase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/GlobalMincut.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/GrahamScan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Graph.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/GraphGenerator$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/GraphGenerator$Edge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/GraphGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/GrayscalePicture.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Heap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/HexDump.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/HopcroftKarp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Huffman$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Huffman.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/In.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/IndexBinomialMinPQ$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/IndexBinomialMinPQ$MyComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/IndexBinomialMinPQ$MyIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/IndexBinomialMinPQ$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/IndexBinomialMinPQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/IndexFibonacciMinPQ$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/IndexFibonacciMinPQ$MyComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/IndexFibonacciMinPQ$MyIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/IndexFibonacciMinPQ$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/IndexFibonacciMinPQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/IndexMaxPQ$HeapIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/IndexMaxPQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/IndexMinPQ$HeapIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/IndexMinPQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/IndexMultiwayMinPQ$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/IndexMultiwayMinPQ$MyComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/IndexMultiwayMinPQ$MyIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/IndexMultiwayMinPQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/InplaceMSD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Insertion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/InsertionX.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Interval1D$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Interval1D$LengthComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Interval1D$MaxEndpointComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Interval1D$MinEndpointComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Interval1D.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Interval2D.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Inversions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/KMP.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/KWIK.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Knuth.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/KosarajuSharirSCC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/KruskalMST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/LSD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/LZW.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/LazyPrimMST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/LinearProbingHashST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/LinearProgramming.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/LinearRegression.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/LinkedBag$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/LinkedBag$ListIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/LinkedBag$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/LinkedBag.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/LinkedQueue$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/LinkedQueue$ListIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/LinkedQueue$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/LinkedQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/LinkedStack$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/LinkedStack$ListIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/LinkedStack$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/LinkedStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/LongestCommonSubstring.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/LongestRepeatedSubstring.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/LookupCSV.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/LookupIndex.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/MSD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/MaxPQ$HeapIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/MaxPQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Merge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/MergeBU.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/MergeX.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/MinPQ$HeapIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/MinPQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Multiway.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/MultiwayMinPQ$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/MultiwayMinPQ$MyComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/MultiwayMinPQ$MyIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/MultiwayMinPQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/NFA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/NonrecursiveDFS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/NonrecursiveDirectedDFS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Out.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Particle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/PatriciaSET$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/PatriciaSET.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/PatriciaST$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/PatriciaST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Picture.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/PictureDump.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Point2D$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Point2D$Atan2Order.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Point2D$DistanceToOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Point2D$PolarOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Point2D$ROrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Point2D$XOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Point2D$YOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Point2D.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Polynomial.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/PrimMST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Queue$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Queue$ListIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Queue$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Queue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Quick.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Quick3string.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Quick3way.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/QuickBentleyMcIlroy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/QuickFindUF.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/QuickUnionUF.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/QuickX.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/RabinKarp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/RandomSeq.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/RectHV.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/RedBlackBST$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/RedBlackBST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/ResizingArrayBag$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/ResizingArrayBag$ArrayIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/ResizingArrayBag.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/ResizingArrayQueue$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/ResizingArrayQueue$ArrayIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/ResizingArrayQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/ResizingArrayStack$ReverseArrayIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/ResizingArrayStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/RunLength.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/SET.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/ST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/SegmentTree$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/SegmentTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Selection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/SeparateChainingHashST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/SequentialSearchST$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/SequentialSearchST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Shell.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/SparseVector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Stack$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Stack$ListIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Stack$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Stack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/StaticSETofInts.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/StdArrayIO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/StdAudio$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/StdAudio$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/StdAudio.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/StdDraw$RetinaImageIcon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/StdDraw.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/StdIn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/StdOut.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/StdRandom.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/StdStats.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Stopwatch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/StopwatchCPU.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/SuffixArray$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/SuffixArray$Suffix.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/SuffixArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/SuffixArrayX.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/SymbolDigraph.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/SymbolGraph.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/TST$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/TST$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/TST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/TarjanSCC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/ThreeSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/ThreeSumFast.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/TopM.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Topological.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/TopologicalX.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Transaction$HowMuchOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Transaction$WhenOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Transaction$WhoOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Transaction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/TransitiveClosure.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/TrieSET$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/TrieSET$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/TrieSET.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/TrieST$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/TrieST$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/TrieST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/TwoPersonZeroSumGame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/UF.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Vector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/WeightedQuickUnionUF.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/WhiteFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/algs4/Whitelist.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/list/DeleteDuplicates.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/target/classes/list/DeleteDuplicates.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/sort/HeapSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/target/classes/sort/HeapSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrent/src/main/java/com/ghj/thread/DelayThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrent/src/main/java/com/ghj/thread/DelayThreadPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/LengthOfLongestSubString.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -616,7 +117,7 @@
       <recent name="$PROJECT_DIR$/jvm/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LengthOfLongestSubString">
+  <component name="RunManager" selected="Application.NumberIn2DArray">
     <configuration name="IsUnique" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IsUnique" />
       <module name="algorithm" />
@@ -631,52 +132,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxArea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="list.MaxArea" />
+    <configuration name="NumberIn2DArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NumberIn2DArray" />
       <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="list.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.QuickSort" />
+    <configuration name="RepeatNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RepeatNumber" />
       <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSumEqualsTarget" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="list.TwoSumEqualsTarget" />
+    <configuration name="ReplaceSpace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReplaceSpace" />
       <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="list.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumberIn2DArray" />
+        <item itemvalue="Application.ReplaceSpace" />
+        <item itemvalue="Application.RepeatNumber" />
         <item itemvalue="Application.LengthOfLongestSubString" />
         <item itemvalue="Application.IsUnique" />
-        <item itemvalue="Application.TwoSumEqualsTarget" />
-        <item itemvalue="Application.MaxArea" />
-        <item itemvalue="Application.QuickSort" />
       </list>
     </recent_temporary>
   </component>
@@ -760,7 +243,7 @@
       <workItem from="1587048583042" duration="1641000" />
       <workItem from="1587133925539" duration="202000" />
       <workItem from="1587134502397" duration="2397000" />
-      <workItem from="1587172328815" duration="4423000" />
+      <workItem from="1587172328815" duration="10814000" />
     </task>
     <task id="LOCAL-00001" summary="designpattern">
       <created>1561616972270</created>
@@ -1042,7 +525,21 @@
       <option name="project" value="LOCAL" />
       <updated>1586611164861</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="算法">
+      <created>1587179156718</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1587179156718</updated>
+    </task>
+    <task id="LOCAL-00042" summary="算法">
+      <created>1587179268026</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1587179268026</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1119,46 +616,50 @@
       <screen x="0" y="23" width="1920" height="963" />
     </state>
     <state x="315" y="123" width="1216" height="745" key="DiffContextDialog/0.23.1920.963@0.23.1920.963" timestamp="1586609887891" />
-    <state width="1374" height="218" key="GridCell.Tab.0.bottom" timestamp="1587176171233">
+    <state width="1374" height="218" key="GridCell.Tab.0.bottom" timestamp="1587217723461">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state width="1374" height="218" key="GridCell.Tab.0.bottom/0.23.1920.963@0.23.1920.963" timestamp="1587176171233" />
-    <state width="1374" height="218" key="GridCell.Tab.0.center" timestamp="1587176171233">
+    <state width="1374" height="218" key="GridCell.Tab.0.bottom/0.23.1920.963@0.23.1920.963" timestamp="1587217723461" />
+    <state width="1374" height="218" key="GridCell.Tab.0.center" timestamp="1587217723461">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state width="1374" height="218" key="GridCell.Tab.0.center/0.23.1920.963@0.23.1920.963" timestamp="1587176171233" />
-    <state width="1374" height="218" key="GridCell.Tab.0.left" timestamp="1587176171232">
+    <state width="1374" height="218" key="GridCell.Tab.0.center/0.23.1920.963@0.23.1920.963" timestamp="1587217723461" />
+    <state width="1374" height="218" key="GridCell.Tab.0.left" timestamp="1587217723455">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state width="1374" height="218" key="GridCell.Tab.0.left/0.23.1920.963@0.23.1920.963" timestamp="1587176171232" />
-    <state width="1374" height="218" key="GridCell.Tab.0.right" timestamp="1587176171233">
+    <state width="1374" height="218" key="GridCell.Tab.0.left/0.23.1920.963@0.23.1920.963" timestamp="1587217723455" />
+    <state width="1374" height="218" key="GridCell.Tab.0.right" timestamp="1587217723461">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state width="1374" height="218" key="GridCell.Tab.0.right/0.23.1920.963@0.23.1920.963" timestamp="1587176171233" />
-    <state width="1374" height="218" key="GridCell.Tab.1.bottom" timestamp="1587175988335">
+    <state width="1374" height="218" key="GridCell.Tab.0.right/0.23.1920.963@0.23.1920.963" timestamp="1587217723461" />
+    <state width="1374" height="218" key="GridCell.Tab.1.bottom" timestamp="1587217723287">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state width="1374" height="218" key="GridCell.Tab.1.bottom/0.23.1920.963@0.23.1920.963" timestamp="1587175988335" />
-    <state width="1374" height="218" key="GridCell.Tab.1.center" timestamp="1587175988333">
+    <state width="1374" height="218" key="GridCell.Tab.1.bottom/0.23.1920.963@0.23.1920.963" timestamp="1587217723287" />
+    <state width="1374" height="218" key="GridCell.Tab.1.center" timestamp="1587217723286">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state width="1374" height="218" key="GridCell.Tab.1.center/0.23.1920.963@0.23.1920.963" timestamp="1587175988333" />
-    <state width="1374" height="218" key="GridCell.Tab.1.left" timestamp="1587175988333">
+    <state width="1374" height="218" key="GridCell.Tab.1.center/0.23.1920.963@0.23.1920.963" timestamp="1587217723286" />
+    <state width="1374" height="218" key="GridCell.Tab.1.left" timestamp="1587217723286">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state width="1374" height="218" key="GridCell.Tab.1.left/0.23.1920.963@0.23.1920.963" timestamp="1587175988333" />
-    <state width="1374" height="218" key="GridCell.Tab.1.right" timestamp="1587175988334">
+    <state width="1374" height="218" key="GridCell.Tab.1.left/0.23.1920.963@0.23.1920.963" timestamp="1587217723286" />
+    <state width="1374" height="218" key="GridCell.Tab.1.right" timestamp="1587217723286">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state width="1374" height="218" key="GridCell.Tab.1.right/0.23.1920.963@0.23.1920.963" timestamp="1587175988334" />
+    <state width="1374" height="218" key="GridCell.Tab.1.right/0.23.1920.963@0.23.1920.963" timestamp="1587217723286" />
+    <state x="527" y="205" key="RollbackChangesDialog" timestamp="1587179132491">
+      <screen x="0" y="23" width="1920" height="963" />
+    </state>
+    <state x="527" y="205" key="RollbackChangesDialog/0.23.1920.963@0.23.1920.963" timestamp="1587179132491" />
     <state x="546" y="188" key="SettingsEditor" timestamp="1587134147269">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
     <state x="546" y="188" key="SettingsEditor/0.23.1920.963@0.23.1920.963" timestamp="1587134147269" />
-    <state x="566" y="228" key="Vcs.Push.Dialog.v2" timestamp="1586611169595">
+    <state x="566" y="228" key="Vcs.Push.Dialog.v2" timestamp="1587179271387">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state x="566" y="228" key="Vcs.Push.Dialog.v2/0.23.1920.963@0.23.1920.963" timestamp="1586611169595" />
+    <state x="566" y="228" key="Vcs.Push.Dialog.v2/0.23.1920.963@0.23.1920.963" timestamp="1587179271387" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
