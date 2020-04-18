@@ -13,7 +13,7 @@ public class DelayThreadPool {
 //            });
 //        }
 
-        ArrayBlockingQueue arrayBlockingQueue = new ArrayBlockingQueue(1);
+        ArrayBlockingQueue<String> arrayBlockingQueue = new ArrayBlockingQueue<>(1);
         try {
             arrayBlockingQueue.add(null);
             System.out.println(arrayBlockingQueue.offer("aa", 5, TimeUnit.SECONDS));
