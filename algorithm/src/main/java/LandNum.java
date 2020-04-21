@@ -3,7 +3,6 @@ import java.util.concurrent.CountDownLatch;
 import java.util.stream.Collectors;
 
 public class LandNum {
-    private static int i = 0;
     public static void main(String[] args) {
 
         String str = "hshaksdhqqkqwkasfa,shgjqijasjkdhajkcsnidh";
@@ -13,7 +12,10 @@ public class LandNum {
                 as[i] = as[i].subSequence(0, as[i].indexOf("s")).toString();
             }
         }
-        System.out.println(Arrays.stream(as).sorted(String::compareTo).collect(Collectors.joining()));
+        char[] chars = Arrays.stream(as).collect(Collectors.joining()).toCharArray();
+        Arrays.sort(chars);
+        String newS = new String(chars);
+        System.out.println(newS);
 
 //
 //        System.out.println(ss); String str = "hshaksdhqqkqwkasfa,shgjqijasjkdhajkcsnidh";
