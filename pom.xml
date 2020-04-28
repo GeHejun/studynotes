@@ -21,6 +21,7 @@
         <module>mq</module>
         <module>redis</module>
         <module>springboot</module>
+        <module>socket</module>
     </modules>
 
 
