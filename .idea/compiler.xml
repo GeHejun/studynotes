@@ -16,6 +16,7 @@
         <module name="mq" />
         <module name="mysql" />
         <module name="redis" />
+        <module name="socket" />
         <module name="spring" />
         <module name="springboot" />
       </profile>
