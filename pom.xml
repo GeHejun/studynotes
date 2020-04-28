@@ -18,6 +18,8 @@
         <module>concurrent</module>
         <module>jvm</module>
         <module>interview</module>
+        <module>mq</module>
+        <module>redis</module>
     </modules>
 
 
