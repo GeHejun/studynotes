@@ -2,3 +2,13 @@ spring:
   data:
     mongodb:
       uri: mongodb://10.16.34.32:27017/jz_quotations
+
+logging:
+  level:
+    root: info
+  path: ./logs
+  config: classpath:logback.xml
+
+
+server:
+  port: 8080
