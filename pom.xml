@@ -24,6 +24,7 @@
         <module>socket</module>
         <module>mongodb</module>
         <module>zk</module>
+        <module>dubbo</module>
     </modules>
 
 
