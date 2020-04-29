@@ -13,6 +13,7 @@
         <module name="foundation" />
         <module name="interview" />
         <module name="jvm" />
+        <module name="mongodb" />
         <module name="mq" />
         <module name="mysql" />
         <module name="redis" />

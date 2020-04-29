@@ -22,6 +22,7 @@
         <module>redis</module>
         <module>springboot</module>
         <module>socket</module>
+        <module>mongodb</module>
     </modules>
 
 

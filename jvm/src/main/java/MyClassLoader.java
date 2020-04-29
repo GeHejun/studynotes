@@ -13,12 +13,15 @@ import java.nio.channels.WritableByteChannel;
 public class MyClassLoader extends ClassLoader {
 
     public static void main(String[] args) throws ClassNotFoundException {
-        System.out.println(new MyClassLoader().findClass("ClassLoaderTest"));
+        MyClassLoader myClassLoader = new MyClassLoader();
+        Class<?> classLoaderTest = myClassLoader.findClass("ClassLoaderTest");
+        System.out.println(myClassLoader.equals(classLoaderTest));
+
     }
     @Override
     protected Class<?> findClass(String name) throws ClassNotFoundException {
         Class clazz = null;
-        File file = new File("D:\\gehj\\projects\\studynotes\\jvm\\src\\main\\java\\ClassLoaderTest.java");
+        File file = new File("D:\\gehj\\projects\\studynotes\\jvm\\src\\main\\java\\MyClassLoader.class");
         try {
             final byte[] classFileBytes = getClassFileBytes(file);
             clazz = defineClass(name, classFileBytes, 0, classFileBytes.length);
