@@ -23,6 +23,7 @@
         <module>springboot</module>
         <module>socket</module>
         <module>mongodb</module>
+        <module>zk</module>
     </modules>
 
 
