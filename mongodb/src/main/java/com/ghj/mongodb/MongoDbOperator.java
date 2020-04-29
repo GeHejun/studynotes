@@ -28,7 +28,6 @@ public class MongoDbOperator {
 
         GroupOperation sum = Aggregation.group("qr.bi").count().as("sum");
 
-
         LimitOperation limit = Aggregation.limit(5);
 
         SortOperation sort = Aggregation.sort(new Sort(Sort.Direction.DESC, "qr.c"));
@@ -36,7 +35,6 @@ public class MongoDbOperator {
         SkipOperation skip = Aggregation.skip(3L);
 
         Aggregation aggregation = Aggregation.newAggregation(limit, sort, skip);
-
 
         AggregationResults<Object> result = mongoTemplate.aggregate(aggregation, "quotations", Object.class);
 
