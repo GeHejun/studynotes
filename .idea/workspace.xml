@@ -26,10 +26,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1735b1db-e4e4-49c3-b0e9-3803553dd2df" name="Default Changelist" comment="算法">
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/ghj/SpringBootApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview/src/main/java/com/ghj/multithread/Parallellimit.java" beforeDir="false" afterPath="$PROJECT_DIR$/interview/src/main/java/com/ghj/multithread/CountDownLatchDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mq/mq.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/redis.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/socket/socket.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/springboot.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zk/zk.iml" beforeDir="false" afterPath="$PROJECT_DIR$/zk/zk.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -249,7 +254,7 @@
       <workItem from="1587729148904" duration="567000" />
       <workItem from="1587781345152" duration="4484000" />
       <workItem from="1588253647753" duration="499000" />
-      <workItem from="1588293856959" duration="726000" />
+      <workItem from="1588293856959" duration="2070000" />
     </task>
     <task id="LOCAL-00001" summary="designpattern">
       <created>1561616972270</created>
@@ -566,7 +571,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587444033087</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="算法">
+      <created>1588298329144</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1588298329144</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -627,10 +639,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="算法" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="296" y="78" key="#Project_Structure" timestamp="1587453501718">
+    <state x="296" y="78" key="#Project_Structure" timestamp="1588298182966">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state x="296" y="78" key="#Project_Structure/0.23.1920.963@0.23.1920.963" timestamp="1587453501718" />
+    <state x="296" y="78" key="#Project_Structure/0.23.1920.963@0.23.1920.963" timestamp="1588298182966" />
     <state x="295" y="147" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586609082932">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
@@ -651,6 +663,10 @@
       <screen x="0" y="23" width="1920" height="963" />
     </state>
     <state x="315" y="123" width="1216" height="745" key="DiffContextDialog/0.23.1920.963@0.23.1920.963" timestamp="1586609887891" />
+    <state x="854" y="423" key="Github.CreateGistDialog" timestamp="1588315325838">
+      <screen x="0" y="23" width="1920" height="963" />
+    </state>
+    <state x="854" y="423" key="Github.CreateGistDialog/0.23.1920.963@0.23.1920.963" timestamp="1588315325838" />
     <state width="1538" height="240" key="GridCell.Tab.0.bottom" timestamp="1587806088512">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
@@ -683,6 +699,14 @@
       <screen x="0" y="23" width="1920" height="963" />
     </state>
     <state width="1538" height="240" key="GridCell.Tab.1.right/0.23.1920.963@0.23.1920.963" timestamp="1587806088512" />
+    <state x="270" y="99" key="MergeDialog" timestamp="1588298380173">
+      <screen x="0" y="23" width="1920" height="963" />
+    </state>
+    <state x="270" y="99" key="MergeDialog/0.23.1920.963@0.23.1920.963" timestamp="1588298380173" />
+    <state x="929" y="375" key="MultipleFileMergeDialog" timestamp="1588298380213">
+      <screen x="0" y="23" width="1920" height="963" />
+    </state>
+    <state x="929" y="375" key="MultipleFileMergeDialog/0.23.1920.963@0.23.1920.963" timestamp="1588298380213" />
     <state x="527" y="205" key="RollbackChangesDialog" timestamp="1587179132491">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
@@ -695,10 +719,14 @@
       <screen x="0" y="23" width="1920" height="963" />
     </state>
     <state x="566" y="228" key="Vcs.Push.Dialog.v2/0.23.1920.963@0.23.1920.963" timestamp="1587444035692" />
-    <state x="231" y="102" key="new project wizard" timestamp="1587570629609">
+    <state x="749" y="293" key="git4idea.merge.GitPullDialog" timestamp="1588298351992">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state x="231" y="102" key="new project wizard/0.23.1920.963@0.23.1920.963" timestamp="1587570629609" />
+    <state x="749" y="293" key="git4idea.merge.GitPullDialog/0.23.1920.963@0.23.1920.963" timestamp="1588298351992" />
+    <state x="231" y="102" key="new project wizard" timestamp="1588315279546">
+      <screen x="0" y="23" width="1920" height="963" />
+    </state>
+    <state x="231" y="102" key="new project wizard/0.23.1920.963@0.23.1920.963" timestamp="1588315279546" />
     <state x="687" y="310" width="670" height="676" key="search.everywhere.popup" timestamp="1587571104978">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
