@@ -26,15 +26,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1735b1db-e4e4-49c3-b0e9-3803553dd2df" name="Default Changelist" comment="算法">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruleengine/src/main/java/easyRule/RuleApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mq/mq.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis/redis.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket/socket.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot/springboot.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zk/zk.iml" beforeDir="false" afterPath="$PROJECT_DIR$/zk/zk.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,6 +250,7 @@
       <workItem from="1587781345152" duration="4484000" />
       <workItem from="1588253647753" duration="499000" />
       <workItem from="1588293856959" duration="2070000" />
+      <workItem from="1588421553132" duration="2250000" />
     </task>
     <task id="LOCAL-00001" summary="designpattern">
       <created>1561616972270</created>
@@ -578,7 +574,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588298329144</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="算法">
+      <created>1588421690998</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1588421690998</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -667,22 +670,22 @@
       <screen x="0" y="23" width="1920" height="963" />
     </state>
     <state x="854" y="423" key="Github.CreateGistDialog/0.23.1920.963@0.23.1920.963" timestamp="1588315325838" />
-    <state width="1538" height="240" key="GridCell.Tab.0.bottom" timestamp="1587806088512">
+    <state width="1538" height="274" key="GridCell.Tab.0.bottom" timestamp="1588422583700">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state width="1538" height="240" key="GridCell.Tab.0.bottom/0.23.1920.963@0.23.1920.963" timestamp="1587806088512" />
-    <state width="1538" height="240" key="GridCell.Tab.0.center" timestamp="1587806088511">
+    <state width="1538" height="274" key="GridCell.Tab.0.bottom/0.23.1920.963@0.23.1920.963" timestamp="1588422583700" />
+    <state width="1538" height="274" key="GridCell.Tab.0.center" timestamp="1588422583700">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state width="1538" height="240" key="GridCell.Tab.0.center/0.23.1920.963@0.23.1920.963" timestamp="1587806088511" />
-    <state width="1538" height="240" key="GridCell.Tab.0.left" timestamp="1587806088511">
+    <state width="1538" height="274" key="GridCell.Tab.0.center/0.23.1920.963@0.23.1920.963" timestamp="1588422583700" />
+    <state width="1538" height="274" key="GridCell.Tab.0.left" timestamp="1588422583699">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state width="1538" height="240" key="GridCell.Tab.0.left/0.23.1920.963@0.23.1920.963" timestamp="1587806088511" />
-    <state width="1538" height="240" key="GridCell.Tab.0.right" timestamp="1587806088512">
+    <state width="1538" height="274" key="GridCell.Tab.0.left/0.23.1920.963@0.23.1920.963" timestamp="1588422583699" />
+    <state width="1538" height="274" key="GridCell.Tab.0.right" timestamp="1588422583700">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state width="1538" height="240" key="GridCell.Tab.0.right/0.23.1920.963@0.23.1920.963" timestamp="1587806088512" />
+    <state width="1538" height="274" key="GridCell.Tab.0.right/0.23.1920.963@0.23.1920.963" timestamp="1588422583700" />
     <state width="1538" height="240" key="GridCell.Tab.1.bottom" timestamp="1587806088513">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
@@ -715,14 +718,14 @@
       <screen x="0" y="23" width="1920" height="963" />
     </state>
     <state x="546" y="188" key="SettingsEditor/0.23.1920.963@0.23.1920.963" timestamp="1587134147269" />
-    <state x="566" y="228" key="Vcs.Push.Dialog.v2" timestamp="1587444035692">
+    <state x="566" y="228" key="Vcs.Push.Dialog.v2" timestamp="1588421729594">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state x="566" y="228" key="Vcs.Push.Dialog.v2/0.23.1920.963@0.23.1920.963" timestamp="1587444035692" />
-    <state x="749" y="293" key="git4idea.merge.GitPullDialog" timestamp="1588298351992">
+    <state x="566" y="228" key="Vcs.Push.Dialog.v2/0.23.1920.963@0.23.1920.963" timestamp="1588421729594" />
+    <state x="749" y="293" key="git4idea.merge.GitPullDialog" timestamp="1588421710633">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state x="749" y="293" key="git4idea.merge.GitPullDialog/0.23.1920.963@0.23.1920.963" timestamp="1588298351992" />
+    <state x="749" y="293" key="git4idea.merge.GitPullDialog/0.23.1920.963@0.23.1920.963" timestamp="1588421710633" />
     <state x="231" y="102" key="new project wizard" timestamp="1588315279546">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
