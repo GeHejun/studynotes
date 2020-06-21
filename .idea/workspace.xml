@@ -25,13 +25,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1735b1db-e4e4-49c3-b0e9-3803553dd2df" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="1735b1db-e4e4-49c3-b0e9-3803553dd2df" name="Default Changelist" comment="多线程打印foobar">
+      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/Combination.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrent/src/main/java/com/ghj/aqs/Thread8Monitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrent/src/main/java/com/ghj/aqs/Thread8Monitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/concurrent/src/main/java/com/ghj/thread/PrintFooBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrent/src/main/java/com/ghj/thread/PrintFooBar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrent/target/classes/com/ghj/aqs/Thread8Monitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/concurrent/target/classes/com/ghj/aqs/Thread8Monitor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrent/target/classes/com/ghj/thread/DelayThreadPool.class" beforeDir="false" afterPath="$PROJECT_DIR$/concurrent/target/classes/com/ghj/thread/DelayThreadPool.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -278,21 +275,8 @@
       <workItem from="1591794546331" duration="1181000" />
       <workItem from="1592310681780" duration="573000" />
       <workItem from="1592647295558" duration="2424000" />
-      <workItem from="1592705513718" duration="804000" />
-    </task>
-    <task id="LOCAL-00005" summary="bfs - dfs">
-      <created>1564645051996</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1564645051996</updated>
-    </task>
-    <task id="LOCAL-00006" summary="concurrent-model">
-      <created>1564732958515</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1564732958515</updated>
+      <workItem from="1592705513718" duration="1968000" />
+      <workItem from="1592727830767" duration="4412000" />
     </task>
     <task id="LOCAL-00007" summary="concurrent-model">
       <created>1564735284393</created>
@@ -623,7 +607,21 @@
       <option name="project" value="LOCAL" />
       <updated>1588847732068</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="多线程打印foobar">
+      <created>1592706438063</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1592706438063</updated>
+    </task>
+    <task id="LOCAL-00055" summary="多线程打印foobar">
+      <created>1592706499012</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1592706499012</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -693,7 +691,8 @@
     <MESSAGE value="算法" />
     <MESSAGE value="分布式" />
     <MESSAGE value="规则引擎" />
-    <option name="LAST_COMMIT_MESSAGE" value="规则引擎" />
+    <MESSAGE value="多线程打印foobar" />
+    <option name="LAST_COMMIT_MESSAGE" value="多线程打印foobar" />
   </component>
   <component name="WindowStateProjectService">
     <state x="296" y="78" key="#Project_Structure" timestamp="1588298182966">
@@ -724,46 +723,46 @@
       <screen x="0" y="23" width="1920" height="963" />
     </state>
     <state x="854" y="423" key="Github.CreateGistDialog/0.23.1920.963@0.23.1920.963" timestamp="1588315325838" />
-    <state width="1538" height="240" key="GridCell.Tab.0.bottom" timestamp="1591796528919">
+    <state width="1538" height="58" key="GridCell.Tab.0.bottom" timestamp="1592741350873">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state width="1538" height="240" key="GridCell.Tab.0.bottom/0.23.1920.963@0.23.1920.963" timestamp="1591796528919" />
-    <state width="1538" height="240" key="GridCell.Tab.0.center" timestamp="1591796528918">
+    <state width="1538" height="58" key="GridCell.Tab.0.bottom/0.23.1920.963@0.23.1920.963" timestamp="1592741350873" />
+    <state width="1538" height="58" key="GridCell.Tab.0.center" timestamp="1592741350873">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state width="1538" height="240" key="GridCell.Tab.0.center/0.23.1920.963@0.23.1920.963" timestamp="1591796528918" />
-    <state width="1538" height="240" key="GridCell.Tab.0.left" timestamp="1591796528918">
+    <state width="1538" height="58" key="GridCell.Tab.0.center/0.23.1920.963@0.23.1920.963" timestamp="1592741350873" />
+    <state width="1538" height="58" key="GridCell.Tab.0.left" timestamp="1592741350872">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state width="1538" height="240" key="GridCell.Tab.0.left/0.23.1920.963@0.23.1920.963" timestamp="1591796528918" />
-    <state width="1538" height="240" key="GridCell.Tab.0.right" timestamp="1591796528919">
+    <state width="1538" height="58" key="GridCell.Tab.0.left/0.23.1920.963@0.23.1920.963" timestamp="1592741350872" />
+    <state width="1538" height="58" key="GridCell.Tab.0.right" timestamp="1592741350873">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state width="1538" height="240" key="GridCell.Tab.0.right/0.23.1920.963@0.23.1920.963" timestamp="1591796528919" />
-    <state width="1538" height="240" key="GridCell.Tab.1.bottom" timestamp="1591796528920">
+    <state width="1538" height="58" key="GridCell.Tab.0.right/0.23.1920.963@0.23.1920.963" timestamp="1592741350873" />
+    <state width="1538" height="58" key="GridCell.Tab.1.bottom" timestamp="1592741350874">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state width="1538" height="240" key="GridCell.Tab.1.bottom/0.23.1920.963@0.23.1920.963" timestamp="1591796528920" />
-    <state width="1538" height="240" key="GridCell.Tab.1.center" timestamp="1591796528920">
+    <state width="1538" height="58" key="GridCell.Tab.1.bottom/0.23.1920.963@0.23.1920.963" timestamp="1592741350874" />
+    <state width="1538" height="58" key="GridCell.Tab.1.center" timestamp="1592741350874">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state width="1538" height="240" key="GridCell.Tab.1.center/0.23.1920.963@0.23.1920.963" timestamp="1591796528920" />
-    <state width="1538" height="240" key="GridCell.Tab.1.left" timestamp="1591796528919">
+    <state width="1538" height="58" key="GridCell.Tab.1.center/0.23.1920.963@0.23.1920.963" timestamp="1592741350874" />
+    <state width="1538" height="58" key="GridCell.Tab.1.left" timestamp="1592741350874">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state width="1538" height="240" key="GridCell.Tab.1.left/0.23.1920.963@0.23.1920.963" timestamp="1591796528919" />
-    <state width="1538" height="240" key="GridCell.Tab.1.right" timestamp="1591796528920">
+    <state width="1538" height="58" key="GridCell.Tab.1.left/0.23.1920.963@0.23.1920.963" timestamp="1592741350874" />
+    <state width="1538" height="58" key="GridCell.Tab.1.right" timestamp="1592741350874">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state width="1538" height="240" key="GridCell.Tab.1.right/0.23.1920.963@0.23.1920.963" timestamp="1591796528920" />
+    <state width="1538" height="58" key="GridCell.Tab.1.right/0.23.1920.963@0.23.1920.963" timestamp="1592741350874" />
     <state x="270" y="99" key="MergeDialog" timestamp="1588298380173">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
     <state x="270" y="99" key="MergeDialog/0.23.1920.963@0.23.1920.963" timestamp="1588298380173" />
-    <state x="929" y="375" key="MultipleFileMergeDialog" timestamp="1588298380213">
+    <state x="929" y="375" key="MultipleFileMergeDialog" timestamp="1592706535366">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state x="929" y="375" key="MultipleFileMergeDialog/0.23.1920.963@0.23.1920.963" timestamp="1588298380213" />
+    <state x="929" y="375" key="MultipleFileMergeDialog/0.23.1920.963@0.23.1920.963" timestamp="1592706535366" />
     <state x="527" y="205" key="RollbackChangesDialog" timestamp="1587179132491">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
@@ -772,22 +771,22 @@
       <screen x="0" y="23" width="1920" height="963" />
     </state>
     <state x="546" y="188" key="SettingsEditor/0.23.1920.963@0.23.1920.963" timestamp="1587134147269" />
-    <state x="566" y="228" key="Vcs.Push.Dialog.v2" timestamp="1588421729594">
+    <state x="566" y="228" key="Vcs.Push.Dialog.v2" timestamp="1592706551674">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state x="566" y="228" key="Vcs.Push.Dialog.v2/0.23.1920.963@0.23.1920.963" timestamp="1588421729594" />
-    <state x="749" y="293" key="git4idea.merge.GitPullDialog" timestamp="1589078936065">
+    <state x="566" y="228" key="Vcs.Push.Dialog.v2/0.23.1920.963@0.23.1920.963" timestamp="1592706551674" />
+    <state x="749" y="293" key="git4idea.merge.GitPullDialog" timestamp="1592706525589">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state x="749" y="293" key="git4idea.merge.GitPullDialog/0.23.1920.963@0.23.1920.963" timestamp="1589078936065" />
+    <state x="749" y="293" key="git4idea.merge.GitPullDialog/0.23.1920.963@0.23.1920.963" timestamp="1592706525589" />
     <state x="231" y="102" key="new project wizard" timestamp="1588315279546">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
     <state x="231" y="102" key="new project wizard/0.23.1920.963@0.23.1920.963" timestamp="1588315279546" />
-    <state x="687" y="310" width="670" height="676" key="search.everywhere.popup" timestamp="1591715354750">
+    <state x="687" y="310" width="670" height="676" key="search.everywhere.popup" timestamp="1592706677699">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state x="687" y="310" width="670" height="676" key="search.everywhere.popup/0.23.1920.963@0.23.1920.963" timestamp="1591715354750" />
+    <state x="687" y="310" width="670" height="676" key="search.everywhere.popup/0.23.1920.963@0.23.1920.963" timestamp="1592706677699" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
