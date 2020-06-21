@@ -26,7 +26,7 @@ public class Thread8Monitor {
     public static void main(String[] args) {
         Number number = new Number();
         Number number1 = new Number();
-        new Thread(() -> number.printOne()).start();
+        new Thread(() -> Number.printOne()).start();
 //        new Thread(() -> number.printTwo()).start();
         new Thread(() -> number1.printTwo()).start();
 //        new Thread(() -> number.printThree()).start();
