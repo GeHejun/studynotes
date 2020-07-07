@@ -15,7 +15,7 @@ public class Combination {
         }
         Set<String> stringSet = new HashSet<>();
         distinct(array, 0, stringSet);
-        stringSet.forEach(s -> System.out.println(s));
+        stringSet.forEach(System.out::println);
     }
 
     public static void distinct(char[] arr, int begin, Set<String> stringSet) {
