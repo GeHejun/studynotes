@@ -10,21 +10,21 @@ public class Print123 {
 
 
     private volatile static Integer i = 0;
-    private final static Object lock = new Object();
+    private final static Object LOCK = new Object();
 
     public static void main(String[] args) {
 
         Print123 print123 = new Print123();
 
         print123.first(() -> {
-            synchronized (lock) {
+            synchronized (LOCK) {
                 if (i == 0) {
                     System.out.println("one");
                     i++;
-                    lock.notify();
+                    LOCK.notify();
                 } else {
                     try {
-                        lock.wait();
+                        LOCK.wait();
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
@@ -36,14 +36,14 @@ public class Print123 {
 
 
         print123.second(() -> {
-            synchronized (lock) {
+            synchronized (LOCK) {
                 if (i == 1) {
                     System.out.println("two");
                     i++;
-                    lock.notify();
+                    LOCK.notify();
                 } else {
                     try {
-                        lock.wait();
+                        LOCK.wait();
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
@@ -53,15 +53,15 @@ public class Print123 {
         });
 
         print123.third(() -> {
-            synchronized (lock) {
+            synchronized (LOCK) {
                 if (i == 2) {
                     System.out.println("three");
                     i++;
-                    lock.notify();
+                    LOCK.notify();
 
                 } else {
                     try {
-                        lock.wait();
+                        LOCK.wait();
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
