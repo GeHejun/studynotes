@@ -10,7 +10,7 @@ public class Print123 {
 
 
     private volatile static Integer i = 0;
-    private static Object lock = new Object();
+    private final static Object lock = new Object();
 
     public static void main(String[] args) {
 
