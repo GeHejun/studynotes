@@ -12,7 +12,7 @@ public class LandNum {
                 as[i] = as[i].subSequence(0, as[i].indexOf("s")).toString();
             }
         }
-        char[] chars = Arrays.stream(as).collect(Collectors.joining()).toCharArray();
+        char[] chars = String.join("", as).toCharArray();
         Arrays.sort(chars);
         String newS = new String(chars);
         System.out.println(newS);
@@ -35,13 +35,6 @@ public class LandNum {
 ////
 ////        System.out.println(ss);
 
-    }
-
-    public static void test() {
-        for (int i = 0; i < 10; i++) {
-            new Thread(new Test()).start();
-
-        }
     }
 
 
