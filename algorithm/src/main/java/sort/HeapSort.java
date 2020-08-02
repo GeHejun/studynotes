@@ -9,6 +9,7 @@ package sort;
 public class HeapSort {
 
 
+
     public static void heapSort(int[] tree, int n) {
         buildHeap(tree, n);
         int i;
@@ -44,16 +45,17 @@ public class HeapSort {
             heapfiy(tree, n , max);
         }
 
-     }
+    }
 
-     public static void swap(int[] arr, int i, int j) {
+    public static void swap(int[] arr, int i, int j) {
         int tmp = arr[i];
         arr[i] = arr[j];
         arr[j] = tmp;
-     }
-
+    }
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8};
+
+        int[] arr  = {1, 5, 3, 9,  4};
+
         heapSort(arr, 8);
         for (int value : arr) {
             System.out.println(value);
