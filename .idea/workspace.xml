@@ -25,10 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1735b1db-e4e4-49c3-b0e9-3803553dd2df" name="Default Changelist" comment="数组中重复数字">
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/TwoThreadPrintNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="1735b1db-e4e4-49c3-b0e9-3803553dd2df" name="Default Changelist" comment="数组中重复数字" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -289,28 +286,7 @@
       <workItem from="1596360482818" duration="164000" />
       <workItem from="1596724681340" duration="2406000" />
       <workItem from="1596730860820" duration="124000" />
-      <workItem from="1596815570738" duration="251000" />
-    </task>
-    <task id="LOCAL-00012" summary="template模式">
-      <created>1565146538755</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1565146538755</updated>
-    </task>
-    <task id="LOCAL-00013" summary="template模式">
-      <created>1565146703030</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1565146703030</updated>
-    </task>
-    <task id="LOCAL-00014" summary="adaptor模式">
-      <created>1565149731333</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1565149731333</updated>
+      <workItem from="1596815570738" duration="584000" />
     </task>
     <task id="LOCAL-00015" summary="adaptor模式">
       <created>1565149948754</created>
@@ -634,7 +610,28 @@
       <option name="project" value="LOCAL" />
       <updated>1596359959101</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="数组中重复数字">
+      <created>1596816102769</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1596816102770</updated>
+    </task>
+    <task id="LOCAL-00062" summary="数组中重复数字">
+      <created>1596816146541</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1596816146541</updated>
+    </task>
+    <task id="LOCAL-00063" summary="数组中重复数字">
+      <created>1596816171590</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1596816171590</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
