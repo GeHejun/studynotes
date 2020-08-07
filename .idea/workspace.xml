@@ -26,9 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1735b1db-e4e4-49c3-b0e9-3803553dd2df" name="Default Changelist" comment="数组中重复数字">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/TwoThreadPrintNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/sort/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/main/java/sort/HeapSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +110,7 @@
       <recent name="$PROJECT_DIR$/concurrent" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Fib">
+  <component name="RunManager" selected="Application.TwoThreadPrintNumber">
     <configuration name="Fib" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Fib" />
       <module name="algorithm" />
@@ -146,26 +145,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintFooBar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ghj.thread.PrintFooBar" />
-      <module name="concurrent" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ghj.thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="TwoThreadPrintNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TwoThreadPrintNumber" />
+      <module name="algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TwoThreadPrintNumber" />
         <item itemvalue="Application.Fib" />
         <item itemvalue="Application.LandNum" />
         <item itemvalue="Application.NumberIn2DArray" />
         <item itemvalue="Application.Print123" />
-        <item itemvalue="Application.PrintFooBar" />
       </list>
     </recent_temporary>
   </component>
@@ -292,14 +285,11 @@
       <workItem from="1595757821132" duration="331000" />
       <workItem from="1596037991101" duration="3620000" />
       <workItem from="1596128254759" duration="1080000" />
-      <workItem from="1596359096741" duration="827000" />
-    </task>
-    <task id="LOCAL-00011" summary="strategy模式">
-      <created>1565142483584</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1565142483584</updated>
+      <workItem from="1596359096741" duration="890000" />
+      <workItem from="1596360482818" duration="164000" />
+      <workItem from="1596724681340" duration="2406000" />
+      <workItem from="1596730860820" duration="124000" />
+      <workItem from="1596815570738" duration="251000" />
     </task>
     <task id="LOCAL-00012" summary="template模式">
       <created>1565146538755</created>
@@ -637,7 +627,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594564110573</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="数组中重复数字">
+      <created>1596359959101</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1596359959101</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -777,10 +774,10 @@
       <screen x="0" y="23" width="1920" height="963" />
     </state>
     <state x="546" y="152" key="SettingsEditor/0.23.1920.963@0.23.1920.963" timestamp="1593941140133" />
-    <state x="566" y="228" key="Vcs.Push.Dialog.v2" timestamp="1594564122245">
+    <state x="566" y="228" key="Vcs.Push.Dialog.v2" timestamp="1596359977257">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state x="566" y="228" key="Vcs.Push.Dialog.v2/0.23.1920.963@0.23.1920.963" timestamp="1594564122245" />
+    <state x="566" y="228" key="Vcs.Push.Dialog.v2/0.23.1920.963@0.23.1920.963" timestamp="1596359977257" />
     <state width="347" height="350" key="documentation.popup.size" timestamp="1593248258523">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
