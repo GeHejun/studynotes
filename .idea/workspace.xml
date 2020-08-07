@@ -146,8 +146,8 @@
       </method>
     </configuration>
     <configuration name="TwoThreadPrintNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TwoThreadPrintNumber" />
-      <module name="algorithm" />
+      <option name="MAIN_CLASS_NAME" value="com.ghj.thread.TwoThreadPrintNumber" />
+      <module name="concurrent" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>

@@ -1,3 +1,5 @@
+package com.ghj.thread;
+
 public class TwoThreadPrintNumber {
 
     public static volatile int flag = 0;
