@@ -1,7 +1,7 @@
 import java.util.HashSet;
 import java.util.Set;
 
-public class Combination {
+public class TraceBackCombination {
 
     public static void main(String[] args) {
         String a = "abc";

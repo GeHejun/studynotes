@@ -26,10 +26,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1735b1db-e4e4-49c3-b0e9-3803553dd2df" name="Default Changelist" comment="数组中重复数字">
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/ExchangeMoney.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/LengthestCommonSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/TraceBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/LongestCommonSubstring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/Combination.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/main/java/TraceBackCombination.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/ExchangeMoney.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/main/java/ExchangeMoney.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/main/java/LRUCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/LRUCacheValue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/LandNum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/LengthestCommonSubstring.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/TraceBack.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +118,7 @@
       <recent name="$PROJECT_DIR$/concurrent" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BinarySearch">
+  <component name="RunManager" selected="Application.TraceBackCombination">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinarySearch" />
       <module name="algorithm" />
@@ -127,19 +133,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LandNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LandNum" />
+    <configuration name="TraceBackCombination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TraceBackCombination" />
       <module name="algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="TreeSumEqualN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.TreeSumEqualN" />
+      <option name="MAIN_CLASS_NAME" value="TreeSumEqualN" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TraceBackCombination" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.TreeSumEqualN" />
         <item itemvalue="Application.TwoThreadPrintNumber" />
         <item itemvalue="Application.Fib" />
-        <item itemvalue="Application.LandNum" />
       </list>
     </recent_temporary>
   </component>
@@ -293,21 +299,8 @@
       <workItem from="1596730860820" duration="124000" />
       <workItem from="1596815570738" duration="619000" />
       <workItem from="1596903775356" duration="2161000" />
-      <workItem from="1596937481823" duration="6443000" />
-    </task>
-    <task id="LOCAL-00017" summary="adaptor模式">
-      <created>1565149969622</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1565149969622</updated>
-    </task>
-    <task id="LOCAL-00018" summary="rbtree">
-      <created>1565157074756</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1565157074756</updated>
+      <workItem from="1596937481823" duration="6697000" />
+      <workItem from="1596958912830" duration="2734000" />
     </task>
     <task id="LOCAL-00019" summary="rbtree">
       <created>1565157121068</created>
@@ -638,7 +631,21 @@
       <option name="project" value="LOCAL" />
       <updated>1596940929815</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="数组中重复数字">
+      <created>1596955622705</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1596955622705</updated>
+    </task>
+    <task id="LOCAL-00067" summary="数组中重复数字">
+      <created>1596955630692</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1596955630692</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -726,42 +733,38 @@
       <screen x="0" y="23" width="1920" height="963" />
     </state>
     <state x="315" y="123" width="1216" height="745" key="DiffContextDialog/0.23.1920.963@0.23.1920.963" timestamp="1593247277156" />
-    <state x="854" y="423" key="Github.CreateGistDialog" timestamp="1588315325838">
+    <state width="1599" height="200" key="GridCell.Tab.0.bottom" timestamp="1596960861469">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state x="854" y="423" key="Github.CreateGistDialog/0.23.1920.963@0.23.1920.963" timestamp="1588315325838" />
-    <state width="1599" height="200" key="GridCell.Tab.0.bottom" timestamp="1596940894480">
+    <state width="1599" height="200" key="GridCell.Tab.0.bottom/0.23.1920.963@0.23.1920.963" timestamp="1596960861469" />
+    <state width="1599" height="200" key="GridCell.Tab.0.center" timestamp="1596960861468">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state width="1599" height="200" key="GridCell.Tab.0.bottom/0.23.1920.963@0.23.1920.963" timestamp="1596940894480" />
-    <state width="1599" height="200" key="GridCell.Tab.0.center" timestamp="1596940894479">
+    <state width="1599" height="200" key="GridCell.Tab.0.center/0.23.1920.963@0.23.1920.963" timestamp="1596960861468" />
+    <state width="1599" height="200" key="GridCell.Tab.0.left" timestamp="1596960861467">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state width="1599" height="200" key="GridCell.Tab.0.center/0.23.1920.963@0.23.1920.963" timestamp="1596940894479" />
-    <state width="1599" height="200" key="GridCell.Tab.0.left" timestamp="1596940894479">
+    <state width="1599" height="200" key="GridCell.Tab.0.left/0.23.1920.963@0.23.1920.963" timestamp="1596960861467" />
+    <state width="1599" height="200" key="GridCell.Tab.0.right" timestamp="1596960861469">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state width="1599" height="200" key="GridCell.Tab.0.left/0.23.1920.963@0.23.1920.963" timestamp="1596940894479" />
-    <state width="1599" height="200" key="GridCell.Tab.0.right" timestamp="1596940894480">
+    <state width="1599" height="200" key="GridCell.Tab.0.right/0.23.1920.963@0.23.1920.963" timestamp="1596960861469" />
+    <state width="1599" height="200" key="GridCell.Tab.1.bottom" timestamp="1596960861760">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state width="1599" height="200" key="GridCell.Tab.0.right/0.23.1920.963@0.23.1920.963" timestamp="1596940894480" />
-    <state width="1599" height="200" key="GridCell.Tab.1.bottom" timestamp="1596816214967">
+    <state width="1599" height="200" key="GridCell.Tab.1.bottom/0.23.1920.963@0.23.1920.963" timestamp="1596960861760" />
+    <state width="1599" height="200" key="GridCell.Tab.1.center" timestamp="1596960861758">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state width="1599" height="200" key="GridCell.Tab.1.bottom/0.23.1920.963@0.23.1920.963" timestamp="1596816214967" />
-    <state width="1599" height="200" key="GridCell.Tab.1.center" timestamp="1596816214966">
+    <state width="1599" height="200" key="GridCell.Tab.1.center/0.23.1920.963@0.23.1920.963" timestamp="1596960861758" />
+    <state width="1599" height="200" key="GridCell.Tab.1.left" timestamp="1596960861758">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state width="1599" height="200" key="GridCell.Tab.1.center/0.23.1920.963@0.23.1920.963" timestamp="1596816214966" />
-    <state width="1599" height="200" key="GridCell.Tab.1.left" timestamp="1596816214966">
+    <state width="1599" height="200" key="GridCell.Tab.1.left/0.23.1920.963@0.23.1920.963" timestamp="1596960861758" />
+    <state width="1599" height="200" key="GridCell.Tab.1.right" timestamp="1596960861759">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state width="1599" height="200" key="GridCell.Tab.1.left/0.23.1920.963@0.23.1920.963" timestamp="1596816214966" />
-    <state width="1599" height="200" key="GridCell.Tab.1.right" timestamp="1596816214966">
-      <screen x="0" y="23" width="1920" height="963" />
-    </state>
-    <state width="1599" height="200" key="GridCell.Tab.1.right/0.23.1920.963@0.23.1920.963" timestamp="1596816214966" />
+    <state width="1599" height="200" key="GridCell.Tab.1.right/0.23.1920.963@0.23.1920.963" timestamp="1596960861759" />
     <state x="929" y="375" key="MultipleFileMergeDialog" timestamp="1592706535366">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
@@ -774,10 +777,10 @@
       <screen x="0" y="23" width="1920" height="963" />
     </state>
     <state x="546" y="152" key="SettingsEditor/0.23.1920.963@0.23.1920.963" timestamp="1593941140133" />
-    <state x="566" y="228" key="Vcs.Push.Dialog.v2" timestamp="1596941002649">
+    <state x="566" y="228" key="Vcs.Push.Dialog.v2" timestamp="1596955656846">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state x="566" y="228" key="Vcs.Push.Dialog.v2/0.23.1920.963@0.23.1920.963" timestamp="1596941002649" />
+    <state x="566" y="228" key="Vcs.Push.Dialog.v2/0.23.1920.963@0.23.1920.963" timestamp="1596955656846" />
     <state width="347" height="350" key="documentation.popup.size" timestamp="1593248258523">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
@@ -786,10 +789,6 @@
       <screen x="0" y="23" width="1920" height="963" />
     </state>
     <state x="749" y="293" key="git4idea.merge.GitPullDialog/0.23.1920.963@0.23.1920.963" timestamp="1596816190567" />
-    <state x="231" y="102" key="new project wizard" timestamp="1588315279546">
-      <screen x="0" y="23" width="1920" height="963" />
-    </state>
-    <state x="231" y="102" key="new project wizard/0.23.1920.963@0.23.1920.963" timestamp="1588315279546" />
     <state x="687" y="310" width="670" height="158" key="search.everywhere.popup" timestamp="1596955235637">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
@@ -859,14 +858,24 @@
           <option name="timeStamp" value="73" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/algorithm/src/main/java/Fib.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="77" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/algorithm/src/main/java/tree/BinaryTree.java</url>
           <line>148</line>
           <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algorithm/src/main/java/TraceBackCombination.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algorithm/src/main/java/TraceBackCombination.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algorithm/src/main/java/TraceBackCombination.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="84" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
