@@ -17,7 +17,7 @@ public class CountDownLatchDemo {
     }
 }
 
- class CountRunnable implements Runnable {
+class CountRunnable implements Runnable {
     private CountDownLatch countDownLatch;
     public CountRunnable(CountDownLatch countDownLatch) {
         this.countDownLatch = countDownLatch;

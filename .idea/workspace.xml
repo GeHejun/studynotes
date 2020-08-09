@@ -25,7 +25,13 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1735b1db-e4e4-49c3-b0e9-3803553dd2df" name="Default Changelist" comment="数组中重复数字" />
+    <list default="true" id="1735b1db-e4e4-49c3-b0e9-3803553dd2df" name="Default Changelist" comment="数组中重复数字">
+      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/tree/TreeSumEqualN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/TwoThreadPrintNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview/src/main/java/com/ghj/multithread/CountDownLatchDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/interview/src/main/java/com/ghj/multithread/CountDownLatchDemo.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -107,7 +113,14 @@
       <recent name="$PROJECT_DIR$/concurrent" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TwoThreadPrintNumber">
+  <component name="RunManager" selected="Application.BinarySearch">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearch" />
+      <module name="algorithm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Fib" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Fib" />
       <module name="algorithm" />
@@ -122,19 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberIn2DArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NumberIn2DArray" />
+    <configuration name="TreeSumEqualN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.TreeSumEqualN" />
       <module name="algorithm" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Print123" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ghj.thread.Print123" />
-      <module name="concurrent" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ghj.thread.*" />
+          <option name="PATTERN" value="tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySearch" />
+        <item itemvalue="Application.TreeSumEqualN" />
         <item itemvalue="Application.TwoThreadPrintNumber" />
         <item itemvalue="Application.Fib" />
         <item itemvalue="Application.LandNum" />
-        <item itemvalue="Application.NumberIn2DArray" />
-        <item itemvalue="Application.Print123" />
       </list>
     </recent_temporary>
   </component>
@@ -286,14 +292,9 @@
       <workItem from="1596360482818" duration="164000" />
       <workItem from="1596724681340" duration="2406000" />
       <workItem from="1596730860820" duration="124000" />
-      <workItem from="1596815570738" duration="584000" />
-    </task>
-    <task id="LOCAL-00015" summary="adaptor模式">
-      <created>1565149948754</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1565149948754</updated>
+      <workItem from="1596815570738" duration="619000" />
+      <workItem from="1596903775356" duration="2161000" />
+      <workItem from="1596937481823" duration="2975000" />
     </task>
     <task id="LOCAL-00016" summary="adaptor模式">
       <created>1565149960835</created>
@@ -631,7 +632,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596816171590</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="数组中重复数字">
+      <created>1596816182877</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1596816182877</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -707,14 +715,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="数组中重复数字" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="296" y="78" key="#Project_Structure" timestamp="1588298182966">
+    <state x="296" y="78" key="#Project_Structure" timestamp="1596904312654">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state x="296" y="78" key="#Project_Structure/0.23.1920.963@0.23.1920.963" timestamp="1588298182966" />
-    <state x="841" y="410" key="#xdebugger.evaluate" timestamp="1587802571347">
+    <state x="296" y="78" key="#Project_Structure/0.23.1920.963@0.23.1920.963" timestamp="1596904312654" />
+    <state x="763" y="249" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596904032191">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state x="841" y="410" key="#xdebugger.evaluate/0.23.1920.963@0.23.1920.963" timestamp="1587802571347" />
+    <state x="763" y="249" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1920.963@0.23.1920.963" timestamp="1596904032191" />
     <state x="315" y="123" width="1216" height="745" key="DiffContextDialog" timestamp="1593247277156">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
@@ -723,38 +731,38 @@
       <screen x="0" y="23" width="1920" height="963" />
     </state>
     <state x="854" y="423" key="Github.CreateGistDialog/0.23.1920.963@0.23.1920.963" timestamp="1588315325838" />
-    <state width="1538" height="58" key="GridCell.Tab.0.bottom" timestamp="1592741350873">
+    <state width="1599" height="200" key="GridCell.Tab.0.bottom" timestamp="1596816214966">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state width="1538" height="58" key="GridCell.Tab.0.bottom/0.23.1920.963@0.23.1920.963" timestamp="1592741350873" />
-    <state width="1538" height="58" key="GridCell.Tab.0.center" timestamp="1592741350873">
+    <state width="1599" height="200" key="GridCell.Tab.0.bottom/0.23.1920.963@0.23.1920.963" timestamp="1596816214966" />
+    <state width="1599" height="200" key="GridCell.Tab.0.center" timestamp="1596816214965">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state width="1538" height="58" key="GridCell.Tab.0.center/0.23.1920.963@0.23.1920.963" timestamp="1592741350873" />
-    <state width="1538" height="58" key="GridCell.Tab.0.left" timestamp="1592741350872">
+    <state width="1599" height="200" key="GridCell.Tab.0.center/0.23.1920.963@0.23.1920.963" timestamp="1596816214965" />
+    <state width="1599" height="200" key="GridCell.Tab.0.left" timestamp="1596816214965">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state width="1538" height="58" key="GridCell.Tab.0.left/0.23.1920.963@0.23.1920.963" timestamp="1592741350872" />
-    <state width="1538" height="58" key="GridCell.Tab.0.right" timestamp="1592741350873">
+    <state width="1599" height="200" key="GridCell.Tab.0.left/0.23.1920.963@0.23.1920.963" timestamp="1596816214965" />
+    <state width="1599" height="200" key="GridCell.Tab.0.right" timestamp="1596816214966">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state width="1538" height="58" key="GridCell.Tab.0.right/0.23.1920.963@0.23.1920.963" timestamp="1592741350873" />
-    <state width="1538" height="58" key="GridCell.Tab.1.bottom" timestamp="1592741350874">
+    <state width="1599" height="200" key="GridCell.Tab.0.right/0.23.1920.963@0.23.1920.963" timestamp="1596816214966" />
+    <state width="1599" height="200" key="GridCell.Tab.1.bottom" timestamp="1596816214967">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state width="1538" height="58" key="GridCell.Tab.1.bottom/0.23.1920.963@0.23.1920.963" timestamp="1592741350874" />
-    <state width="1538" height="58" key="GridCell.Tab.1.center" timestamp="1592741350874">
+    <state width="1599" height="200" key="GridCell.Tab.1.bottom/0.23.1920.963@0.23.1920.963" timestamp="1596816214967" />
+    <state width="1599" height="200" key="GridCell.Tab.1.center" timestamp="1596816214966">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state width="1538" height="58" key="GridCell.Tab.1.center/0.23.1920.963@0.23.1920.963" timestamp="1592741350874" />
-    <state width="1538" height="58" key="GridCell.Tab.1.left" timestamp="1592741350874">
+    <state width="1599" height="200" key="GridCell.Tab.1.center/0.23.1920.963@0.23.1920.963" timestamp="1596816214966" />
+    <state width="1599" height="200" key="GridCell.Tab.1.left" timestamp="1596816214966">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state width="1538" height="58" key="GridCell.Tab.1.left/0.23.1920.963@0.23.1920.963" timestamp="1592741350874" />
-    <state width="1538" height="58" key="GridCell.Tab.1.right" timestamp="1592741350874">
+    <state width="1599" height="200" key="GridCell.Tab.1.left/0.23.1920.963@0.23.1920.963" timestamp="1596816214966" />
+    <state width="1599" height="200" key="GridCell.Tab.1.right" timestamp="1596816214966">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state width="1538" height="58" key="GridCell.Tab.1.right/0.23.1920.963@0.23.1920.963" timestamp="1592741350874" />
+    <state width="1599" height="200" key="GridCell.Tab.1.right/0.23.1920.963@0.23.1920.963" timestamp="1596816214966" />
     <state x="270" y="99" key="MergeDialog" timestamp="1588298380173">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
@@ -771,18 +779,18 @@
       <screen x="0" y="23" width="1920" height="963" />
     </state>
     <state x="546" y="152" key="SettingsEditor/0.23.1920.963@0.23.1920.963" timestamp="1593941140133" />
-    <state x="566" y="228" key="Vcs.Push.Dialog.v2" timestamp="1596359977257">
+    <state x="566" y="228" key="Vcs.Push.Dialog.v2" timestamp="1596816198833">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state x="566" y="228" key="Vcs.Push.Dialog.v2/0.23.1920.963@0.23.1920.963" timestamp="1596359977257" />
+    <state x="566" y="228" key="Vcs.Push.Dialog.v2/0.23.1920.963@0.23.1920.963" timestamp="1596816198833" />
     <state width="347" height="350" key="documentation.popup.size" timestamp="1593248258523">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
     <state width="347" height="350" key="documentation.popup.size/0.23.1920.963@0.23.1920.963" timestamp="1593248258523" />
-    <state x="749" y="293" key="git4idea.merge.GitPullDialog" timestamp="1594564069874">
+    <state x="749" y="293" key="git4idea.merge.GitPullDialog" timestamp="1596816190567">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state x="749" y="293" key="git4idea.merge.GitPullDialog/0.23.1920.963@0.23.1920.963" timestamp="1594564069874" />
+    <state x="749" y="293" key="git4idea.merge.GitPullDialog/0.23.1920.963@0.23.1920.963" timestamp="1596816190567" />
     <state x="231" y="102" key="new project wizard" timestamp="1588315279546">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
@@ -856,19 +864,14 @@
           <option name="timeStamp" value="73" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/algorithm/src/main/java/NumberIn2DArray.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="74" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/algorithm/src/main/java/NumberIn2DArray.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="75" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/algorithm/src/main/java/Fib.java</url>
           <line>17</line>
           <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algorithm/src/main/java/tree/BinaryTree.java</url>
+          <line>148</line>
+          <option name="timeStamp" value="78" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
