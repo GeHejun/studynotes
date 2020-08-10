@@ -26,20 +26,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1735b1db-e4e4-49c3-b0e9-3803553dd2df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/list/IntersectTwoList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/main/java/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/TraceBackCombination.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/main/java/TraceBackCombination.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/list/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/main/java/list/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/tree/TreeSumEqualN.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/main/java/tree/TreeSumEqualN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/target/classes/BinarySearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/Combination.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/LRUCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/target/classes/LRUCache.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/LRUCacheValue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/LandNum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/META-INF/algorithm.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/target/classes/META-INF/algorithm.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/tree/TreeSumEqualN.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/target/classes/tree/TreeSumEqualN.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/LFUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/main/java/LFUCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/list/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/target/classes/list/ListNode.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,46 +56,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/NumberIn2DArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/Fib.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-              <folding>
-                <element signature="e#148#149#0" expanded="true" />
-                <element signature="e#192#193#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/FIFOCache.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/IsUnique.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/TraceBackCombination.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
@@ -120,15 +69,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-215">
               <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/tree/TreeSumEqualN.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -154,14 +94,49 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/list/ListNode.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/list/MergeKLists.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+            <state relative-caret-position="132">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/list/MergeTwoLists.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-263">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/list/RemoveNthFromEnd.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-264">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/list/RepeaterNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/LFUCache.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
               <folding>
-                <element signature="e#132#133#0" expanded="true" />
-                <element signature="e#170#171#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -183,6 +158,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>​</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -194,12 +174,13 @@
         <option value="$PROJECT_DIR$/algorithm/src/main/java/tree/TreeSumEqualN.java" />
         <option value="$PROJECT_DIR$/algorithm/src/main/java/list/IntersectTwoList.java" />
         <option value="$PROJECT_DIR$/algorithm/src/main/java/list/ListNode.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/LFUCache.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="3" />
-    <option name="y" value="60" />
+    <option name="x" value="137" />
+    <option name="y" value="62" />
     <option name="width" value="1771" />
     <option name="height" value="999" />
   </component>
@@ -271,7 +252,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597036193127" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597039150657" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot/src/main/resources/common" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -506,13 +487,6 @@
       <workItem from="1596903775356" duration="2161000" />
       <workItem from="1596937481823" duration="6697000" />
       <workItem from="1596958912830" duration="2734000" />
-    </task>
-    <task id="LOCAL-00020" summary="rbtree">
-      <created>1565157186221</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1565157186221</updated>
     </task>
     <task id="LOCAL-00021" summary="rbtree">
       <created>1565158768030</created>
@@ -850,17 +824,24 @@
       <option name="project" value="LOCAL" />
       <updated>1597022823643</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="数组中重复数字">
+      <created>1597036209424</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1597036209424</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2328000" />
+    <option name="totallyTimeSpent" value="4931000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3" y="60" width="1771" height="999" extended-state="0" />
+    <frame x="137" y="62" width="1771" height="999" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25014612" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25014612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -871,7 +852,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32936978" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.28180736" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.28180736" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1151,6 +1132,11 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
+        <expression-string>node2.next != null</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>matrix.length</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -1237,11 +1223,70 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/list/ListNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        <state relative-caret-position="308">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#132#133#0" expanded="true" />
             <element signature="e#170#171#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/NumberIn2DArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/list/MergeKLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/FIFOCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/list/MergeTwoLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-263">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/IsUnique.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/list/RemoveNthFromEnd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/list/RepeaterNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/LFUCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
