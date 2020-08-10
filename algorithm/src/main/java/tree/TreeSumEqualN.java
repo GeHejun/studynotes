@@ -1,5 +1,7 @@
 package tree;
 
+import list.ListNode;
+
 public class TreeSumEqualN {
 
     public static boolean isExit(TreeNode<Integer> root, int sum){
@@ -20,7 +22,19 @@ public class TreeSumEqualN {
         root.left.left = new TreeNode(3);
         root.left.right = new TreeNode(5);
         root.right.left = new TreeNode(2);
-        isExit(root, 22);
+//        isExit(root, 22);
+        System.out.println(haveEqualRoute(root, 22));
+    }
+
+
+    public static boolean haveEqualRoute(TreeNode<Integer> root, Integer target) {
+        if (root == null) {
+            return false;
+        }
+        if (root.left == null && root.right == null && root.val.equals(target)) {
+            return true;
+        }
+        return haveEqualRoute(root.left, target - root.val) || haveEqualRoute(root.right, target - root.val);
     }
 
 

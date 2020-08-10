@@ -5,8 +5,27 @@ public class TraceBackCombination {
 
     public static void main(String[] args) {
         String a = "abc";
-        print(a.toCharArray());
+        print1(a.toCharArray(), 0, a.length());
 
+    }
+
+
+    public static void print1(char[] arr, int begin, int end) {
+        if (begin == end) {
+            System.out.println(arr);
+        } else {
+            for (int i = begin; i < end; i++) {
+                swap(arr, begin, i);
+                print1(arr, begin + 1, end);
+                swap(arr, i, begin);
+            }
+        }
+    }
+
+    private static void swap(char[] arr, int i, int j) {
+        char tmp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = tmp;
     }
 
     public static void print(char[] array) {
