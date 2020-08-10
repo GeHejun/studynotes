@@ -1,7 +1,7 @@
 public class BinarySearch {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9};
-        System.out.println(binarySearch(5, arr, 0,  arr.length - 1));
+        System.out.println(binarySearch1(5, arr, 0,  arr.length - 1));
     }
 
     private static int binarySearch(int i, int[] arr, int i1, int i2) {
@@ -18,6 +18,21 @@ public class BinarySearch {
             }
         }
 
+    }
+
+    public static int binarySearch1(int target, int[] arr, int begin, int end) {
+        if (begin >= end) {
+            return -1;
+        }
+        if (arr[(end - begin) / 2] == target) {
+            return (end - begin) / 2;
+        }
+
+        if (arr[(end - begin) / 2] > target) {
+            return binarySearch1(target, arr, 0, (end - begin) / 2);
+        } else {
+            return binarySearch1(target, arr, (end - begin) / 2, end);
+        }
     }
 
 
