@@ -26,12 +26,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1735b1db-e4e4-49c3-b0e9-3803553dd2df" name="Default Changelist" comment="数组中重复数字">
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/list/ReverseList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/Combination.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/LRUCacheValue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/LandNum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/LRUCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/target/classes/LRUCache.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -303,21 +298,7 @@
       <workItem from="1596903775356" duration="2161000" />
       <workItem from="1596937481823" duration="6697000" />
       <workItem from="1596958912830" duration="3709000" />
-      <workItem from="1597071727691" duration="2483000" />
-    </task>
-    <task id="LOCAL-00020" summary="rbtree">
-      <created>1565157186221</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1565157186221</updated>
-    </task>
-    <task id="LOCAL-00021" summary="rbtree">
-      <created>1565158768030</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1565158768030</updated>
+      <workItem from="1597071727691" duration="2993000" />
     </task>
     <task id="LOCAL-00022" summary="rbtree">
       <created>1565158860817</created>
@@ -648,7 +629,21 @@
       <option name="project" value="LOCAL" />
       <updated>1596962049668</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="数组中重复数字">
+      <created>1597076314340</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1597076314340</updated>
+    </task>
+    <task id="LOCAL-00070" summary="数组中重复数字">
+      <created>1597076328256</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1597076328256</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -784,10 +779,10 @@
       <screen x="0" y="23" width="1920" height="963" />
     </state>
     <state x="546" y="152" key="SettingsEditor/0.23.1920.963@0.23.1920.963" timestamp="1593941140133" />
-    <state x="566" y="228" key="Vcs.Push.Dialog.v2" timestamp="1596962674675">
+    <state x="566" y="228" key="Vcs.Push.Dialog.v2" timestamp="1597076335404">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state x="566" y="228" key="Vcs.Push.Dialog.v2/0.23.1920.963@0.23.1920.963" timestamp="1596962674675" />
+    <state x="566" y="228" key="Vcs.Push.Dialog.v2/0.23.1920.963@0.23.1920.963" timestamp="1597076335404" />
     <state width="347" height="350" key="documentation.popup.size" timestamp="1593248258523">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
