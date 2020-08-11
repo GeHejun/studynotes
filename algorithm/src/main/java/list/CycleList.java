@@ -27,7 +27,7 @@ public class CycleList {
     }
 
 
-    public static boolean isCycleList(ListNode head) {
+    private static boolean isCycleList(ListNode head) {
         ListNode fast = head;
         ListNode slow = head;
         while (slow.next != null && fast.next.next != null) {
