@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="algorithm" />
+        <module name="collection" />
+        <module name="concurrent" />
+        <module name="designpattern" />
+        <module name="dubbo" />
+        <module name="foundation" />
+        <module name="interview" />
+        <module name="jvm" />
+        <module name="mongodb" />
+        <module name="mq" />
+        <module name="mysql" />
+        <module name="redis" />
+        <module name="ruleengine" />
+        <module name="socket" />
+        <module name="spring" />
+        <module name="springboot" />
+        <module name="zk" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="algorithm" options="" />
+      <module name="collection" options="" />
+      <module name="concurrent" options="" />
+      <module name="designpattern" options="" />
+      <module name="foundation" options="" />
+      <module name="interview" options="" />
+      <module name="jvm" options="" />
+      <module name="mq" options="" />
+      <module name="mysql" options="" />
+      <module name="redis" options="" />
+      <module name="spring" options="" />
+    </option>
+  </component>
+</project>
