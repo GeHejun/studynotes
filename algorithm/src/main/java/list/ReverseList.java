@@ -10,7 +10,12 @@ public class ReverseList {
         listNode1.next = listNode2;
         listNode2.next = listNode3;
 
-        reverseList(listNode1);
+        ListNode node = reverseList(listNode1);
+
+        while (node != null) {
+            System.out.println(node.val);
+            node = node.next;
+        }
 
     }
 

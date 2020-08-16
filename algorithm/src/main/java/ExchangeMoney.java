@@ -1,16 +1,20 @@
 public class ExchangeMoney {
-    public static void exchangeMoney(int[] arr, int num) {
-        int[] tmp = new int[arr.length + 1];
-        if (arr.length == 1) {
-            if (num % arr[0] == 0) {
-                tmp[0] = 1;
-            } else {
-                tmp[0] = 0;
+    public static int exchangeMoney1(int[] arr, int target) {
+        if (arr == null || arr.length == 0 || target < 0) {
+            return 0;
+        }
+        return process1(arr, 0, target);
+    }
+
+    private static int process1(int[] arr, int index, int target) {
+        int result = 0;
+        if (index == arr.length) {
+            return target == result ? 1 : 0;
+        } else {
+            for (int i = 0; arr[index] * i <= target; i++) {
+                result += process1(arr, index + 1, target);
             }
         }
-        for (int i = 1; i < arr.length; i++) {
-
-        }
-
+        return result;
     }
 }
