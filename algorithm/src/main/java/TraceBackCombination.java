@@ -5,7 +5,7 @@ public class TraceBackCombination {
 
     public static void main(String[] args) {
         String a = "abc";
-        print1(a.toCharArray(), 0, a.length());
+        print2(a.toCharArray(), 0, a.length());
 
     }
 
@@ -52,5 +52,24 @@ public class TraceBackCombination {
                 arr[i] = tmp;
             }
         }
+    }
+
+
+    private static void print2(char[] arr, int begin, int end) {
+        if (begin >= end - 1) {
+            System.out.println(arr);
+        } else {
+            char tmp;
+            for (int i = begin; i <= end - 1 ; i++) {
+                tmp = arr[begin];
+                arr[begin] = arr[i];
+                arr[i] = tmp;
+                print2(arr, begin + 1, end);
+                tmp = arr[begin];
+                arr[begin] = arr[i];
+                arr[i] = tmp;
+            }
+        }
+
     }
 }
