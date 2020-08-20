@@ -11,5 +11,13 @@
 
     <artifactId>cola-main</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.ghj</groupId>
+            <artifactId>cola-service</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
 
 </project>

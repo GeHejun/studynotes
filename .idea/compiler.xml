@@ -10,6 +10,7 @@
         <module name="algorithm" />
         <module name="cola-api" />
         <module name="cola-client" />
+        <module name="cola-main" />
         <module name="cola-service" />
         <module name="collection" />
         <module name="concurrent" />

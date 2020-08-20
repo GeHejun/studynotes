@@ -12,11 +12,5 @@
     <artifactId>cola-client</artifactId>
 
 
-    <dependencies>
-        <dependency>
-            <groupId>cn.mapway</groupId>
-            <artifactId>api-tools-doc</artifactId>
-        </dependency>
-    </dependencies>
 
 </project>
