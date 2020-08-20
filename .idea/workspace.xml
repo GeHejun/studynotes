@@ -26,18 +26,62 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1735b1db-e4e4-49c3-b0e9-3803553dd2df" name="Default Changelist" comment="数组中重复数字">
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/list/DeleteKNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cola/cola-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cola/cola-api/src/main/java/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cola/cola-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cola/cola-client/src/main/java/core/BizBootstrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cola/cola-client/src/main/java/core/BizContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cola/cola-client/src/main/java/core/BizErrorE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cola/cola-client/src/main/java/core/BizErrorI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cola/cola-client/src/main/java/core/BizExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cola/cola-client/src/main/java/core/BizFlow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cola/cola-client/src/main/java/core/BizOperateE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cola/cola-client/src/main/java/core/BizParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cola/cola-client/src/main/java/core/BizResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cola/cola-client/src/main/java/core/IBizFlow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cola/cola-client/src/main/java/dto/FlowDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cola/cola-client/src/main/java/dto/FlowQueryDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cola/cola-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cola/cola-service/src/main/java/executor/FlowTestCreateExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cola/cola-service/src/main/java/executor/FlowTestFindExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cola/cola-service/src/main/java/executor/FlowTestUpdateExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cola/cola-service/src/main/java/flow/FlowStep1Flow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cola/cola-service/src/main/java/flow/FlowStep2Flow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cola/cola-service/src/main/java/flow/FlowStep3Flow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cola/cola-service/src/main/java/service/IFlowTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cola/cola-service/src/main/java/service/impl/FlowTestImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cola/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/studynotes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/studynotes.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/main/java/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/TraceBackCombination.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/main/java/TraceBackCombination.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/target/classes/BinarySearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/DoublyLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/ExchangeMoney.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/target/classes/ExchangeMoney.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/LFUCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/target/classes/LFUCache.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/TraceBackCombination.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/target/classes/TraceBackCombination.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/list/ReverseList.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/target/classes/list/ReverseList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/list/AddTwoList.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/target/classes/list/AddTwoList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/ruleengine/target/" />
+    <ignored path="$PROJECT_DIR$/foundation/target/" />
+    <ignored path="$PROJECT_DIR$/mongodb/target/" />
+    <ignored path="$PROJECT_DIR$/algorithm/target/" />
+    <ignored path="$PROJECT_DIR$/designpattern/target/" />
+    <ignored path="$PROJECT_DIR$/jvm/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo/target/" />
+    <ignored path="$PROJECT_DIR$/mysql/target/" />
+    <ignored path="$PROJECT_DIR$/interview/target/" />
+    <ignored path="$PROJECT_DIR$/concurrent/target/" />
+    <ignored path="$PROJECT_DIR$/zk/target/" />
+    <ignored path="$PROJECT_DIR$/socket/target/" />
+    <ignored path="$PROJECT_DIR$/spring/target/" />
+    <ignored path="$PROJECT_DIR$/redis/target/" />
+    <ignored path="$PROJECT_DIR$/mq/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/springboot/target/" />
+    <ignored path="$PROJECT_DIR$/collection/target/" />
+    <ignored path="$PROJECT_DIR$/cola/target/" />
+    <ignored path="$PROJECT_DIR$/cola/cola-service/target/" />
+    <ignored path="$PROJECT_DIR$/cola/cola-client/target/" />
+    <ignored path="$PROJECT_DIR$/cola/cola-api/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,6 +105,119 @@
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
   </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cola/cola-service/src/main/java/executor/FlowTestUpdateExecutor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cola/cola-client/src/main/java/dto/FlowDto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cola/cola-service/src/main/java/executor/FlowTestFindExecutor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../soft/java/jdk_171/src.zip!/java/util/Collections.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="4787" column="30" selection-start-line="4787" selection-start-column="30" selection-end-line="4787" selection-end-column="30" />
+              <folding>
+                <element signature="e#186747#186748#0" expanded="true" />
+                <element signature="e#186792#186793#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cola/cola-service/src/main/java/service/IFlowTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cola/cola-service/src/main/java/service/impl/FlowTestImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="656">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cola/cola-api/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cola/cola-api/src/main/java/controller/TestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cola/cola-client/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cola/cola-service/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -78,7 +235,146 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/list/AddTwoList.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/list/AddTwoNumbers.java" />
+        <option value="$PROJECT_DIR$/cola/pom.xml" />
+        <option value="$PROJECT_DIR$/cola/cola-client/src/main/java/core/BizOperateE.java" />
+        <option value="$PROJECT_DIR$/cola/cola-client/src/main/java/dto/FlowQueryR.java" />
+        <option value="$PROJECT_DIR$/cola/cola-client/src/main/java/dto/request/FlowCreateRequest.java" />
+        <option value="$PROJECT_DIR$/cola/cola-client/src/main/java/dto/FlowCreateRequest.java" />
+        <option value="$PROJECT_DIR$/cola/cola-client/src/main/java/dto/FlowQueryRequest.java" />
+        <option value="$PROJECT_DIR$/cola/cola-client/src/main/java/dto/FlowCreateDto.java" />
+        <option value="$PROJECT_DIR$/cola/cola-client/src/main/java/dto/FlowQueryDto.java" />
+        <option value="$PROJECT_DIR$/cola/cola-service/pom.xml" />
+        <option value="$PROJECT_DIR$/cola/cola-client/src/main/java/dto/FlowUpdateDto.java" />
+        <option value="$PROJECT_DIR$/cola/cola-client/src/main/java/dto/FlowDto.java" />
+        <option value="$PROJECT_DIR$/cola/cola-service/src/main/java/flow/FlowStep1Flow.java" />
+        <option value="$PROJECT_DIR$/cola/cola-service/src/main/java/flow/FlowStep2Flow.java" />
+        <option value="$PROJECT_DIR$/cola/cola-service/src/main/java/flow/FlowStep3Flow.java" />
+        <option value="$PROJECT_DIR$/cola/cola-service/src/main/java/executor/FlowTestCreateExecutor.java" />
+        <option value="$PROJECT_DIR$/cola/cola-client/src/main/java/dto/FlowQuery.java" />
+        <option value="$PROJECT_DIR$/cola/cola-service/src/main/java/executor/FlowTestFindExecutor.java" />
+        <option value="$PROJECT_DIR$/cola/cola-service/src/main/java/executor/FlowTestUpdateExecutor.java" />
+        <option value="$PROJECT_DIR$/cola/cola-service/src/main/java/service/IFlowTest.java" />
+        <option value="$PROJECT_DIR$/cola/cola-service/src/main/java/service/impl/FlowTestImpl.java" />
+        <option value="$PROJECT_DIR$/cola/cola-client/pom.xml" />
+        <option value="$PROJECT_DIR$/cola/cola-api/pom.xml" />
+        <option value="$PROJECT_DIR$/cola/cola-api/src/main/java/controller/TestController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="138" />
+    <option name="y" value="49" />
+    <option name="width" value="1771" />
+    <option name="height" value="999" />
+  </component>
   <component name="ProjectId" id="1aNtO8f0OQ3RmN9d97ki3etbQn7" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studynotes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studynotes" type="462c0819:PsiDirectoryNode" />
+              <item name="cola" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studynotes" type="462c0819:PsiDirectoryNode" />
+              <item name="cola" type="462c0819:PsiDirectoryNode" />
+              <item name="cola-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studynotes" type="462c0819:PsiDirectoryNode" />
+              <item name="cola" type="462c0819:PsiDirectoryNode" />
+              <item name="cola-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studynotes" type="462c0819:PsiDirectoryNode" />
+              <item name="cola" type="462c0819:PsiDirectoryNode" />
+              <item name="cola-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studynotes" type="462c0819:PsiDirectoryNode" />
+              <item name="cola" type="462c0819:PsiDirectoryNode" />
+              <item name="cola-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studynotes" type="462c0819:PsiDirectoryNode" />
+              <item name="cola" type="462c0819:PsiDirectoryNode" />
+              <item name="cola-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studynotes" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studynotes" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studynotes" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studynotes" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studynotes" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -91,7 +387,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594551375533" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597898082563" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot/src/main/resources/common" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -101,16 +397,6 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/springboot/src/main/resources/common" />
-      <recent name="$PROJECT_DIR$/springboot/src/main/resources/common/js" />
-      <recent name="D:\gehj\projects\studynotes\redis" />
-      <recent name="D:\gehj\projects\studynotes\zk" />
-      <recent name="D:\gehj\projects\studynotes\dubbo" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.ghj.limit" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/springboot/src/main/resources/common/images" />
       <recent name="$PROJECT_DIR$/springboot/src/main/resources/common/js" />
@@ -118,8 +404,34 @@
       <recent name="$PROJECT_DIR$/designpattern/src/main/java/com/ghj" />
       <recent name="$PROJECT_DIR$/concurrent" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="controller" />
+      <recent name="service.impl" />
+      <recent name="service" />
+      <recent name="dto" />
+      <recent name="com.ghj.limit" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\gehj\projects1111\studynotes\cola\cola-service\src\main\java\executor" />
+      <recent name="D:\gehj\projects1111\studynotes\cola\cola-service\src\main\java\flow" />
+      <recent name="D:\gehj\projects1111\studynotes\cola\cola-client\src\main\java\core" />
+      <recent name="$PROJECT_DIR$/springboot/src/main/resources/common" />
+      <recent name="$PROJECT_DIR$/springboot/src/main/resources/common/js" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.TraceBackCombination">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.AddTwoList">
     <configuration name="AddTwoList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="list.AddTwoList" />
       <module name="algorithm" />
@@ -175,8 +487,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TraceBackCombination" />
         <item itemvalue="Application.AddTwoList" />
+        <item itemvalue="Application.TraceBackCombination" />
         <item itemvalue="Application.ReverseList" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.TreeSumEqualN" />
@@ -317,6 +629,9 @@
       <workItem from="1597071727691" duration="3170000" />
       <workItem from="1597545683795" duration="1194000" />
       <workItem from="1597584043510" duration="2808000" />
+      <workItem from="1597714237391" duration="699000" />
+      <workItem from="1597890593267" duration="40000" />
+      <workItem from="1597890654367" duration="4566000" />
     </task>
     <task id="LOCAL-00025" summary="rbtree">
       <created>1565175125741</created>
@@ -664,8 +979,52 @@
     <option name="localTasksCounter" value="74" />
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="9340000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="138" y="49" width="1771" height="999" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28112215" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936978" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.036719706" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997773" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32962137" />
+      <window_info anchor="bottom" id="Docker" order="9" />
+      <window_info anchor="bottom" id="Sequence" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Statistic" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.08078335" />
+      <window_info anchor="bottom" id="Messages" order="16" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3296318" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -683,6 +1042,12 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
@@ -713,7 +1078,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="designpattern" />
@@ -824,81 +1188,97 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java</url>
           <line>194</line>
+          <properties />
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java</url>
           <line>1860</line>
+          <properties />
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.1.4.RELEASE/spring-boot-2.1.4.RELEASE.jar!/org/springframework/boot/web/reactive/context/AnnotationConfigReactiveWebServerApplicationContext.class</url>
           <line>86</line>
+          <properties />
           <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.6.RELEASE/spring-web-5.1.6.RELEASE.jar!/org/springframework/web/context/support/GenericWebApplicationContext.class</url>
           <line>66</line>
+          <properties />
           <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/lang/Integer.java</url>
           <line>739</line>
+          <properties />
           <option name="timeStamp" value="55" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/lang/Integer.java</url>
           <line>765</line>
+          <properties />
           <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.6.RELEASE/spring-aop-5.1.6.RELEASE-sources.jar!/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java</url>
           <line>334</line>
+          <properties />
           <option name="timeStamp" value="66" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.6.RELEASE/spring-aop-5.1.6.RELEASE-sources.jar!/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java</url>
           <line>347</line>
+          <properties />
           <option name="timeStamp" value="67" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.6.RELEASE/spring-aop-5.1.6.RELEASE-sources.jar!/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java</url>
           <line>355</line>
+          <properties />
           <option name="timeStamp" value="68" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.6.RELEASE/spring-aop-5.1.6.RELEASE-sources.jar!/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java</url>
           <line>348</line>
+          <properties />
           <option name="timeStamp" value="69" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/concurrent/ScheduledThreadPoolExecutor.java</url>
           <line>621</line>
+          <properties />
           <option name="timeStamp" value="72" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/concurrent/ScheduledThreadPoolExecutor.java</url>
           <line>324</line>
+          <properties />
           <option name="timeStamp" value="73" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/algorithm/src/main/java/tree/BinaryTree.java</url>
           <line>148</line>
+          <properties />
           <option name="timeStamp" value="78" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/algorithm/src/main/java/TraceBackCombination.java</url>
           <line>6</line>
+          <properties />
           <option name="timeStamp" value="81" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/algorithm/src/main/java/TraceBackCombination.java</url>
           <line>31</line>
+          <properties />
           <option name="timeStamp" value="83" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/algorithm/src/main/java/TraceBackCombination.java</url>
           <line>40</line>
+          <properties />
           <option name="timeStamp" value="84" />
         </line-breakpoint>
       </breakpoints>
@@ -916,5 +1296,357 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/designpattern/src/main/java/com/ghj/strategy/PayState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpattern/src/main/java/com/ghj/strategy/Payment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpattern/src/main/java/com/ghj/strategy/PayType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jvm/src/main/java/FinalizeCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/sort/HeapSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/sort/InsertionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/sort/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/list/AddTwoList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/list/MergeTwoLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/list/IntersectTwoList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/list/AddTwoNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zk/src/main/java/com/ghj/AbstractLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zk/src/main/java/com/ghj/DistributeLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foundation/src/main/java/com/ghj/tryFinally/TryFinally.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interview/src/main/java/com/ghj/multithread/CountDownLatchDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jvm/src/main/java/ClassLoaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot/src/main/java/ThreadPoolAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot/src/main/java/ThreadPoolProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cola/cola-client/src/main/java/core/BizFlow.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cola/cola-client/src/main/java/core/BizBootstrap.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cola/cola-client/src/main/java/core/BizParam.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cola/cola-client/src/main/java/core/BizResult.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cola/cola-client/src/main/java/core/BizErrorE.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cola/cola-client/src/main/java/core/BizContext.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cola/cola-client/src/main/java/core/BizOperateE.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cola/cola-client/src/main/java/dto/FlowCreateDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cola/cola-client/src/main/java/dto/FlowQueryDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cola/cola-client/src/main/java/core/BizErrorI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cola/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-528" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cola/cola-client/src/main/java/dto/FlowUpdateDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cola/cola-client/src/main/java/core/BizExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="8" column="85" lean-forward="true" selection-start-line="8" selection-start-column="85" selection-end-line="8" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cola/cola-client/src/main/java/core/IBizFlow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cola/cola-service/src/main/java/flow/FlowStep1Flow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cola/cola-service/src/main/java/flow/FlowStep2Flow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cola/cola-service/src/main/java/flow/FlowStep3Flow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cola/cola-service/src/main/java/executor/FlowTestCreateExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cola/cola-client/src/main/java/dto/FlowDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cola/cola-client/src/main/java/dto/FlowQueryDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cola/cola-service/src/main/java/executor/FlowTestUpdateExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cola/cola-service/src/main/java/executor/FlowTestFindExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cola/cola-service/src/main/java/service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../soft/java/jdk_171/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="4787" column="30" selection-start-line="4787" selection-start-column="30" selection-end-line="4787" selection-end-column="30" />
+          <folding>
+            <element signature="e#186747#186748#0" expanded="true" />
+            <element signature="e#186792#186793#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cola/cola-service/src/main/java/service/IFlowTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cola/cola-service/src/main/java/service/impl/FlowTestImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="656">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cola/cola-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cola/cola-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cola/cola-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cola/cola-api/src/main/java/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
