@@ -25,39 +25,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1735b1db-e4e4-49c3-b0e9-3803553dd2df" name="Default Changelist" comment="数组中重复数字">
-      <change afterPath="$PROJECT_DIR$/cola/cola-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cola/cola-api/src/main/java/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cola/cola-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cola/cola-client/src/main/java/core/BizBootstrap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cola/cola-client/src/main/java/core/BizContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cola/cola-client/src/main/java/core/BizErrorE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cola/cola-client/src/main/java/core/BizErrorI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cola/cola-client/src/main/java/core/BizExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cola/cola-client/src/main/java/core/BizFlow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cola/cola-client/src/main/java/core/BizOperateE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cola/cola-client/src/main/java/core/BizParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cola/cola-client/src/main/java/core/BizResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cola/cola-client/src/main/java/core/IBizFlow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cola/cola-client/src/main/java/dto/FlowDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cola/cola-client/src/main/java/dto/FlowQueryDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cola/cola-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cola/cola-service/src/main/java/executor/FlowTestCreateExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cola/cola-service/src/main/java/executor/FlowTestFindExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cola/cola-service/src/main/java/executor/FlowTestUpdateExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cola/cola-service/src/main/java/flow/FlowStep1Flow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cola/cola-service/src/main/java/flow/FlowStep2Flow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cola/cola-service/src/main/java/flow/FlowStep3Flow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cola/cola-service/src/main/java/service/IFlowTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cola/cola-service/src/main/java/service/impl/FlowTestImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cola/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/studynotes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/studynotes.iml" afterDir="false" />
+    <list default="true" id="1735b1db-e4e4-49c3-b0e9-3803553dd2df" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cola/cola-main/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/list/AddTwoList.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/target/classes/list/AddTwoList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cola/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cola/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/ruleengine/target/" />
     <ignored path="$PROJECT_DIR$/foundation/target/" />
@@ -120,15 +91,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cola/cola-client/src/main/java/dto/FlowDto.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cola/cola-service/src/main/java/executor/FlowTestFindExecutor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
@@ -157,7 +119,7 @@
         <entry file="file://$PROJECT_DIR$/cola/cola-service/src/main/java/service/IFlowTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
-              <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -181,16 +143,16 @@
         <entry file="file://$PROJECT_DIR$/cola/cola-api/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="484">
-              <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cola/cola-api/src/main/java/controller/TestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+            <state relative-caret-position="458">
+              <caret line="26" column="54" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -214,6 +176,11 @@
               <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cola/cola-main/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -301,41 +268,22 @@
               <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="studynotes" type="462c0819:PsiDirectoryNode" />
               <item name="cola" type="462c0819:PsiDirectoryNode" />
-              <item name="cola-api" type="462c0819:PsiDirectoryNode" />
+              <item name="cola-main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="studynotes" type="462c0819:PsiDirectoryNode" />
               <item name="cola" type="462c0819:PsiDirectoryNode" />
-              <item name="cola-api" type="462c0819:PsiDirectoryNode" />
+              <item name="cola-main" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="studynotes" type="462c0819:PsiDirectoryNode" />
               <item name="cola" type="462c0819:PsiDirectoryNode" />
-              <item name="cola-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studynotes" type="462c0819:PsiDirectoryNode" />
-              <item name="cola" type="462c0819:PsiDirectoryNode" />
-              <item name="cola-api" type="462c0819:PsiDirectoryNode" />
+              <item name="cola-main" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studynotes" type="462c0819:PsiDirectoryNode" />
-              <item name="cola" type="462c0819:PsiDirectoryNode" />
-              <item name="cola-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="studynotes" type="b2602c69:ProjectViewProjectNode" />
@@ -387,7 +335,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597898082563" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597899692452" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot/src/main/resources/common" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -631,14 +579,7 @@
       <workItem from="1597584043510" duration="2808000" />
       <workItem from="1597714237391" duration="699000" />
       <workItem from="1597890593267" duration="40000" />
-      <workItem from="1597890654367" duration="4566000" />
-    </task>
-    <task id="LOCAL-00025" summary="rbtree">
-      <created>1565175125741</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1565175125741</updated>
+      <workItem from="1597890654367" duration="5244000" />
     </task>
     <task id="LOCAL-00026" summary="rbtree">
       <created>1565267398388</created>
@@ -976,15 +917,21 @@
       <option name="project" value="LOCAL" />
       <updated>1597584791334</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="cola">
+      <created>1597898325033</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1597898325034</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9340000" />
+    <option name="totallyTimeSpent" value="10018000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="138" y="49" width="1771" height="999" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28112215" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1098,7 +1045,8 @@
     <MESSAGE value="多线程打印foobar" />
     <MESSAGE value="矩阵比较大小" />
     <MESSAGE value="数组中重复数字" />
-    <option name="LAST_COMMIT_MESSAGE" value="数组中重复数字" />
+    <MESSAGE value="cola" />
+    <option name="LAST_COMMIT_MESSAGE" value="cola" />
   </component>
   <component name="WindowStateProjectService">
     <state x="296" y="78" key="#Project_Structure" timestamp="1596904312654">
@@ -1298,13 +1246,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/designpattern/src/main/java/com/ghj/strategy/PayState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/designpattern/src/main/java/com/ghj/strategy/Payment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -1597,16 +1538,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cola/cola-service/src/main/java/service/IFlowTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cola/cola-service/src/main/java/service/impl/FlowTestImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="656">
@@ -1627,7 +1558,7 @@
     <entry file="file://$PROJECT_DIR$/cola/cola-api/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
-          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -1638,15 +1569,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cola/cola-api/src/main/java/controller/TestController.java">
+    <entry file="file://$PROJECT_DIR$/cola/cola-service/src/main/java/service/IFlowTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        <state relative-caret-position="308">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cola/cola-api/src/main/java/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="26" column="54" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cola/cola-main/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
