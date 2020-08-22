@@ -11,4 +11,6 @@ import java.lang.annotation.*;
 @Component
 public @interface BizFlow1 {
     String type() default "";
+
+    String desc() default "关于这段代码的描述";
 }
