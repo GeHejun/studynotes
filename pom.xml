@@ -26,6 +26,7 @@
         <module>zk</module>
         <module>dubbo</module>
         <module>ruleengine</module>
+        <module>cola</module>
     </modules>
 
 

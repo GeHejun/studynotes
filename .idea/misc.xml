@@ -8,9 +8,6 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/concurrent/pom.xml" />
-        <option value="$PROJECT_DIR$/zk/pom.xml" />
-        <option value="$PROJECT_DIR$/dubbo/pom.xml" />
       </list>
     </option>
   </component>
