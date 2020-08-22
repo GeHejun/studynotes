@@ -3,13 +3,17 @@ package core;
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
+import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
 import java.util.Map;
 
-public class BizBootstrap implements ApplicationContextAware {
-
+@Component
+public class BizBootstrap1 implements ApplicationContextAware {
+    
     private ApplicationContext applicationContext;
+
+    private static Map<String, Object> flowBeans;
 
     @Override
     public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
@@ -18,9 +22,13 @@ public class BizBootstrap implements ApplicationContextAware {
 
     @PostConstruct
     public void init() {
-        Map<String, Object> flowBeans = applicationContext.getBeansWithAnnotation(BizFlow.class);
+        flowBeans = applicationContext.getBeansWithAnnotation(BizFlow1.class);
         flowBeans.forEach((k,v) -> {
-            System.out.println(k + " => " +  v);
+            System.out.println(k + " => " +  v.getClass().getName());
         });
+    }
+
+    public static Map<String, Object> getFlowBeans() {
+        return flowBeans;
     }
 }

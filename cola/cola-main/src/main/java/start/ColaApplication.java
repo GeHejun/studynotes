@@ -2,6 +2,7 @@ package start;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 
 /**
  * @author gehj
@@ -9,7 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @description TODO
  * @date 2020/8/20 13:09
  */
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = {"core", "controller","executor","flow","service"})
 public class ColaApplication {
     public static void main(String[] args) {
         SpringApplication.run(ColaApplication.class, args);

@@ -14,7 +14,7 @@
     <dependencies>
         <dependency>
             <groupId>com.ghj</groupId>
-            <artifactId>cola-service</artifactId>
+            <artifactId>cola-api</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>

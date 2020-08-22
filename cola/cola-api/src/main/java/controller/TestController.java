@@ -23,6 +23,12 @@ public class TestController {
     @Resource
     IFlowTest flowTest;
 
+    @RequestMapping(value = "api/v2/flow/createByType", method = RequestMethod.GET)
+    public BizResult<FlowDto> createFlowByType() {
+        FlowDto flowDto = new FlowDto();
+        flowDto.setBizType("order");
+        return flowTest.createByType(flowDto);
+    }
 
     @RequestMapping(value = "api/v2/flow/create", method = RequestMethod.GET)
     public BizResult<FlowDto> createFlow() {
