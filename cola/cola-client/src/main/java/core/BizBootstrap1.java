@@ -23,9 +23,7 @@ public class BizBootstrap1 implements ApplicationContextAware {
     @PostConstruct
     public void init() {
         flowBeans = applicationContext.getBeansWithAnnotation(BizFlow1.class);
-        flowBeans.forEach((k,v) -> {
-            System.out.println(k + " => " +  v.getClass().getName());
-        });
+        flowBeans.forEach((k,v) -> System.out.println(k + " => " +  v.getClass().getName()));
     }
 
     public static Map<String, Object> getFlowBeans() {
