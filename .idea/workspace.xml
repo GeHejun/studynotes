@@ -25,25 +25,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1735b1db-e4e4-49c3-b0e9-3803553dd2df" name="Default Changelist" comment="数组中重复数字">
-      <change afterPath="$PROJECT_DIR$/cola/cola-client/src/main/java/core/BizBootstrap1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cola/cola-client/src/main/java/core/BizExecutor1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cola/cola-client/src/main/java/core/BizFlow1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cola/cola-main/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cola/cola-service/src/main/java/executor/FlowTestCreateExecutor1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cola/cola-service/src/main/java/flow/FlowStep4Flow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cola/cola-service/src/main/java/flow/FlowStep5Flow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cola/cola-service/src/main/java/flow/FlowStep6Flow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cola/cola-api/src/main/java/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cola/cola-api/src/main/java/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cola/cola-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cola/cola-client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cola/cola-client/src/main/java/core/BizBootstrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/cola/cola-client/src/main/java/core/BizBootstrap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cola/cola-main/cola-main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cola/cola-main/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cola/cola-main/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cola/cola-main/src/main/java/start/ColaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cola/cola-main/src/main/java/start/ColaApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cola/cola-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cola/cola-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cola/cola-service/src/main/java/service/IFlowTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cola/cola-service/src/main/java/service/IFlowTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cola/cola-service/src/main/java/service/impl/FlowTestImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cola/cola-service/src/main/java/service/impl/FlowTestImpl.java" afterDir="false" />
+    <list default="true" id="1735b1db-e4e4-49c3-b0e9-3803553dd2df" name="Default Changelist" comment="cola增强版">
+      <change beforePath="$PROJECT_DIR$/cola/cola-client/src/main/java/core/BizExecutor1.java" beforeDir="false" afterPath="$PROJECT_DIR$/cola/cola-client/src/main/java/core/BizExecutor1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cola/cola-client/src/main/java/core/BizFlow1.java" beforeDir="false" afterPath="$PROJECT_DIR$/cola/cola-client/src/main/java/core/BizFlow1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -335,34 +319,6 @@
       <workItem from="1597714237391" duration="699000" />
       <workItem from="1597890593267" duration="40000" />
       <workItem from="1597890654367" duration="5791000" />
-    </task>
-    <task id="LOCAL-00027" summary="rbtree">
-      <created>1565332516777</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1565332516777</updated>
-    </task>
-    <task id="LOCAL-00028" summary="rbtree">
-      <created>1565937422872</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1565937422872</updated>
-    </task>
-    <task id="LOCAL-00029" summary="graph">
-      <created>1566021164162</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1566021164162</updated>
-    </task>
-    <task id="LOCAL-00030" summary="algs4">
-      <created>1566194519501</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1566194519501</updated>
     </task>
     <task id="LOCAL-00031" summary="algs4">
       <created>1566279430529</created>
@@ -679,7 +635,35 @@
       <option name="project" value="LOCAL" />
       <updated>1597899709801</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="cola增强版">
+      <created>1598104090824</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1598104090824</updated>
+    </task>
+    <task id="LOCAL-00077" summary="cola增强版">
+      <created>1598104097830</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1598104097830</updated>
+    </task>
+    <task id="LOCAL-00078" summary="cola增强版">
+      <created>1598104183126</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1598104183126</updated>
+    </task>
+    <task id="LOCAL-00079" summary="cola增强版">
+      <created>1598104233767</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1598104233767</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -753,7 +737,8 @@
     <MESSAGE value="矩阵比较大小" />
     <MESSAGE value="数组中重复数字" />
     <MESSAGE value="cola" />
-    <option name="LAST_COMMIT_MESSAGE" value="cola" />
+    <MESSAGE value="cola增强版" />
+    <option name="LAST_COMMIT_MESSAGE" value="cola增强版" />
   </component>
   <component name="WindowStateProjectService">
     <state x="296" y="78" key="#Project_Structure" timestamp="1598101211302">
@@ -776,54 +761,54 @@
       <screen x="0" y="23" width="1920" height="963" />
     </state>
     <state x="315" y="123" width="1216" height="745" key="DiffContextDialog/0.23.1920.963@0.23.1920.963" timestamp="1593247277156" />
-    <state width="1599" height="300" key="GridCell.Tab.0.bottom" timestamp="1598103946931">
+    <state width="1599" height="300" key="GridCell.Tab.0.bottom" timestamp="1598104016094">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state width="1599" height="300" key="GridCell.Tab.0.bottom/0.23.1920.963@0.23.1920.963" timestamp="1598103946931" />
-    <state width="1599" height="300" key="GridCell.Tab.0.center" timestamp="1598103946930">
+    <state width="1599" height="300" key="GridCell.Tab.0.bottom/0.23.1920.963@0.23.1920.963" timestamp="1598104016094" />
+    <state width="1599" height="300" key="GridCell.Tab.0.center" timestamp="1598104016093">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state width="1599" height="300" key="GridCell.Tab.0.center/0.23.1920.963@0.23.1920.963" timestamp="1598103946930" />
-    <state width="1599" height="300" key="GridCell.Tab.0.left" timestamp="1598103946930">
+    <state width="1599" height="300" key="GridCell.Tab.0.center/0.23.1920.963@0.23.1920.963" timestamp="1598104016093" />
+    <state width="1599" height="300" key="GridCell.Tab.0.left" timestamp="1598104016093">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state width="1599" height="300" key="GridCell.Tab.0.left/0.23.1920.963@0.23.1920.963" timestamp="1598103946930" />
-    <state width="1599" height="300" key="GridCell.Tab.0.right" timestamp="1598103946931">
+    <state width="1599" height="300" key="GridCell.Tab.0.left/0.23.1920.963@0.23.1920.963" timestamp="1598104016093" />
+    <state width="1599" height="300" key="GridCell.Tab.0.right" timestamp="1598104016094">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state width="1599" height="300" key="GridCell.Tab.0.right/0.23.1920.963@0.23.1920.963" timestamp="1598103946931" />
-    <state width="1599" height="300" key="GridCell.Tab.1.bottom" timestamp="1598103946702">
+    <state width="1599" height="300" key="GridCell.Tab.0.right/0.23.1920.963@0.23.1920.963" timestamp="1598104016094" />
+    <state width="1599" height="300" key="GridCell.Tab.1.bottom" timestamp="1598104015950">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state width="1599" height="300" key="GridCell.Tab.1.bottom/0.23.1920.963@0.23.1920.963" timestamp="1598103946702" />
-    <state width="1599" height="300" key="GridCell.Tab.1.center" timestamp="1598103946702">
+    <state width="1599" height="300" key="GridCell.Tab.1.bottom/0.23.1920.963@0.23.1920.963" timestamp="1598104015950" />
+    <state width="1599" height="300" key="GridCell.Tab.1.center" timestamp="1598104015949">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state width="1599" height="300" key="GridCell.Tab.1.center/0.23.1920.963@0.23.1920.963" timestamp="1598103946702" />
-    <state width="1599" height="300" key="GridCell.Tab.1.left" timestamp="1598103946701">
+    <state width="1599" height="300" key="GridCell.Tab.1.center/0.23.1920.963@0.23.1920.963" timestamp="1598104015949" />
+    <state width="1599" height="300" key="GridCell.Tab.1.left" timestamp="1598104015949">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state width="1599" height="300" key="GridCell.Tab.1.left/0.23.1920.963@0.23.1920.963" timestamp="1598103946701" />
-    <state width="1599" height="300" key="GridCell.Tab.1.right" timestamp="1598103946702">
+    <state width="1599" height="300" key="GridCell.Tab.1.left/0.23.1920.963@0.23.1920.963" timestamp="1598104015949" />
+    <state width="1599" height="300" key="GridCell.Tab.1.right" timestamp="1598104015950">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state width="1599" height="300" key="GridCell.Tab.1.right/0.23.1920.963@0.23.1920.963" timestamp="1598103946702" />
-    <state width="1599" height="300" key="GridCell.Tab.2.bottom" timestamp="1598103946705">
+    <state width="1599" height="300" key="GridCell.Tab.1.right/0.23.1920.963@0.23.1920.963" timestamp="1598104015950" />
+    <state width="1599" height="300" key="GridCell.Tab.2.bottom" timestamp="1598104015951">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state width="1599" height="300" key="GridCell.Tab.2.bottom/0.23.1920.963@0.23.1920.963" timestamp="1598103946705" />
-    <state width="1599" height="300" key="GridCell.Tab.2.center" timestamp="1598103946704">
+    <state width="1599" height="300" key="GridCell.Tab.2.bottom/0.23.1920.963@0.23.1920.963" timestamp="1598104015951" />
+    <state width="1599" height="300" key="GridCell.Tab.2.center" timestamp="1598104015951">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state width="1599" height="300" key="GridCell.Tab.2.center/0.23.1920.963@0.23.1920.963" timestamp="1598103946704" />
-    <state width="1599" height="300" key="GridCell.Tab.2.left" timestamp="1598103946703">
+    <state width="1599" height="300" key="GridCell.Tab.2.center/0.23.1920.963@0.23.1920.963" timestamp="1598104015951" />
+    <state width="1599" height="300" key="GridCell.Tab.2.left" timestamp="1598104015950">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state width="1599" height="300" key="GridCell.Tab.2.left/0.23.1920.963@0.23.1920.963" timestamp="1598103946703" />
-    <state width="1599" height="300" key="GridCell.Tab.2.right" timestamp="1598103946704">
+    <state width="1599" height="300" key="GridCell.Tab.2.left/0.23.1920.963@0.23.1920.963" timestamp="1598104015950" />
+    <state width="1599" height="300" key="GridCell.Tab.2.right" timestamp="1598104015951">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state width="1599" height="300" key="GridCell.Tab.2.right/0.23.1920.963@0.23.1920.963" timestamp="1598103946704" />
+    <state width="1599" height="300" key="GridCell.Tab.2.right/0.23.1920.963@0.23.1920.963" timestamp="1598104015951" />
     <state x="270" y="99" key="MergeDialog" timestamp="1598097635159">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
@@ -844,10 +829,10 @@
       <screen x="0" y="23" width="1920" height="963" />
     </state>
     <state x="743" y="218" key="VCS.ChangeListViewerDialog/0.23.1920.963@0.23.1920.963" timestamp="1598097580094" />
-    <state x="566" y="228" key="Vcs.Push.Dialog.v2" timestamp="1598097594212">
+    <state x="566" y="228" key="Vcs.Push.Dialog.v2" timestamp="1598104238684">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
-    <state x="566" y="228" key="Vcs.Push.Dialog.v2/0.23.1920.963@0.23.1920.963" timestamp="1598097594212" />
+    <state x="566" y="228" key="Vcs.Push.Dialog.v2/0.23.1920.963@0.23.1920.963" timestamp="1598104238684" />
     <state width="347" height="350" key="documentation.popup.size" timestamp="1593248258523">
       <screen x="0" y="23" width="1920" height="963" />
     </state>

@@ -4,10 +4,7 @@ import org.springframework.core.annotation.AnnotationUtils;
 import org.springframework.ui.context.support.UiApplicationContextUtils;
 
 import javax.annotation.Resource;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Objects;
-import java.util.Stack;
+import java.util.*;
 
 
 public class BizExecutor1 {
@@ -21,6 +18,7 @@ public class BizExecutor1 {
                 bizFlowList.add((IBizFlow) v);
             }
         });
+        Collections.sort(bizFlowList, Comparator.comparing(x -> x.getClass().getAnnotation(BizFlow1.class).order()));
         return bizFlowList;
     }
 
