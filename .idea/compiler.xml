@@ -13,9 +13,9 @@
         <module name="mongodb" />
         <module name="interview" />
         <module name="foundation" />
-        <module name="mq" />
         <module name="collection" />
         <module name="spring" />
+        <module name="mq" />
         <module name="socket" />
         <module name="springboot" />
         <module name="algorithm" />
