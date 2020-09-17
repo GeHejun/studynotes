@@ -17,6 +17,7 @@
         <module name="redis" />
         <module name="cola-api" />
         <module name="springboot" />
+        <module name="sharding" />
         <module name="spring" />
         <module name="zk" />
         <module name="designpattern" />

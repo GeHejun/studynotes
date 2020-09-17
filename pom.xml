@@ -28,6 +28,7 @@
         <module>ruleengine</module>
         <module>cola</module>
         <module>thrift</module>
+        <module>sharding</module>
     </modules>
 
 
