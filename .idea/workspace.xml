@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -25,7 +28,17 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1735b1db-e4e4-49c3-b0e9-3803553dd2df" name="Default Changelist" comment="cola增强版" />
+    <list default="true" id="1735b1db-e4e4-49c3-b0e9-3803553dd2df" name="Default Changelist" comment="cola增强版">
+      <change afterPath="$PROJECT_DIR$/.idea/thriftCompiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thrift/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thrift/src/main/java/client/ClientStarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thrift/src/main/java/server/ServerStarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thrift/src/main/java/server/ServerThriftDemoUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thrift/src/main/java/thrift_demo.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,6 +79,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1aNtO8f0OQ3RmN9d97ki3etbQn7" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -90,15 +110,15 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/cola/cola-service/src/main/java/flow" />
-      <recent name="$PROJECT_DIR$/cola/cola-main/src/main/java" />
-      <recent name="D:\gehj\projects1111\studynotes\cola\cola-service\src\main\java\executor" />
-      <recent name="D:\gehj\projects1111\studynotes\cola\cola-service\src\main\java\flow" />
-      <recent name="D:\gehj\projects1111\studynotes\cola\cola-client\src\main\java\core" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/thrift/src/main/java" />
+      <recent name="$PROJECT_DIR$/cola/cola-main/src/main" />
+      <recent name="$PROJECT_DIR$/springboot/src/main/resources/common/images" />
+      <recent name="$PROJECT_DIR$/springboot/src/main/resources/common/js" />
+      <recent name="$PROJECT_DIR$/springboot/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="flow" />
@@ -107,15 +127,15 @@
       <recent name="controller" />
       <recent name="service.impl" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/cola/cola-main/src/main" />
-      <recent name="$PROJECT_DIR$/springboot/src/main/resources/common/images" />
-      <recent name="$PROJECT_DIR$/springboot/src/main/resources/common/js" />
-      <recent name="$PROJECT_DIR$/springboot/src/main/resources" />
-      <recent name="$PROJECT_DIR$/designpattern/src/main/java/com/ghj" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cola/cola-service/src/main/java/flow" />
+      <recent name="$PROJECT_DIR$/cola/cola-main/src/main/java" />
+      <recent name="D:\gehj\projects1111\studynotes\cola\cola-service\src\main\java\executor" />
+      <recent name="D:\gehj\projects1111\studynotes\cola\cola-service\src\main\java\flow" />
+      <recent name="D:\gehj\projects1111\studynotes\cola\cola-client\src\main\java\core" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ColaApplication">
+  <component name="RunManager" selected="Application.ClientStarter">
     <configuration name="AddTwoList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="list.AddTwoList" />
       <module name="algorithm" />
@@ -129,19 +149,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinarySearch" />
-      <module name="algorithm" />
+    <configuration name="ClientStarter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="client.ClientStarter" />
+      <module name="thrift" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="list.ReverseList" />
-      <module name="algorithm" />
+    <configuration name="ServerStarter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="server.ServerStarter" />
+      <module name="thrift" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="list.*" />
+          <option name="PATTERN" value="server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,6 +178,19 @@
     <configuration name="TraceBackCombination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TraceBackCombination" />
       <module name="algorithm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -171,14 +210,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClientStarter" />
+        <item itemvalue="Application.ServerStarter" />
         <item itemvalue="Spring Boot.ColaApplication" />
         <item itemvalue="Application.AddTwoList" />
         <item itemvalue="Application.TraceBackCombination" />
-        <item itemvalue="Application.ReverseList" />
-        <item itemvalue="Application.BinarySearch" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>C:\Users\gehj\AppData\Roaming\Subversion</configuration>
   </component>
@@ -316,6 +356,8 @@
       <workItem from="1597714237391" duration="699000" />
       <workItem from="1597890593267" duration="40000" />
       <workItem from="1597890654367" duration="5791000" />
+      <workItem from="1600313998429" duration="1098000" />
+      <workItem from="1600315209653" duration="4040000" />
     </task>
     <task id="LOCAL-00032" summary="spring aop">
       <created>1568878338917</created>
@@ -664,7 +706,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -742,9 +784,14 @@
       <screen x="0" y="23" width="1920" height="963" />
     </state>
     <state x="296" y="78" key="#Project_Structure/0.23.1920.963@0.23.1920.963" timestamp="1598101211302" />
-    <state x="779" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1598100067226">
-      <screen x="0" y="23" width="1920" height="963" />
+    <state x="600" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600314693759">
+      <screen x="0" y="23" width="1792" height="1017" />
     </state>
+    <state x="600" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1792.1017@0.23.1792.1017" timestamp="1600314693759" />
+    <state x="727" y="214" key="#com.intellij.ide.util.MemberChooser" timestamp="1600331073891">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state x="727" y="214" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1017@0.23.1792.1017" timestamp="1600331073891" />
     <state x="779" y="204" key="#com.intellij.ide.util.MemberChooser/0.23.1920.963@0.23.1920.963" timestamp="1598100067226" />
     <state x="763" y="249" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596904032191">
       <screen x="0" y="23" width="1920" height="963" />
@@ -758,37 +805,45 @@
       <screen x="0" y="23" width="1920" height="963" />
     </state>
     <state x="315" y="123" width="1216" height="745" key="DiffContextDialog/0.23.1920.963@0.23.1920.963" timestamp="1593247277156" />
-    <state width="1599" height="300" key="GridCell.Tab.0.bottom" timestamp="1598104640859">
-      <screen x="0" y="23" width="1920" height="963" />
+    <state width="1560" height="326" key="GridCell.Tab.0.bottom" timestamp="1600333628595">
+      <screen x="0" y="23" width="1792" height="1017" />
     </state>
+    <state width="1560" height="326" key="GridCell.Tab.0.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1600333628595" />
     <state width="1599" height="300" key="GridCell.Tab.0.bottom/0.23.1920.963@0.23.1920.963" timestamp="1598104640859" />
-    <state width="1599" height="300" key="GridCell.Tab.0.center" timestamp="1598104640858">
-      <screen x="0" y="23" width="1920" height="963" />
+    <state width="1560" height="326" key="GridCell.Tab.0.center" timestamp="1600333628594">
+      <screen x="0" y="23" width="1792" height="1017" />
     </state>
+    <state width="1560" height="326" key="GridCell.Tab.0.center/0.23.1792.1017@0.23.1792.1017" timestamp="1600333628594" />
     <state width="1599" height="300" key="GridCell.Tab.0.center/0.23.1920.963@0.23.1920.963" timestamp="1598104640858" />
-    <state width="1599" height="300" key="GridCell.Tab.0.left" timestamp="1598104640858">
-      <screen x="0" y="23" width="1920" height="963" />
+    <state width="1560" height="326" key="GridCell.Tab.0.left" timestamp="1600333628594">
+      <screen x="0" y="23" width="1792" height="1017" />
     </state>
+    <state width="1560" height="326" key="GridCell.Tab.0.left/0.23.1792.1017@0.23.1792.1017" timestamp="1600333628594" />
     <state width="1599" height="300" key="GridCell.Tab.0.left/0.23.1920.963@0.23.1920.963" timestamp="1598104640858" />
-    <state width="1599" height="300" key="GridCell.Tab.0.right" timestamp="1598104640859">
-      <screen x="0" y="23" width="1920" height="963" />
+    <state width="1560" height="326" key="GridCell.Tab.0.right" timestamp="1600333628595">
+      <screen x="0" y="23" width="1792" height="1017" />
     </state>
+    <state width="1560" height="326" key="GridCell.Tab.0.right/0.23.1792.1017@0.23.1792.1017" timestamp="1600333628595" />
     <state width="1599" height="300" key="GridCell.Tab.0.right/0.23.1920.963@0.23.1920.963" timestamp="1598104640859" />
-    <state width="1599" height="300" key="GridCell.Tab.1.bottom" timestamp="1598104640860">
-      <screen x="0" y="23" width="1920" height="963" />
+    <state width="1560" height="326" key="GridCell.Tab.1.bottom" timestamp="1600333628596">
+      <screen x="0" y="23" width="1792" height="1017" />
     </state>
+    <state width="1560" height="326" key="GridCell.Tab.1.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1600333628596" />
     <state width="1599" height="300" key="GridCell.Tab.1.bottom/0.23.1920.963@0.23.1920.963" timestamp="1598104640860" />
-    <state width="1599" height="300" key="GridCell.Tab.1.center" timestamp="1598104640860">
-      <screen x="0" y="23" width="1920" height="963" />
+    <state width="1560" height="326" key="GridCell.Tab.1.center" timestamp="1600333628595">
+      <screen x="0" y="23" width="1792" height="1017" />
     </state>
+    <state width="1560" height="326" key="GridCell.Tab.1.center/0.23.1792.1017@0.23.1792.1017" timestamp="1600333628595" />
     <state width="1599" height="300" key="GridCell.Tab.1.center/0.23.1920.963@0.23.1920.963" timestamp="1598104640860" />
-    <state width="1599" height="300" key="GridCell.Tab.1.left" timestamp="1598104640859">
-      <screen x="0" y="23" width="1920" height="963" />
+    <state width="1560" height="326" key="GridCell.Tab.1.left" timestamp="1600333628595">
+      <screen x="0" y="23" width="1792" height="1017" />
     </state>
+    <state width="1560" height="326" key="GridCell.Tab.1.left/0.23.1792.1017@0.23.1792.1017" timestamp="1600333628595" />
     <state width="1599" height="300" key="GridCell.Tab.1.left/0.23.1920.963@0.23.1920.963" timestamp="1598104640859" />
-    <state width="1599" height="300" key="GridCell.Tab.1.right" timestamp="1598104640860">
-      <screen x="0" y="23" width="1920" height="963" />
+    <state width="1560" height="326" key="GridCell.Tab.1.right" timestamp="1600333628596">
+      <screen x="0" y="23" width="1792" height="1017" />
     </state>
+    <state width="1560" height="326" key="GridCell.Tab.1.right/0.23.1792.1017@0.23.1792.1017" timestamp="1600333628596" />
     <state width="1599" height="300" key="GridCell.Tab.1.right/0.23.1920.963@0.23.1920.963" timestamp="1598104640860" />
     <state width="1599" height="300" key="GridCell.Tab.2.bottom" timestamp="1598104640862">
       <screen x="0" y="23" width="1920" height="963" />
@@ -818,9 +873,10 @@
       <screen x="0" y="23" width="1920" height="963" />
     </state>
     <state x="527" y="205" key="RollbackChangesDialog/0.23.1920.963@0.23.1920.963" timestamp="1594564034874" />
-    <state x="546" y="152" key="SettingsEditor" timestamp="1593941140133">
-      <screen x="0" y="23" width="1920" height="963" />
+    <state x="510" y="159" key="SettingsEditor" timestamp="1600315193523">
+      <screen x="0" y="23" width="1792" height="1017" />
     </state>
+    <state x="510" y="159" key="SettingsEditor/0.23.1792.1017@0.23.1792.1017" timestamp="1600315193523" />
     <state x="546" y="152" key="SettingsEditor/0.23.1920.963@0.23.1920.963" timestamp="1593941140133" />
     <state x="743" y="218" key="VCS.ChangeListViewerDialog" timestamp="1598097580094">
       <screen x="0" y="23" width="1920" height="963" />
@@ -838,9 +894,14 @@
       <screen x="0" y="23" width="1920" height="963" />
     </state>
     <state x="749" y="293" key="git4idea.merge.GitPullDialog/0.23.1920.963@0.23.1920.963" timestamp="1598097643692" />
-    <state x="687" y="310" width="670" height="158" key="search.everywhere.popup" timestamp="1596955235637">
-      <screen x="0" y="23" width="1920" height="963" />
+    <state x="258" y="174" key="new project wizard" timestamp="1600314261525">
+      <screen x="0" y="23" width="1792" height="1017" />
     </state>
+    <state x="258" y="174" key="new project wizard/0.23.1792.1017@0.23.1792.1017" timestamp="1600314261525" />
+    <state x="641" y="326" width="626" height="167" key="search.everywhere.popup" timestamp="1600333487548">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state x="641" y="326" width="626" height="167" key="search.everywhere.popup/0.23.1792.1017@0.23.1792.1017" timestamp="1600333487548" />
     <state x="687" y="310" width="670" height="158" key="search.everywhere.popup/0.23.1920.963@0.23.1920.963" timestamp="1596955235637" />
   </component>
   <component name="XDebuggerManager">
