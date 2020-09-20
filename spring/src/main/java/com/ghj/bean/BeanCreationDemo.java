@@ -4,6 +4,8 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.applet.AppletContext;
+import java.util.Iterator;
+import java.util.ServiceLoader;
 
 public class BeanCreationDemo {
     public static void main(String[] args) {
@@ -14,7 +16,5 @@ public class BeanCreationDemo {
         System.out.println(bean);
         System.out.println(bean1);
         System.out.println(bean2);
-
-
     }
 }
