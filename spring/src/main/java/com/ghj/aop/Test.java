@@ -1,6 +1,5 @@
 package com.ghj.aop;
 
-import org.springframework.beans.BeanUtils;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -13,7 +12,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class Test {
     public static void main(String[] args) {
         // 启动 Spring 的 IOC 容器
-        ApplicationContext context = new ClassPathXmlApplicationContext("classpath:applicationContext.xml");
+        ApplicationContext context = new ClassPathXmlApplicationContext("classpath:bean-aop.xml");
 
         AopService aopService = context.getBean(AopService.class);
 

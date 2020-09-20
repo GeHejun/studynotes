@@ -6,4 +6,8 @@ import lombok.Data;
 public class User {
     private Long id;
     private String name;
+
+    public static User createUser() {
+        return new User();
+    }
 }
