@@ -1,0 +1,43 @@
+{
+  "groups": [
+    {
+      "name": "threadpool",
+      "type": "ThreadPoolProperties",
+      "sourceType": "ThreadPoolProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "threadpool.blocking-queue",
+      "type": "java.util.concurrent.BlockingQueue",
+      "sourceType": "ThreadPoolProperties"
+    },
+    {
+      "name": "threadpool.core-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "ThreadPoolProperties"
+    },
+    {
+      "name": "threadpool.free-time",
+      "type": "java.lang.Long",
+      "sourceType": "ThreadPoolProperties",
+      "defaultValue": 60
+    },
+    {
+      "name": "threadpool.max-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "ThreadPoolProperties"
+    },
+    {
+      "name": "threadpool.reject-strategy",
+      "type": "java.lang.String",
+      "sourceType": "ThreadPoolProperties"
+    },
+    {
+      "name": "threadpool.time-unit",
+      "type": "java.util.concurrent.TimeUnit",
+      "sourceType": "ThreadPoolProperties"
+    }
+  ],
+  "hints": []
+}
