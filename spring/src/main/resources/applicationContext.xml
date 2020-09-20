@@ -3,10 +3,9 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="aopService" class="com.ghj.aop.AopServiceImpl"></bean>
+    <bean id="aopService" class="com.ghj.aop.AopServiceImpl"/>
 
-
-    <bean id="logAdvice" class="com.ghj.aop.LogAdvice"></bean>
+    <bean id="logAdvice" class="com.ghj.aop.LogAdvice"/>
 
     <bean id="logAdvisor" class="org.springframework.aop.support.RegexpMethodPointcutAdvisor">
         <property name="advice" ref="logAdvice"/>

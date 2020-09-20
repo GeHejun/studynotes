@@ -28,13 +28,169 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1735b1db-e4e4-49c3-b0e9-3803553dd2df" name="Default Changelist" comment="thrift入门">
-      <change afterPath="$PROJECT_DIR$/sharding/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sharding/sharding.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sharding/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="1735b1db-e4e4-49c3-b0e9-3803553dd2df" name="Default Changelist" comment="shading">
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/ghj/bean/AnnotationBeanDefinitionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/ghj/bean/BeanDefinitionCreationDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/ghj/bean/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/BinarySearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/ExchangeMoney.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/FIFOCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/Fib.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/IsUnique.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/LFUCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/LRUCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/LongestCommonSubstring.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/NumberIn2DArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/QueueToStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/RepeatNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/ReplaceSpace.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/StackToQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/TraceBackCombination.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/list/AddTwoList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/list/AddTwoNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/list/CanJump.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/list/CycleList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/list/DeleteDuplicates.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/list/DeleteKNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/list/IntersectTwoList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/list/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/list/MaxArea.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/list/MergeKLists.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/list/MergeTwoLists.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/list/RemoveNthFromEnd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/list/RepeaterNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/list/ReverseList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/list/ReversePrint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/list/SwapPairs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/list/TwoSumEqualsTarget.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/sort/HeapSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/sort/InsertionSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/sort/MergeSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/sort/QuickSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/tree/BinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/tree/MyRBTree$RBNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/tree/MyRBTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/tree/RBTree$RBNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/tree/RBTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/tree/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/tree/TreeSumEqualN.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/tree/TreesGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cola/cola-api/target/classes/controller/TestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cola/cola-client/target/classes/core/BizBootstrap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cola/cola-client/target/classes/core/BizBootstrap1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cola/cola-client/target/classes/core/BizContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cola/cola-client/target/classes/core/BizErrorE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cola/cola-client/target/classes/core/BizErrorI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cola/cola-client/target/classes/core/BizExecutor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cola/cola-client/target/classes/core/BizExecutor1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cola/cola-client/target/classes/core/BizFlow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cola/cola-client/target/classes/core/BizFlow1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cola/cola-client/target/classes/core/BizOperateE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cola/cola-client/target/classes/core/BizParam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cola/cola-client/target/classes/core/BizResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cola/cola-client/target/classes/core/IBizFlow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cola/cola-client/target/classes/dto/FlowDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cola/cola-client/target/classes/dto/FlowQueryDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cola/cola-main/target/classes/start/ColaApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cola/cola-service/target/classes/executor/FlowTestCreateExecutor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cola/cola-service/target/classes/executor/FlowTestCreateExecutor1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cola/cola-service/target/classes/executor/FlowTestFindExecutor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cola/cola-service/target/classes/executor/FlowTestUpdateExecutor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cola/cola-service/target/classes/flow/FlowStep1Flow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cola/cola-service/target/classes/flow/FlowStep2Flow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cola/cola-service/target/classes/flow/FlowStep3Flow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cola/cola-service/target/classes/flow/FlowStep4Flow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cola/cola-service/target/classes/flow/FlowStep5Flow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cola/cola-service/target/classes/flow/FlowStep6Flow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cola/cola-service/target/classes/service/IFlowTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cola/cola-service/target/classes/service/impl/FlowTestImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection/target/classes/com/ghj/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection/target/classes/com/ghj/list/ArrayList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection/target/classes/com/ghj/list/LinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection/target/classes/com/ghj/list/LinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection/target/classes/com/ghj/list/List.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection/target/classes/com/ghj/map/HashMap$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection/target/classes/com/ghj/map/HashMap$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection/target/classes/com/ghj/map/HashMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection/target/classes/com/ghj/map/LinkedHashMap$Entry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection/target/classes/com/ghj/map/LinkedHashMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection/target/classes/com/ghj/map/Map$Entry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection/target/classes/com/ghj/map/Map.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrent/target/classes/com/ghj/aqs/ConditionExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrent/target/classes/com/ghj/aqs/Number.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrent/target/classes/com/ghj/aqs/Thread8Monitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrent/target/classes/com/ghj/thread/DelayThreadPool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrent/target/classes/com/ghj/thread/Print123.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrent/target/classes/com/ghj/thread/PrintFooBar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/target/classes/com/ghj/adaptor/classAdaptor/Adaptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/target/classes/com/ghj/adaptor/classAdaptor/Ps2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/target/classes/com/ghj/adaptor/classAdaptor/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/target/classes/com/ghj/adaptor/classAdaptor/Usb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/target/classes/com/ghj/adaptor/classAdaptor/UsbImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/target/classes/com/ghj/adaptor/interfaceAdaptor/Adaptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/target/classes/com/ghj/adaptor/interfaceAdaptor/Target.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/target/classes/com/ghj/adaptor/interfaceAdaptor/TargetUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/target/classes/com/ghj/adaptor/interfaceAdaptor/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/target/classes/com/ghj/adaptor/objectAdaptor/Adaptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/target/classes/com/ghj/adaptor/objectAdaptor/Ps2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/target/classes/com/ghj/adaptor/objectAdaptor/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/target/classes/com/ghj/adaptor/objectAdaptor/Usb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/target/classes/com/ghj/adaptor/objectAdaptor/UsbImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/target/classes/com/ghj/observer/AObserver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/target/classes/com/ghj/observer/BObserver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/target/classes/com/ghj/observer/ContextSubject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/target/classes/com/ghj/observer/Observer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/target/classes/com/ghj/observer/Subject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/target/classes/com/ghj/responsibilitychain/ChainFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/target/classes/com/ghj/responsibilitychain/Filter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/target/classes/com/ghj/responsibilitychain/FirstFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/target/classes/com/ghj/responsibilitychain/Input.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/target/classes/com/ghj/responsibilitychain/Output.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/target/classes/com/ghj/responsibilitychain/SecondFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/target/classes/com/ghj/responsibilitychain/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/target/classes/com/ghj/singleInstance/LazySingleInstance$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/target/classes/com/ghj/singleInstance/LazySingleInstance$InnerLazySingleInstance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/target/classes/com/ghj/singleInstance/LazySingleInstance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/target/classes/com/ghj/singleInstance/VoicePlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/target/classes/com/ghj/strategy/AliPay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/target/classes/com/ghj/strategy/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/target/classes/com/ghj/strategy/PayState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/target/classes/com/ghj/strategy/PayType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/target/classes/com/ghj/strategy/Payment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/target/classes/com/ghj/strategy/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/target/classes/com/ghj/strategy/UnionPay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/target/classes/com/ghj/strategy/WeChatPay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/target/classes/com/ghj/template/BaseDaoSupport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/target/classes/com/ghj/template/JdbcTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/target/classes/com/ghj/template/RowMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foundation/target/classes/META-INF/foundation.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foundation/target/classes/com/ghj/tryFinally/TryFinally.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview/target/classes/com/ghj/multithread/CountRunnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview/target/classes/com/ghj/multithread/MultiThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview/target/classes/com/ghj/multithread/Parallellimit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/FinalizeCase$Block.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/FinalizeCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/StringTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/WaitNotifyCase$Notify.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/WaitNotifyCase$Wait.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/WaitNotifyCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/ghj/gc/ReferenceQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvm/target/classes/com/ghj/gc/VolatileExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/ghj/SpringBootApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/ghj/aop/AopService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/ghj/aop/AopServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/ghj/aop/LogAdvice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/ghj/aop/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/ghj/cyclicDependency/IndexService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/ghj/cyclicDependency/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/ghj/cyclicDependency/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thrift/target/classes/server/ServerThriftDemoUserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/thrift/target/classes/server/ServerThriftDemoUserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zk/target/classes/META-INF/foundation.kotlin_module" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +293,7 @@
       <recent name="D:\gehj\projects1111\studynotes\cola\cola-client\src\main\java\core" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ClientStarter">
+  <component name="RunManager" selected="Application.WeightSearch">
     <configuration name="AddTwoList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="list.AddTwoList" />
       <module name="algorithm" />
@@ -177,8 +333,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TraceBackCombination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TraceBackCombination" />
+    <configuration name="WeightSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WeightSearch" />
       <module name="algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -210,11 +366,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WeightSearch" />
         <item itemvalue="Application.ClientStarter" />
         <item itemvalue="Application.ServerStarter" />
         <item itemvalue="Spring Boot.ColaApplication" />
         <item itemvalue="Application.AddTwoList" />
-        <item itemvalue="Application.TraceBackCombination" />
       </list>
     </recent_temporary>
   </component>
@@ -358,14 +514,11 @@
       <workItem from="1597890654367" duration="5791000" />
       <workItem from="1600313998429" duration="1098000" />
       <workItem from="1600315209653" duration="4412000" />
-      <workItem from="1600345181398" duration="1042000" />
-    </task>
-    <task id="LOCAL-00033" summary="spring aop">
-      <created>1568887343628</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1568887343628</updated>
+      <workItem from="1600345181398" duration="1085000" />
+      <workItem from="1600404241578" duration="96000" />
+      <workItem from="1600422231490" duration="5124000" />
+      <workItem from="1600431347190" duration="20000" />
+      <workItem from="1600588215157" duration="3126000" />
     </task>
     <task id="LOCAL-00034" summary="spring aop">
       <created>1568961347564</created>
@@ -703,7 +856,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600333731545</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="shading">
+      <created>1600352303281</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1600352303281</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -780,7 +940,8 @@
     <MESSAGE value="cola" />
     <MESSAGE value="cola增强版" />
     <MESSAGE value="thrift入门" />
-    <option name="LAST_COMMIT_MESSAGE" value="thrift入门" />
+    <MESSAGE value="shading" />
+    <option name="LAST_COMMIT_MESSAGE" value="shading" />
   </component>
   <component name="WindowStateProjectService">
     <state x="276" y="81" key="#Project_Structure" timestamp="1600345534906">
@@ -792,10 +953,10 @@
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state x="600" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1792.1017@0.23.1792.1017" timestamp="1600314693759" />
-    <state x="727" y="214" key="#com.intellij.ide.util.MemberChooser" timestamp="1600331073891">
+    <state x="727" y="214" key="#com.intellij.ide.util.MemberChooser" timestamp="1600429406247">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state x="727" y="214" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1017@0.23.1792.1017" timestamp="1600331073891" />
+    <state x="727" y="214" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1017@0.23.1792.1017" timestamp="1600429406247" />
     <state x="779" y="204" key="#com.intellij.ide.util.MemberChooser/0.23.1920.963@0.23.1920.963" timestamp="1598100067226" />
     <state x="763" y="249" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596904032191">
       <screen x="0" y="23" width="1920" height="963" />
@@ -809,45 +970,45 @@
       <screen x="0" y="23" width="1920" height="963" />
     </state>
     <state x="315" y="123" width="1216" height="745" key="DiffContextDialog/0.23.1920.963@0.23.1920.963" timestamp="1593247277156" />
-    <state width="1560" height="326" key="GridCell.Tab.0.bottom" timestamp="1600334732491">
+    <state width="1560" height="326" key="GridCell.Tab.0.bottom" timestamp="1600431275602">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1560" height="326" key="GridCell.Tab.0.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1600334732491" />
+    <state width="1560" height="326" key="GridCell.Tab.0.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1600431275602" />
     <state width="1599" height="300" key="GridCell.Tab.0.bottom/0.23.1920.963@0.23.1920.963" timestamp="1598104640859" />
-    <state width="1560" height="326" key="GridCell.Tab.0.center" timestamp="1600334732491">
+    <state width="1560" height="326" key="GridCell.Tab.0.center" timestamp="1600431275601">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1560" height="326" key="GridCell.Tab.0.center/0.23.1792.1017@0.23.1792.1017" timestamp="1600334732491" />
+    <state width="1560" height="326" key="GridCell.Tab.0.center/0.23.1792.1017@0.23.1792.1017" timestamp="1600431275601" />
     <state width="1599" height="300" key="GridCell.Tab.0.center/0.23.1920.963@0.23.1920.963" timestamp="1598104640858" />
-    <state width="1560" height="326" key="GridCell.Tab.0.left" timestamp="1600334732490">
+    <state width="1560" height="326" key="GridCell.Tab.0.left" timestamp="1600431275601">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1560" height="326" key="GridCell.Tab.0.left/0.23.1792.1017@0.23.1792.1017" timestamp="1600334732490" />
+    <state width="1560" height="326" key="GridCell.Tab.0.left/0.23.1792.1017@0.23.1792.1017" timestamp="1600431275601" />
     <state width="1599" height="300" key="GridCell.Tab.0.left/0.23.1920.963@0.23.1920.963" timestamp="1598104640858" />
-    <state width="1560" height="326" key="GridCell.Tab.0.right" timestamp="1600334732491">
+    <state width="1560" height="326" key="GridCell.Tab.0.right" timestamp="1600431275602">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1560" height="326" key="GridCell.Tab.0.right/0.23.1792.1017@0.23.1792.1017" timestamp="1600334732491" />
+    <state width="1560" height="326" key="GridCell.Tab.0.right/0.23.1792.1017@0.23.1792.1017" timestamp="1600431275602" />
     <state width="1599" height="300" key="GridCell.Tab.0.right/0.23.1920.963@0.23.1920.963" timestamp="1598104640859" />
-    <state width="1560" height="326" key="GridCell.Tab.1.bottom" timestamp="1600334732492">
+    <state width="1560" height="326" key="GridCell.Tab.1.bottom" timestamp="1600431275603">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1560" height="326" key="GridCell.Tab.1.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1600334732492" />
+    <state width="1560" height="326" key="GridCell.Tab.1.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1600431275603" />
     <state width="1599" height="300" key="GridCell.Tab.1.bottom/0.23.1920.963@0.23.1920.963" timestamp="1598104640860" />
-    <state width="1560" height="326" key="GridCell.Tab.1.center" timestamp="1600334732492">
+    <state width="1560" height="326" key="GridCell.Tab.1.center" timestamp="1600431275602">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1560" height="326" key="GridCell.Tab.1.center/0.23.1792.1017@0.23.1792.1017" timestamp="1600334732492" />
+    <state width="1560" height="326" key="GridCell.Tab.1.center/0.23.1792.1017@0.23.1792.1017" timestamp="1600431275602" />
     <state width="1599" height="300" key="GridCell.Tab.1.center/0.23.1920.963@0.23.1920.963" timestamp="1598104640860" />
-    <state width="1560" height="326" key="GridCell.Tab.1.left" timestamp="1600334732492">
+    <state width="1560" height="326" key="GridCell.Tab.1.left" timestamp="1600431275602">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1560" height="326" key="GridCell.Tab.1.left/0.23.1792.1017@0.23.1792.1017" timestamp="1600334732492" />
+    <state width="1560" height="326" key="GridCell.Tab.1.left/0.23.1792.1017@0.23.1792.1017" timestamp="1600431275602" />
     <state width="1599" height="300" key="GridCell.Tab.1.left/0.23.1920.963@0.23.1920.963" timestamp="1598104640859" />
-    <state width="1560" height="326" key="GridCell.Tab.1.right" timestamp="1600334732492">
+    <state width="1560" height="326" key="GridCell.Tab.1.right" timestamp="1600431275602">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1560" height="326" key="GridCell.Tab.1.right/0.23.1792.1017@0.23.1792.1017" timestamp="1600334732492" />
+    <state width="1560" height="326" key="GridCell.Tab.1.right/0.23.1792.1017@0.23.1792.1017" timestamp="1600431275602" />
     <state width="1599" height="300" key="GridCell.Tab.1.right/0.23.1920.963@0.23.1920.963" timestamp="1598104640860" />
     <state width="1599" height="300" key="GridCell.Tab.2.bottom" timestamp="1598104640862">
       <screen x="0" y="23" width="1920" height="963" />
@@ -886,10 +1047,10 @@
       <screen x="0" y="23" width="1920" height="963" />
     </state>
     <state x="743" y="218" key="VCS.ChangeListViewerDialog/0.23.1920.963@0.23.1920.963" timestamp="1598097580094" />
-    <state x="528" y="239" key="Vcs.Push.Dialog.v2" timestamp="1600333762153">
+    <state x="528" y="239" key="Vcs.Push.Dialog.v2" timestamp="1600352319731">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state x="528" y="239" key="Vcs.Push.Dialog.v2/0.23.1792.1017@0.23.1792.1017" timestamp="1600333762153" />
+    <state x="528" y="239" key="Vcs.Push.Dialog.v2/0.23.1792.1017@0.23.1792.1017" timestamp="1600352319731" />
     <state x="566" y="228" key="Vcs.Push.Dialog.v2/0.23.1920.963@0.23.1920.963" timestamp="1598104622004" />
     <state width="347" height="350" key="documentation.popup.size" timestamp="1593248258523">
       <screen x="0" y="23" width="1920" height="963" />
@@ -903,6 +1064,10 @@
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state x="258" y="174" key="new project wizard/0.23.1792.1017@0.23.1792.1017" timestamp="1600345207759" />
+    <state x="656" y="248" key="run.anything.popup" timestamp="1600592485426">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state x="656" y="248" key="run.anything.popup/0.23.1792.1017@0.23.1792.1017" timestamp="1600592485426" />
     <state x="641" y="326" width="670" height="167" key="search.everywhere.popup" timestamp="1600345291138">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
