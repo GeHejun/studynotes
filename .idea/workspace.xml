@@ -28,7 +28,12 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1735b1db-e4e4-49c3-b0e9-3803553dd2df" name="Default Changelist" comment="spring">
+    <list default="true" id="1735b1db-e4e4-49c3-b0e9-3803553dd2df" name="Default Changelist" comment="平滑的加权轮训">
+      <change afterPath="$PROJECT_DIR$/foundation/src/main/java/com/ghj/exception/CustomExceptionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foundation/src/main/java/com/ghj/exception/MyCustomException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foundation/target/classes/com/ghj/exception/CustomExceptionDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foundation/target/classes/com/ghj/exception/MyCustomException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foundation/target/classes/com/ghj/tryFinally/TryFinally.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -132,7 +137,7 @@
       <recent name="$PROJECT_DIR$/springboot/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ServiceLoaderBeanCreationDemo">
+  <component name="RunManager" selected="Application.CustomExceptionDemo">
     <configuration name="BeanCreationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ghj.bean.BeanCreationDemo" />
       <module name="spring" />
@@ -159,12 +164,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServerStarter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="server.ServerStarter" />
-      <module name="thrift" />
+    <configuration name="CustomExceptionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ghj.exception.CustomExceptionDemo" />
+      <module name="foundation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="server.*" />
+          <option name="PATTERN" value="com.ghj.exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,26 +197,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CustomExceptionDemo" />
         <item itemvalue="Application.ServiceLoaderBeanCreationDemo" />
         <item itemvalue="Application.BeanCreationDemo" />
         <item itemvalue="Application.WeightSearch" />
         <item itemvalue="Application.ClientStarter" />
-        <item itemvalue="Application.ServerStarter" />
       </list>
     </recent_temporary>
   </component>
@@ -360,13 +363,8 @@
       <workItem from="1600422231490" duration="5124000" />
       <workItem from="1600431347190" duration="20000" />
       <workItem from="1600588215157" duration="6236000" />
-    </task>
-    <task id="LOCAL-00041" summary="算法">
-      <created>1587179156718</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1587179156718</updated>
+      <workItem from="1600687950731" duration="295000" />
+      <workItem from="1600767221443" duration="1538000" />
     </task>
     <task id="LOCAL-00042" summary="算法">
       <created>1587179268026</created>
@@ -704,7 +702,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600596932217</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="平滑的加权轮训">
+      <created>1600688222442</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1600688222443</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -783,7 +788,8 @@
     <MESSAGE value="thrift入门" />
     <MESSAGE value="shading" />
     <MESSAGE value="spring" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring" />
+    <MESSAGE value="平滑的加权轮训" />
+    <option name="LAST_COMMIT_MESSAGE" value="平滑的加权轮训" />
   </component>
   <component name="WindowStateProjectService">
     <state x="276" y="81" key="#Project_Structure" timestamp="1600345534906">
@@ -795,10 +801,10 @@
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state x="600" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1792.1017@0.23.1792.1017" timestamp="1600314693759" />
-    <state x="727" y="214" key="#com.intellij.ide.util.MemberChooser" timestamp="1600595010623">
+    <state x="727" y="214" key="#com.intellij.ide.util.MemberChooser" timestamp="1600688149230">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state x="727" y="214" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1017@0.23.1792.1017" timestamp="1600595010623" />
+    <state x="727" y="214" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1017@0.23.1792.1017" timestamp="1600688149230" />
     <state x="779" y="204" key="#com.intellij.ide.util.MemberChooser/0.23.1920.963@0.23.1920.963" timestamp="1598100067226" />
     <state x="763" y="249" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596904032191">
       <screen x="0" y="23" width="1920" height="963" />
@@ -812,25 +818,25 @@
       <screen x="0" y="23" width="1920" height="963" />
     </state>
     <state x="315" y="123" width="1216" height="745" key="DiffContextDialog/0.23.1920.963@0.23.1920.963" timestamp="1593247277156" />
-    <state width="1560" height="326" key="GridCell.Tab.0.bottom" timestamp="1600596950075">
+    <state width="1560" height="326" key="GridCell.Tab.0.bottom" timestamp="1600767540705">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1560" height="326" key="GridCell.Tab.0.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1600596950075" />
+    <state width="1560" height="326" key="GridCell.Tab.0.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1600767540705" />
     <state width="1599" height="300" key="GridCell.Tab.0.bottom/0.23.1920.963@0.23.1920.963" timestamp="1598104640859" />
-    <state width="1560" height="326" key="GridCell.Tab.0.center" timestamp="1600596950074">
+    <state width="1560" height="326" key="GridCell.Tab.0.center" timestamp="1600767540704">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1560" height="326" key="GridCell.Tab.0.center/0.23.1792.1017@0.23.1792.1017" timestamp="1600596950074" />
+    <state width="1560" height="326" key="GridCell.Tab.0.center/0.23.1792.1017@0.23.1792.1017" timestamp="1600767540704" />
     <state width="1599" height="300" key="GridCell.Tab.0.center/0.23.1920.963@0.23.1920.963" timestamp="1598104640858" />
-    <state width="1560" height="326" key="GridCell.Tab.0.left" timestamp="1600596950074">
+    <state width="1560" height="326" key="GridCell.Tab.0.left" timestamp="1600767540703">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1560" height="326" key="GridCell.Tab.0.left/0.23.1792.1017@0.23.1792.1017" timestamp="1600596950074" />
+    <state width="1560" height="326" key="GridCell.Tab.0.left/0.23.1792.1017@0.23.1792.1017" timestamp="1600767540703" />
     <state width="1599" height="300" key="GridCell.Tab.0.left/0.23.1920.963@0.23.1920.963" timestamp="1598104640858" />
-    <state width="1560" height="326" key="GridCell.Tab.0.right" timestamp="1600596950075">
+    <state width="1560" height="326" key="GridCell.Tab.0.right" timestamp="1600767540704">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1560" height="326" key="GridCell.Tab.0.right/0.23.1792.1017@0.23.1792.1017" timestamp="1600596950075" />
+    <state width="1560" height="326" key="GridCell.Tab.0.right/0.23.1792.1017@0.23.1792.1017" timestamp="1600767540704" />
     <state width="1599" height="300" key="GridCell.Tab.0.right/0.23.1920.963@0.23.1920.963" timestamp="1598104640859" />
     <state width="1560" height="326" key="GridCell.Tab.1.bottom" timestamp="1600596950076">
       <screen x="0" y="23" width="1792" height="1017" />
@@ -889,10 +895,10 @@
       <screen x="0" y="23" width="1920" height="963" />
     </state>
     <state x="743" y="218" key="VCS.ChangeListViewerDialog/0.23.1920.963@0.23.1920.963" timestamp="1598097580094" />
-    <state x="528" y="239" key="Vcs.Push.Dialog.v2" timestamp="1600596942052">
+    <state x="528" y="239" key="Vcs.Push.Dialog.v2" timestamp="1600688239384">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state x="528" y="239" key="Vcs.Push.Dialog.v2/0.23.1792.1017@0.23.1792.1017" timestamp="1600596942052" />
+    <state x="528" y="239" key="Vcs.Push.Dialog.v2/0.23.1792.1017@0.23.1792.1017" timestamp="1600688239384" />
     <state x="566" y="228" key="Vcs.Push.Dialog.v2/0.23.1920.963@0.23.1920.963" timestamp="1598104622004" />
     <state width="347" height="350" key="documentation.popup.size" timestamp="1593248258523">
       <screen x="0" y="23" width="1920" height="963" />
