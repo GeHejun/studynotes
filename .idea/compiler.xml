@@ -16,11 +16,11 @@
         <module name="collection" />
         <module name="redis" />
         <module name="cola-api" />
-        <module name="springboot" />
         <module name="sharding" />
+        <module name="springboot" />
         <module name="spring" />
-        <module name="zk" />
         <module name="designpattern" />
+        <module name="zk" />
         <module name="cola-client" />
         <module name="cola-service" />
         <module name="thrift" />
