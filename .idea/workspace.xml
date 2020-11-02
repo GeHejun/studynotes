@@ -29,10 +29,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1735b1db-e4e4-49c3-b0e9-3803553dd2df" name="Default Changelist" comment="平滑的加权轮训">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/studynotes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/studynotes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/starting/SpringBootDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sharding/sharding.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/src/main/java/ThreadPoolAutoConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot/src/main/java/starter/ThreadPoolAutoConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/src/main/java/ThreadPoolProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot/src/main/java/starter/ThreadPoolProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/src/main/resources/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/springboot/src/main/resources/META-INF/spring.factories" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,6 +196,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.CustomExceptionDemo" />
@@ -205,19 +219,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>C:\Users\gehj\AppData\Roaming\Subversion</configuration>
   </component>
@@ -364,13 +366,8 @@
       <workItem from="1600588215157" duration="6236000" />
       <workItem from="1600687950731" duration="295000" />
       <workItem from="1600767221443" duration="1550000" />
-    </task>
-    <task id="LOCAL-00043" summary="算法">
-      <created>1587218127924</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1587218127924</updated>
+      <workItem from="1604186077050" duration="384000" />
+      <workItem from="1604189256273" duration="1465000" />
     </task>
     <task id="LOCAL-00044" summary="算法">
       <created>1587442113516</created>
@@ -708,7 +705,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600768780396</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="平滑的加权轮训">
+      <created>1604186102207</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1604186102207</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -741,7 +745,6 @@
                   </entry>
                 </map>
               </option>
-              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
@@ -761,6 +764,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -877,10 +881,6 @@
       <screen x="0" y="23" width="1920" height="963" />
     </state>
     <state x="929" y="375" width="407" height="240" key="MultipleFileMergeDialog/0.23.1920.963@0.23.1920.963" timestamp="1598097635216" />
-    <state x="527" y="205" key="RollbackChangesDialog" timestamp="1594564034874">
-      <screen x="0" y="23" width="1920" height="963" />
-    </state>
-    <state x="527" y="205" key="RollbackChangesDialog/0.23.1920.963@0.23.1920.963" timestamp="1594564034874" />
     <state x="510" y="159" key="SettingsEditor" timestamp="1600315193523">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
@@ -889,11 +889,16 @@
       <screen x="0" y="23" width="1920" height="963" />
     </state>
     <state x="743" y="218" key="VCS.ChangeListViewerDialog/0.23.1920.963@0.23.1920.963" timestamp="1598097580094" />
-    <state x="528" y="239" key="Vcs.Push.Dialog.v2" timestamp="1600768784895">
-      <screen x="0" y="23" width="1792" height="1017" />
+    <state x="528" y="237" key="Vcs.Push.Dialog.v2" timestamp="1604186119415">
+      <screen x="0" y="23" width="1792" height="1009" />
     </state>
+    <state x="528" y="237" key="Vcs.Push.Dialog.v2/0.23.1792.1009@0.23.1792.1009" timestamp="1604186119415" />
     <state x="528" y="239" key="Vcs.Push.Dialog.v2/0.23.1792.1017@0.23.1792.1017" timestamp="1600768784895" />
     <state x="566" y="228" key="Vcs.Push.Dialog.v2/0.23.1920.963@0.23.1920.963" timestamp="1598104622004" />
+    <state x="732" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604186110657">
+      <screen x="0" y="23" width="1792" height="1009" />
+    </state>
+    <state x="732" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1792.1009@0.23.1792.1009" timestamp="1604186110657" />
     <state x="749" y="293" key="git4idea.merge.GitPullDialog" timestamp="1598097643692">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
