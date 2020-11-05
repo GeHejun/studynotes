@@ -28,12 +28,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1735b1db-e4e4-49c3-b0e9-3803553dd2df" name="Default Changelist" comment="平滑的加权轮训">
-      <change afterPath="$PROJECT_DIR$/springboot/src/main/java/starting/SpringBootDemo.java" afterDir="false" />
+    <list default="true" id="1735b1db-e4e4-49c3-b0e9-3803553dd2df" name="Default Changelist" comment="SpringBootDemo">
+      <change afterPath="$PROJECT_DIR$/concurrent/src/main/java/com/ghj/aqs/FairLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrent/src/main/java/com/ghj/aqs/NonFairLockDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot/src/main/java/ThreadPoolAutoConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot/src/main/java/starter/ThreadPoolAutoConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot/src/main/java/ThreadPoolProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot/src/main/java/starter/ThreadPoolProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot/src/main/resources/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/springboot/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/src/main/java/starting/SpringBootDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot/src/main/java/starting/SpringBootDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,26 +135,13 @@
       <recent name="$PROJECT_DIR$/springboot/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CustomExceptionDemo">
+  <component name="RunManager" selected="Application.NonFairLockDemo">
     <configuration name="BeanCreationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ghj.bean.BeanCreationDemo" />
       <module name="spring" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ghj.bean.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ClientStarter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="client.ClientStarter" />
-      <module name="thrift" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,6 +162,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FairLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ghj.aqs.FairLockDemo" />
+      <module name="concurrent" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ghj.aqs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NonFairLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ghj.aqs.NonFairLockDemo" />
+      <module name="concurrent" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ghj.aqs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ServiceLoaderBeanCreationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ghj.bean.ServiceLoaderBeanCreationDemo" />
       <module name="spring" />
@@ -185,13 +197,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WeightSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WeightSearch" />
-      <module name="algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -211,11 +216,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NonFairLockDemo" />
+        <item itemvalue="Application.FairLockDemo" />
         <item itemvalue="Application.CustomExceptionDemo" />
         <item itemvalue="Application.ServiceLoaderBeanCreationDemo" />
         <item itemvalue="Application.BeanCreationDemo" />
-        <item itemvalue="Application.WeightSearch" />
-        <item itemvalue="Application.ClientStarter" />
       </list>
     </recent_temporary>
   </component>
@@ -368,13 +373,13 @@
       <workItem from="1600767221443" duration="1550000" />
       <workItem from="1604186077050" duration="384000" />
       <workItem from="1604189256273" duration="1465000" />
-    </task>
-    <task id="LOCAL-00044" summary="算法">
-      <created>1587442113516</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1587442113516</updated>
+      <workItem from="1604316483241" duration="164000" />
+      <workItem from="1604319952018" duration="1093000" />
+      <workItem from="1604375122276" duration="600000" />
+      <workItem from="1604406825958" duration="5375000" />
+      <workItem from="1604495830303" duration="562000" />
+      <workItem from="1604497108551" duration="344000" />
+      <workItem from="1604547226995" duration="1241000" />
     </task>
     <task id="LOCAL-00045" summary="算法">
       <created>1587444033087</created>
@@ -712,7 +717,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604186102207</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="SpringBootDemo">
+      <created>1604316633993</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1604316633993</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -792,7 +804,8 @@
     <MESSAGE value="shading" />
     <MESSAGE value="spring" />
     <MESSAGE value="平滑的加权轮训" />
-    <option name="LAST_COMMIT_MESSAGE" value="平滑的加权轮训" />
+    <MESSAGE value="SpringBootDemo" />
+    <option name="LAST_COMMIT_MESSAGE" value="SpringBootDemo" />
   </component>
   <component name="WindowStateProjectService">
     <state x="276" y="81" key="#Project_Structure" timestamp="1600345534906">
@@ -817,46 +830,62 @@
       <screen x="0" y="23" width="1920" height="963" />
     </state>
     <state width="440" height="466" key="DebuggerActiveHint/0.23.1920.963@0.23.1920.963" timestamp="1597075471491" />
-    <state width="1560" height="326" key="GridCell.Tab.0.bottom" timestamp="1600768786652">
-      <screen x="0" y="23" width="1792" height="1017" />
+    <state width="1560" height="322" key="GridCell.Tab.0.bottom" timestamp="1604564529569">
+      <screen x="0" y="23" width="1920" height="969" />
     </state>
+    <state width="1560" height="326" key="GridCell.Tab.0.bottom/0.23.1792.1009@0.23.1792.1009" timestamp="1604547341027" />
     <state width="1560" height="326" key="GridCell.Tab.0.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1600768786652" />
     <state width="1599" height="300" key="GridCell.Tab.0.bottom/0.23.1920.963@0.23.1920.963" timestamp="1598104640859" />
-    <state width="1560" height="326" key="GridCell.Tab.0.center" timestamp="1600768786651">
-      <screen x="0" y="23" width="1792" height="1017" />
+    <state width="1560" height="322" key="GridCell.Tab.0.bottom/0.23.1920.969@0.23.1920.969" timestamp="1604564529569" />
+    <state width="1560" height="322" key="GridCell.Tab.0.center" timestamp="1604564529568">
+      <screen x="0" y="23" width="1920" height="969" />
     </state>
+    <state width="1560" height="326" key="GridCell.Tab.0.center/0.23.1792.1009@0.23.1792.1009" timestamp="1604547341026" />
     <state width="1560" height="326" key="GridCell.Tab.0.center/0.23.1792.1017@0.23.1792.1017" timestamp="1600768786651" />
     <state width="1599" height="300" key="GridCell.Tab.0.center/0.23.1920.963@0.23.1920.963" timestamp="1598104640858" />
-    <state width="1560" height="326" key="GridCell.Tab.0.left" timestamp="1600768786651">
-      <screen x="0" y="23" width="1792" height="1017" />
+    <state width="1560" height="322" key="GridCell.Tab.0.center/0.23.1920.969@0.23.1920.969" timestamp="1604564529568" />
+    <state width="1560" height="322" key="GridCell.Tab.0.left" timestamp="1604564529568">
+      <screen x="0" y="23" width="1920" height="969" />
     </state>
+    <state width="1560" height="326" key="GridCell.Tab.0.left/0.23.1792.1009@0.23.1792.1009" timestamp="1604547341026" />
     <state width="1560" height="326" key="GridCell.Tab.0.left/0.23.1792.1017@0.23.1792.1017" timestamp="1600768786651" />
     <state width="1599" height="300" key="GridCell.Tab.0.left/0.23.1920.963@0.23.1920.963" timestamp="1598104640858" />
-    <state width="1560" height="326" key="GridCell.Tab.0.right" timestamp="1600768786651">
-      <screen x="0" y="23" width="1792" height="1017" />
+    <state width="1560" height="322" key="GridCell.Tab.0.left/0.23.1920.969@0.23.1920.969" timestamp="1604564529568" />
+    <state width="1560" height="322" key="GridCell.Tab.0.right" timestamp="1604564529569">
+      <screen x="0" y="23" width="1920" height="969" />
     </state>
+    <state width="1560" height="326" key="GridCell.Tab.0.right/0.23.1792.1009@0.23.1792.1009" timestamp="1604547341027" />
     <state width="1560" height="326" key="GridCell.Tab.0.right/0.23.1792.1017@0.23.1792.1017" timestamp="1600768786651" />
     <state width="1599" height="300" key="GridCell.Tab.0.right/0.23.1920.963@0.23.1920.963" timestamp="1598104640859" />
-    <state width="1560" height="326" key="GridCell.Tab.1.bottom" timestamp="1600768786652">
-      <screen x="0" y="23" width="1792" height="1017" />
+    <state width="1560" height="322" key="GridCell.Tab.0.right/0.23.1920.969@0.23.1920.969" timestamp="1604564529569" />
+    <state width="0" height="0" key="GridCell.Tab.1.bottom" timestamp="1604564529519">
+      <screen x="0" y="23" width="1920" height="969" />
     </state>
+    <state width="1560" height="326" key="GridCell.Tab.1.bottom/0.23.1792.1009@0.23.1792.1009" timestamp="1604547341028" />
     <state width="1560" height="326" key="GridCell.Tab.1.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1600768786652" />
     <state width="1599" height="300" key="GridCell.Tab.1.bottom/0.23.1920.963@0.23.1920.963" timestamp="1598104640860" />
-    <state width="1560" height="326" key="GridCell.Tab.1.center" timestamp="1600768786652">
-      <screen x="0" y="23" width="1792" height="1017" />
+    <state width="0" height="0" key="GridCell.Tab.1.bottom/0.23.1920.969@0.23.1920.969" timestamp="1604564529519" />
+    <state width="0" height="0" key="GridCell.Tab.1.center" timestamp="1604564529518">
+      <screen x="0" y="23" width="1920" height="969" />
     </state>
+    <state width="1560" height="326" key="GridCell.Tab.1.center/0.23.1792.1009@0.23.1792.1009" timestamp="1604547341028" />
     <state width="1560" height="326" key="GridCell.Tab.1.center/0.23.1792.1017@0.23.1792.1017" timestamp="1600768786652" />
     <state width="1599" height="300" key="GridCell.Tab.1.center/0.23.1920.963@0.23.1920.963" timestamp="1598104640860" />
-    <state width="1560" height="326" key="GridCell.Tab.1.left" timestamp="1600768786652">
-      <screen x="0" y="23" width="1792" height="1017" />
+    <state width="0" height="0" key="GridCell.Tab.1.center/0.23.1920.969@0.23.1920.969" timestamp="1604564529518" />
+    <state width="0" height="0" key="GridCell.Tab.1.left" timestamp="1604564529517">
+      <screen x="0" y="23" width="1920" height="969" />
     </state>
+    <state width="1560" height="326" key="GridCell.Tab.1.left/0.23.1792.1009@0.23.1792.1009" timestamp="1604547341027" />
     <state width="1560" height="326" key="GridCell.Tab.1.left/0.23.1792.1017@0.23.1792.1017" timestamp="1600768786652" />
     <state width="1599" height="300" key="GridCell.Tab.1.left/0.23.1920.963@0.23.1920.963" timestamp="1598104640859" />
-    <state width="1560" height="326" key="GridCell.Tab.1.right" timestamp="1600768786652">
-      <screen x="0" y="23" width="1792" height="1017" />
+    <state width="0" height="0" key="GridCell.Tab.1.left/0.23.1920.969@0.23.1920.969" timestamp="1604564529517" />
+    <state width="0" height="0" key="GridCell.Tab.1.right" timestamp="1604564529518">
+      <screen x="0" y="23" width="1920" height="969" />
     </state>
+    <state width="1560" height="326" key="GridCell.Tab.1.right/0.23.1792.1009@0.23.1792.1009" timestamp="1604547341028" />
     <state width="1560" height="326" key="GridCell.Tab.1.right/0.23.1792.1017@0.23.1792.1017" timestamp="1600768786652" />
     <state width="1599" height="300" key="GridCell.Tab.1.right/0.23.1920.963@0.23.1920.963" timestamp="1598104640860" />
+    <state width="0" height="0" key="GridCell.Tab.1.right/0.23.1920.969@0.23.1920.969" timestamp="1604564529518" />
     <state width="1599" height="300" key="GridCell.Tab.2.bottom" timestamp="1598104640862">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
@@ -889,16 +918,20 @@
       <screen x="0" y="23" width="1920" height="963" />
     </state>
     <state x="743" y="218" key="VCS.ChangeListViewerDialog/0.23.1920.963@0.23.1920.963" timestamp="1598097580094" />
-    <state x="528" y="237" key="Vcs.Push.Dialog.v2" timestamp="1604186119415">
+    <state x="528" y="237" key="Vcs.Push.Dialog.v2" timestamp="1604316639285">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
-    <state x="528" y="237" key="Vcs.Push.Dialog.v2/0.23.1792.1009@0.23.1792.1009" timestamp="1604186119415" />
+    <state x="528" y="237" key="Vcs.Push.Dialog.v2/0.23.1792.1009@0.23.1792.1009" timestamp="1604316639285" />
     <state x="528" y="239" key="Vcs.Push.Dialog.v2/0.23.1792.1017@0.23.1792.1017" timestamp="1600768784895" />
     <state x="566" y="228" key="Vcs.Push.Dialog.v2/0.23.1920.963@0.23.1920.963" timestamp="1598104622004" />
     <state x="732" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604186110657">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
     <state x="732" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1792.1009@0.23.1792.1009" timestamp="1604186110657" />
+    <state x="635" y="298" width="598" height="490" key="find.popup" timestamp="1604408589707">
+      <screen x="0" y="23" width="1792" height="1009" />
+    </state>
+    <state x="635" y="298" width="598" height="490" key="find.popup/0.23.1792.1009/-1920.-85.1920.1057@0.23.1792.1009" timestamp="1604408589707" />
     <state x="749" y="293" key="git4idea.merge.GitPullDialog" timestamp="1598097643692">
       <screen x="0" y="23" width="1920" height="963" />
     </state>
@@ -911,9 +944,10 @@
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state x="656" y="248" key="run.anything.popup/0.23.1792.1017@0.23.1792.1017" timestamp="1600592485426" />
-    <state x="641" y="324" width="670" height="166" key="search.everywhere.popup" timestamp="1602748320150">
+    <state x="641" y="324" width="670" height="166" key="search.everywhere.popup" timestamp="1604413987232">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
+    <state x="641" y="324" width="670" height="166" key="search.everywhere.popup/0.23.1792.1009/-1920.-85.1920.1057@0.23.1792.1009" timestamp="1604413987232" />
     <state x="641" y="324" width="670" height="166" key="search.everywhere.popup/0.23.1792.1009@0.23.1792.1009" timestamp="1602748320150" />
     <state x="641" y="326" width="670" height="167" key="search.everywhere.popup/0.23.1792.1017@0.23.1792.1017" timestamp="1600593604178" />
     <state x="687" y="310" width="670" height="158" key="search.everywhere.popup/0.23.1920.963@0.23.1920.963" timestamp="1596955235637" />
