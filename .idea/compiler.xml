@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="jvm" />
         <module name="mq" />
+        <module name="DDD-demo" />
         <module name="cola-main" />
         <module name="concurrent" />
         <module name="dubbo" />
