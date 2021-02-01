@@ -33,3 +33,11 @@ l
 <foundation/src/main/java/com/ghj/jsr269/GetterProcessor.java,5/6/5645c184f239a39b0005f3f418196e734a2be57f
 >
 spring/pom.xml,c/5/c506f7bb389b9725c851fc30d6e3b6c094337353
+S
+#.idea/sonarlint/issuestore/index.pb,9/f/9fe84ebb15faf917b7def6236dba604453cc61e0
+ã
+[foundation/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst,1/8/1837c10e473851113779eead9894b59339752f00
+Ö
+Ufoundation/src/main/resources/META-INF/services/javax.annotation.processing.Processor,e/5/e5aaf2b5cff862afbcbb084fdb0269faca6ca08f
+Å
+Qfoundation/target/classes/META-INF/services/javax.annotation.processing.Processor,5/e/5e45c32115759c098053b7f9ff50c98af78cea57

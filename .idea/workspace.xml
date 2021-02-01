@@ -28,17 +28,24 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1735b1db-e4e4-49c3-b0e9-3803553dd2df" name="Default Changelist" comment="lambda-filter">
-      <change afterPath="$PROJECT_DIR$/foundation/src/main/java/com/ghj/jsr269/Getter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foundation/src/main/java/com/ghj/jsr269/GetterProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foundation/src/main/java/com/ghj/jsr269/JSRTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foundation/src/main/java/com/ghj/jsr269/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foundation/src/main/resources/META-INF/services/javax.annotation.processing.Processor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="1735b1db-e4e4-49c3-b0e9-3803553dd2df" name="Default Changelist" comment="JSR-269 修改字节码">
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/8/1837c10e473851113779eead9894b59339752f00" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/e/5e45c32115759c098053b7f9ff50c98af78cea57" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/5/e5aaf2b5cff862afbcbb084fdb0269faca6ca08f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/4/341a18d8c08c33901732639b4f334aa8f89a7e0f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/4/341a18d8c08c33901732639b4f334aa8f89a7e0f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/6/5645c184f239a39b0005f3f418196e734a2be57f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/6/5645c184f239a39b0005f3f418196e734a2be57f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DDD-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ddd-demo/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/foundation/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/foundation/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foundation/src/main/java/com/ghj/jsr269/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/foundation/src/main/java/com/ghj/jsr269/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foundation/target/classes/com/ghj/exception/CustomExceptionDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foundation/target/classes/com/ghj/exception/MyCustomException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foundation/target/classes/com/ghj/java8/Lambda.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foundation/target/classes/com/ghj/java8/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foundation/target/classes/com/ghj/jsr269/Getter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foundation/target/classes/com/ghj/jsr269/JSRTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/foundation/target/classes/com/ghj/tryFinally/TryFinally.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,13 +115,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597900272848" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/foundation/src/main/resources" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -436,13 +444,10 @@
       <workItem from="1606383700937" duration="461000" />
       <workItem from="1611991760171" duration="4822000" />
       <workItem from="1611996908134" duration="1731000" />
-    </task>
-    <task id="LOCAL-00049" summary="算法">
-      <created>1588732362080</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1588732362080</updated>
+      <workItem from="1612145415911" duration="64000" />
+      <workItem from="1612162421939" duration="1605000" />
+      <workItem from="1612164657789" duration="963000" />
+      <workItem from="1612165725699" duration="561000" />
     </task>
     <task id="LOCAL-00050" summary="分布式">
       <created>1588742125024</created>
@@ -780,7 +785,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606384144763</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="JSR-269 修改字节码">
+      <created>1612145460438</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1612145460438</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -836,7 +848,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="红黑树" />
     <MESSAGE value="bfs - dfs" />
     <MESSAGE value="concurrent-model" />
     <MESSAGE value="strategy模式" />
@@ -861,32 +872,33 @@
     <MESSAGE value="SpringBootDemo" />
     <MESSAGE value="ddd-demo" />
     <MESSAGE value="lambda-filter" />
-    <option name="LAST_COMMIT_MESSAGE" value="lambda-filter" />
+    <MESSAGE value="JSR-269 修改字节码" />
+    <option name="LAST_COMMIT_MESSAGE" value="JSR-269 修改字节码" />
   </component>
   <component name="WindowStateProjectService">
     <state x="727" y="212" key="#com.intellij.ide.util.MemberChooser" timestamp="1611993008486">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
     <state x="727" y="212" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1009@0.23.1792.1009" timestamp="1611993008486" />
-    <state width="1560" height="264" key="GridCell.Tab.0.bottom" timestamp="1612004170401">
+    <state width="1560" height="264" key="GridCell.Tab.0.bottom" timestamp="1612164639887">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
-    <state width="1560" height="264" key="GridCell.Tab.0.bottom/0.23.1792.1009@0.23.1792.1009" timestamp="1612004170401" />
+    <state width="1560" height="264" key="GridCell.Tab.0.bottom/0.23.1792.1009@0.23.1792.1009" timestamp="1612164639887" />
     <state width="1560" height="322" key="GridCell.Tab.0.bottom/0.23.1920.969@0.23.1920.969" timestamp="1604564529569" />
-    <state width="1560" height="264" key="GridCell.Tab.0.center" timestamp="1612004170400">
+    <state width="1560" height="264" key="GridCell.Tab.0.center" timestamp="1612164639887">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
-    <state width="1560" height="264" key="GridCell.Tab.0.center/0.23.1792.1009@0.23.1792.1009" timestamp="1612004170400" />
+    <state width="1560" height="264" key="GridCell.Tab.0.center/0.23.1792.1009@0.23.1792.1009" timestamp="1612164639887" />
     <state width="1560" height="322" key="GridCell.Tab.0.center/0.23.1920.969@0.23.1920.969" timestamp="1604564529568" />
-    <state width="1560" height="264" key="GridCell.Tab.0.left" timestamp="1612004170400">
+    <state width="1560" height="264" key="GridCell.Tab.0.left" timestamp="1612164639886">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
-    <state width="1560" height="264" key="GridCell.Tab.0.left/0.23.1792.1009@0.23.1792.1009" timestamp="1612004170400" />
+    <state width="1560" height="264" key="GridCell.Tab.0.left/0.23.1792.1009@0.23.1792.1009" timestamp="1612164639886" />
     <state width="1560" height="322" key="GridCell.Tab.0.left/0.23.1920.969@0.23.1920.969" timestamp="1604564529568" />
-    <state width="1560" height="264" key="GridCell.Tab.0.right" timestamp="1612004170400">
+    <state width="1560" height="264" key="GridCell.Tab.0.right" timestamp="1612164639887">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
-    <state width="1560" height="264" key="GridCell.Tab.0.right/0.23.1792.1009@0.23.1792.1009" timestamp="1612004170400" />
+    <state width="1560" height="264" key="GridCell.Tab.0.right/0.23.1792.1009@0.23.1792.1009" timestamp="1612164639887" />
     <state width="1560" height="322" key="GridCell.Tab.0.right/0.23.1920.969@0.23.1920.969" timestamp="1604564529569" />
     <state width="1560" height="325" key="GridCell.Tab.1.bottom" timestamp="1611996894674">
       <screen x="0" y="23" width="1792" height="1009" />
@@ -904,27 +916,27 @@
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
     <state width="1560" height="325" key="GridCell.Tab.1.right/0.23.1792.1009@0.23.1792.1009" timestamp="1611996894674" />
-    <state x="403" y="150" key="SettingsEditor" timestamp="1611997151832">
+    <state x="403" y="150" key="SettingsEditor" timestamp="1612164618745">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
-    <state x="403" y="150" key="SettingsEditor/0.23.1792.1009@0.23.1792.1009" timestamp="1611997151832" />
-    <state x="528" y="237" key="Vcs.Push.Dialog.v2" timestamp="1606384153914">
+    <state x="403" y="150" key="SettingsEditor/0.23.1792.1009@0.23.1792.1009" timestamp="1612164618745" />
+    <state x="528" y="237" key="Vcs.Push.Dialog.v2" timestamp="1612145468329">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
-    <state x="528" y="237" key="Vcs.Push.Dialog.v2/0.23.1792.1009@0.23.1792.1009" timestamp="1606384153914" />
-    <state x="732" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606384149627">
+    <state x="528" y="237" key="Vcs.Push.Dialog.v2/0.23.1792.1009@0.23.1792.1009" timestamp="1612145468329" />
+    <state x="732" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612145464062">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
-    <state x="732" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1792.1009@0.23.1792.1009" timestamp="1606384149627" />
+    <state x="732" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1792.1009@0.23.1792.1009" timestamp="1612145464062" />
     <state x="635" y="298" width="598" height="490" key="find.popup" timestamp="1611996830229">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
     <state x="635" y="298" width="598" height="490" key="find.popup/0.23.1792.1009/-1920.-85.1920.1057@0.23.1792.1009" timestamp="1604408589707" />
     <state x="635" y="298" width="598" height="490" key="find.popup/0.23.1792.1009@0.23.1792.1009" timestamp="1611996830229" />
-    <state x="258" y="173" key="new project wizard" timestamp="1605498178246">
+    <state x="258" y="173" key="new project wizard" timestamp="1612164637955">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
-    <state x="258" y="173" key="new project wizard/0.23.1792.1009@0.23.1792.1009" timestamp="1605498178246" />
+    <state x="258" y="173" key="new project wizard/0.23.1792.1009@0.23.1792.1009" timestamp="1612164637955" />
     <state x="641" y="324" width="670" height="166" key="search.everywhere.popup" timestamp="1604413987232">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>

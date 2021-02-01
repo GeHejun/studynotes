@@ -13,19 +13,20 @@
 
 <build>
     <plugins>
-    <plugin>
-    <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-compiler-plugin</artifactId>
-    <version>3.6.0</version>
-    <configuration>
-        <source>1.8</source>
-        <target>1.8</target>
-        <compilerArgs>
-            <arg>-XDignore.symbol.file</arg>
-        </compilerArgs>
-        <fork>true</fork>
-    </configuration>
-    </plugin>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.6.0</version>
+            <configuration>
+                <source>8</source>
+                <target>8</target>
+                <encoding>UTF-8</encoding>
+                <compilerArgs>
+                    <arg>-XDignore.symbol.file</arg>
+                </compilerArgs>
+                <fork>true</fork>
+            </configuration>
+        </plugin>
     </plugins>
 </build>
 </project>
