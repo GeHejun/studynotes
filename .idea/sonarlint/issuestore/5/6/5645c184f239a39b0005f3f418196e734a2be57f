@@ -1,0 +1,21 @@
+
+M
+java:S1068"0Remove this unused "elementUtils" private field.(“€öÔ8ô´ª’õ.
+[
+java:S2387">"processingEnv" is the name of a field in "AbstractProcessor".(áå€À8ô´ª’õ.
+N
+java:S1068"1Remove this unused "processingEnv" private field.(áå€À8ô´ª’õ.
+K
+java:S1068!")Remove this unused "filer" private field.(û‚Û¶øÿÿÿÿ8ô´ª’õ.
+J
+java:S1068 "-Remove this unused "typeUtils" private field.(×óÛ†8ô´ª’õ.
+v
+java:S1450!"TRemove the "filer" field and declare it as a local variable in the relevant methods.(û‚Û¶øÿÿÿÿ8ô´ª’õ.
+W
+java:S1191"5Use classes from the Java API instead of Sun classes.(·óƒüýÿÿÿÿ8ô´ª’õ.
+x
+java:S1450"[Remove the "elementUtils" field and declare it as a local variable in the relevant methods.(“€öÔ8ô´ª’õ.
+y
+java:S1450"\Remove the "processingEnv" field and declare it as a local variable in the relevant methods.(áå€À8ô´ª’õ.
+u
+java:S1450 "XRemove the "typeUtils" field and declare it as a local variable in the relevant methods.(×óÛ†8ô´ª’õ.

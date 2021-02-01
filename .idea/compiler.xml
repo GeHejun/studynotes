@@ -9,12 +9,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="jvm" />
         <module name="mq" />
-        <module name="DDD-demo" />
         <module name="cola-main" />
         <module name="concurrent" />
         <module name="dubbo" />
-        <module name="foundation" />
         <module name="collection" />
+        <module name="foundation" />
         <module name="redis" />
         <module name="cola-api" />
         <module name="sharding" />
@@ -30,6 +29,7 @@
         <module name="socket" />
         <module name="mongodb" />
         <module name="interview" />
+        <module name="ddd-demo" />
         <module name="algorithm" />
       </profile>
     </annotationProcessing>
@@ -40,7 +40,7 @@
       <module name="collection" options="" />
       <module name="concurrent" options="" />
       <module name="designpattern" options="" />
-      <module name="foundation" options="" />
+      <module name="foundation" options="-XDignore.symbol.file" />
       <module name="interview" options="" />
       <module name="jvm" options="" />
       <module name="mq" options="" />
