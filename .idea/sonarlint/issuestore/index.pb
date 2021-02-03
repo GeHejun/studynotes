@@ -37,7 +37,5 @@ S
 #.idea/sonarlint/issuestore/index.pb,9/f/9fe84ebb15faf917b7def6236dba604453cc61e0
 ã
 [foundation/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst,1/8/1837c10e473851113779eead9894b59339752f00
-Ö
-Ufoundation/src/main/resources/META-INF/services/javax.annotation.processing.Processor,e/5/e5aaf2b5cff862afbcbb084fdb0269faca6ca08f
-Å
-Qfoundation/target/classes/META-INF/services/javax.annotation.processing.Processor,5/e/5e45c32115759c098053b7f9ff50c98af78cea57
+b
+2foundation/src/main/java/com/ghj/jsr269/Field.java,b/4/b4e77a6862cb71b47cf391084444b6913c0d7644

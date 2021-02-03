@@ -3,7 +3,6 @@ package com.ghj.proxy;
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
-import java.io.UnsupportedEncodingException;
 import java.lang.reflect.Modifier;
 import java.util.List;
 

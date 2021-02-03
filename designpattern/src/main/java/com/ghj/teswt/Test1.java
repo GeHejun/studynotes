@@ -1,8 +1,5 @@
 package com.ghj.teswt;
 
-import java.util.concurrent.locks.Condition;
-import java.util.concurrent.locks.ReentrantLock;
-
 /**
  * @author gehj
  * @version 1.0

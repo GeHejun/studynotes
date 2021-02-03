@@ -1,10 +1,5 @@
 package com.ghj.multithread;
 
-import java.util.concurrent.Semaphore;
-import java.util.concurrent.locks.AbstractQueuedSynchronizer;
-import java.util.concurrent.locks.Condition;
-import java.util.concurrent.locks.ReentrantLock;
-
 public class MultiThread {
 
 

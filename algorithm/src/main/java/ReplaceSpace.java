@@ -1,5 +1,3 @@
-import java.util.regex.Pattern;
-
 public class ReplaceSpace {
     public static void main(String[] args) {
         String str = "We are happy.";

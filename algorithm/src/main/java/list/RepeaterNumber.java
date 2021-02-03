@@ -1,9 +1,5 @@
 package list;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Objects;
-
 public class RepeaterNumber {
     public int findRepeatNumber(int[] nums) {
         int[] tmp = new int[nums.length];

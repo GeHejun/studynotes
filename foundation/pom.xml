@@ -11,22 +11,58 @@
 
     <artifactId>foundation</artifactId>
 
-<build>
-    <plugins>
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-compiler-plugin</artifactId>
-            <version>3.6.0</version>
-            <configuration>
-                <source>8</source>
-                <target>8</target>
-                <encoding>UTF-8</encoding>
-                <compilerArgs>
-                    <arg>-XDignore.symbol.file</arg>
-                </compilerArgs>
-                <fork>true</fork>
-            </configuration>
-        </plugin>
-    </plugins>
-</build>
+    <dependencies>
+        <dependency>
+            <groupId>com.sun</groupId>
+            <artifactId>tools</artifactId>
+            <version>1.8.0</version>
+            <scope>system</scope>
+            <systemPath>/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/lib/tools.jar</systemPath>
+        </dependency>
+
+    </dependencies>
+
+<!--<build>-->
+<!--    <plugins>-->
+<!--        <plugin>-->
+<!--            <groupId>org.apache.maven.plugins</groupId>-->
+<!--            <artifactId>maven-compiler-plugin</artifactId>-->
+<!--            <version>3.6.0</version>-->
+<!--            <configuration>-->
+<!--                <compilerArgument>-->
+<!--                    -proc:none-->
+<!--                </compilerArgument>-->
+<!--                <encoding>UTF-8</encoding>-->
+<!--            </configuration>-->
+<!--        </plugin>-->
+<!--    </plugins>-->
+<!--</build>-->
+
+    <build>
+        <finalName>Spring</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.0.2</version>
+                <executions>
+                    <execution>
+                        <id>default-compile</id>
+                        <configuration>
+                            <compilerArgument>-proc:none</compilerArgument>
+                            <source>1.8</source>
+                            <target>1.8</target>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>default-testCompile</id>
+                        <configuration>
+                            <source>1.8</source>
+                            <target>1.8</target>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 </project>

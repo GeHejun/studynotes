@@ -1,6 +1,5 @@
 package com.ghj;
 
-import com.google.common.collect.Collections2;
 import org.apache.commons.lang3.StringUtils;
 
 import java.util.Collections;

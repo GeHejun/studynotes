@@ -1,10 +1,7 @@
 package com.ghj.cyclicDependency;
 
 
-import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-
-import java.util.ServiceLoader;
 
 public class Test {
     public static void main(String[] args) {

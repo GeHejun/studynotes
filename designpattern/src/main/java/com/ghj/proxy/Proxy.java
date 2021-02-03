@@ -1,12 +1,12 @@
 package com.ghj.proxy;
-import com.sun.org.apache.xpath.internal.operations.Mod;
-import sun.reflect.misc.ReflectUtil;
 
 import java.io.IOException;
-import java.lang.reflect.*;
-
 import java.lang.reflect.InvocationHandler;
-import java.util.*;
+import java.lang.reflect.Method;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import java.util.WeakHashMap;
 
 /**
  * @author gehj

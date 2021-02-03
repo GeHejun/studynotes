@@ -1,7 +1,5 @@
 package tree;
 
-import list.ListNode;
-
 public class TreeSumEqualN {
 
     public static boolean isExit(TreeNode<Integer> root, int sum){

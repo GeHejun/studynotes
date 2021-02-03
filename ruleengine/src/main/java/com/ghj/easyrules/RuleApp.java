@@ -2,7 +2,6 @@ package com.ghj.easyrules;
 
 import org.easyrules.api.RulesEngine;
 import org.easyrules.core.RulesEngineBuilder;
-import org.easyrules.core.RulesEngineParameters;
 
 
 /**

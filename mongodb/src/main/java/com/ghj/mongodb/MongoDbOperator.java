@@ -1,13 +1,9 @@
 package com.ghj.mongodb;
 
 import com.alibaba.fastjson.JSON;
-import com.mongodb.QueryOperators;
-import com.mongodb.client.model.Aggregates;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.aggregation.*;
-import org.springframework.data.mongodb.core.query.Criteria;
-import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;

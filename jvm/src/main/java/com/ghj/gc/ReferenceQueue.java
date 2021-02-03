@@ -1,7 +1,6 @@
 package com.ghj.gc;
 
 import java.lang.ref.SoftReference;
-import java.lang.ref.WeakReference;
 
 public class ReferenceQueue {
     private static int _4M = 1024 * 1024 * 4;
