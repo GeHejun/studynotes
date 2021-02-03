@@ -1,0 +1,11 @@
+FinalizeCase$Block.class
+FinalizeCase.class
+MyClassLoader.class
+ClassLoaderTest.class
+WaitNotifyCase$Notify.class
+Test.class
+com/ghj/gc/ReferenceQueue.class
+com/ghj/gc/VolatileExample.class
+WaitNotifyCase.class
+StringTable.class
+WaitNotifyCase$Wait.class
