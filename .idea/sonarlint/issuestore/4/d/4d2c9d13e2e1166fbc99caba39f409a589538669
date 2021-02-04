@@ -1,0 +1,15 @@
+
+M
+java:S1135"2Complete the task associated to this TODO comment.(Â“Œùÿÿÿÿ
+\
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+M	java:S106"9Replace this use of System.out or System.err by a logger.(ÜÄ™g
+F
+java:S2446"0"notify" may not wake up the appropriate thread.(ŒâÌ†
+>	java:S108")Either remove or fill this block of code.(ä ¹€
+\
+java:S21420"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+S	java:S106*"9Replace this use of System.out or System.err by a logger.(‘Ô¶Œúÿÿÿÿ
+F
+java:S2446-"0"notify" may not wake up the appropriate thread.(ŒâÌ†
+>	java:S1080")Either remove or fill this block of code.(ä ¹€

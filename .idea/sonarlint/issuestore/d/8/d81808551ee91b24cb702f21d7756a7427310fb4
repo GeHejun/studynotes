@@ -1,0 +1,16 @@
+
+c
+java:S2095&"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(†š­î
+l
+java:S2095)"QUse try-with-resources or close this "WritableByteChannel" in a "finally" clause.(…Ö²üÿÿÿÿ
+E
+java:S3740"/Provide the parametrized type for this generic.(ÒÒ½½
+0
+java:S1220""Move this file to a named package.
+M
+java:S1135"2Complete the task associated to this TODO comment.(Â“Œùÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(í‰ˆ²ûÿÿÿÿ
+q
+java:S2159"VRemove this call to "equals"; comparisons between unrelated types always return false.(í‰ˆ²ûÿÿÿÿ
+V
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(²„³r

@@ -1,0 +1,12 @@
+
+J
+java:S3740
+"/Provide the parametrized type for this generic.(íŸ”¶şÿÿÿÿ
+i
+java:S3008"NRename this field "_4M" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜òÍûÿÿÿÿ
+\
+java:S1854
+"ARemove this useless assignment to local variable "softReference".(íŸ”¶şÿÿÿÿ
+M
+java:S1481
+"2Remove this unused "softReference" local variable.(íŸ”¶şÿÿÿÿ

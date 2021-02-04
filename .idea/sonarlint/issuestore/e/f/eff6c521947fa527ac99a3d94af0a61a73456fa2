@@ -1,0 +1,17 @@
+
+B
+java:S1612",Replace this lambda with a method reference.(ÀÅùÏ
+G
+java:S1612",Replace this lambda with a method reference.(ŠõÉßøÿÿÿÿ
+P
+java:S1854":Remove this useless assignment to local variable "number".(å¦Ì
+Q	java:S125"<This block of commented-out lines of code should be removed.(ååÌÁ
+Q	java:S125"<This block of commented-out lines of code should be removed.(‡ùÿ½
+\
+java:S2142+"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+>	java:S108+")Either remove or fill this block of code.(ä ¹€
+S	java:S106-"9Replace this use of System.out or System.err by a logger.(Ë—âÁúÿÿÿÿ
+S	java:S1061"9Replace this use of System.out or System.err by a logger.(İ Òúúÿÿÿÿ
+S	java:S1065"9Replace this use of System.out or System.err by a logger.(¶­»ƒÿÿÿÿÿ
+A
+java:S1481"+Remove this unused "number" local variable.(å¦Ì
