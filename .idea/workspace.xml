@@ -29,68 +29,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1735b1db-e4e4-49c3-b0e9-3803553dd2df" name="Default Changelist" comment="JSR-269 修改字节码">
-      <change afterPath="$PROJECT_DIR$/foundation/src/main/java/com/ghj/jsr269/Field.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jsr269/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jsr269/src/main/resources/META-INF/services/javax.annotation.processing.Processor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/9/3940f06a06206fbf3dd443af2e3bfc85cbe06a89" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/9/3940f06a06206fbf3dd443af2e3bfc85cbe06a89" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/6/5645c184f239a39b0005f3f418196e734a2be57f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/6/5645c184f239a39b0005f3f418196e734a2be57f" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/e/5e45c32115759c098053b7f9ff50c98af78cea57" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/1/7164f87571a5bb8618f8d94913dbc2d9dd357749" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/1/7164f87571a5bb8618f8d94913dbc2d9dd357749" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/5/d5086d34afc69c35abdc6ca1c38aedcb4bb91728" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/5/d5086d34afc69c35abdc6ca1c38aedcb4bb91728" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/5/e5aaf2b5cff862afbcbb084fdb0269faca6ca08f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/f/fff00d8796e63ebdfdb904d21dd930a230ace7ea" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/f/fff00d8796e63ebdfdb904d21dd930a230ace7ea" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/LFUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/main/java/LFUCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/main/java/LRUCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/ReplaceSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/main/java/ReplaceSpace.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/list/RepeaterNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/main/java/list/RepeaterNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/tree/TreeSumEqualN.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/main/java/tree/TreeSumEqualN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cola/cola-client/src/main/java/core/BizExecutor1.java" beforeDir="false" afterPath="$PROJECT_DIR$/cola/cola-client/src/main/java/core/BizExecutor1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cola/cola-client/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cola/cola-client/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cola/cola-client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cola/cola-client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cola/cola-main/src/main/java/start/ColaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cola/cola-main/src/main/java/start/ColaApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cola/cola-service/src/main/java/executor/FlowTestCreateExecutor1.java" beforeDir="false" afterPath="$PROJECT_DIR$/cola/cola-service/src/main/java/executor/FlowTestCreateExecutor1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cola/cola-service/src/main/java/flow/FlowStep4Flow.java" beforeDir="false" afterPath="$PROJECT_DIR$/cola/cola-service/src/main/java/flow/FlowStep4Flow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cola/cola-service/src/main/java/flow/FlowStep5Flow.java" beforeDir="false" afterPath="$PROJECT_DIR$/cola/cola-service/src/main/java/flow/FlowStep5Flow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collection/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/collection/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collection/src/main/java/com/ghj/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/collection/src/main/java/com/ghj/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrent/src/main/java/com/ghj/aqs/Thread8Monitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrent/src/main/java/com/ghj/aqs/Thread8Monitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrent/src/main/java/com/ghj/thread/DelayThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrent/src/main/java/com/ghj/thread/DelayThreadPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrent/target/classes/com/ghj/aqs/Number.class" beforeDir="false" afterPath="$PROJECT_DIR$/concurrent/target/classes/com/ghj/aqs/Number.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrent/target/classes/com/ghj/aqs/Thread8Monitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/concurrent/target/classes/com/ghj/aqs/Thread8Monitor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrent/target/classes/com/ghj/thread/DelayThreadPool.class" beforeDir="false" afterPath="$PROJECT_DIR$/concurrent/target/classes/com/ghj/thread/DelayThreadPool.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/proxy/ClassDescriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/proxy/ClassDescriber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/proxy/Proxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/proxy/Proxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/teswt/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/main/java/com/ghj/teswt/Test1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/foundation/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/foundation/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foundation/src/main/java/com/ghj/jsr269/GetterProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/foundation/src/main/java/com/ghj/jsr269/GetterProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foundation/src/main/java/com/ghj/jsr269/JSRTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/foundation/src/main/java/com/ghj/jsr269/JSRTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foundation/src/main/java/com/ghj/jsr269/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/jsr269/src/main/java/com/ghj/jsr269/Field.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foundation/src/main/java/com/ghj/jsr269/Getter.java" beforeDir="false" afterPath="$PROJECT_DIR$/jsr269/src/main/java/com/ghj/jsr269/Getter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foundation/src/main/java/com/ghj/jsr269/GetterProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/jsr269/src/main/java/com/ghj/jsr269/GetterProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foundation/src/main/java/com/ghj/jsr269/JSRTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jsr269/src/main/java/com/ghj/jsr269/JSRTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foundation/src/main/java/com/ghj/jsr269/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/jsr269/src/main/java/com/ghj/jsr269/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foundation/src/main/resources/META-INF/services/javax.annotation.processing.Processor" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/foundation/target/classes/META-INF/services/javax.annotation.processing.Processor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foundation/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foundation/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview/src/main/java/com/ghj/multithread/MultiThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/interview/src/main/java/com/ghj/multithread/MultiThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jvm/src/main/java/MyClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/src/main/java/MyClassLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jvm/src/main/java/com/ghj/gc/ReferenceQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvm/src/main/java/com/ghj/gc/ReferenceQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongodb/src/main/java/com/ghj/mongodb/MongoDbApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/src/main/java/com/ghj/mongodb/MongoDbApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongodb/src/main/java/com/ghj/mongodb/MongoDbOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/src/main/java/com/ghj/mongodb/MongoDbOperator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis/src/main/java/com/ghj/limit/AccessLimitInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/java/com/ghj/limit/AccessLimitInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruleengine/src/main/java/com/ghj/easyrules/RuleApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/ruleengine/src/main/java/com/ghj/easyrules/RuleApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket/src/main/java/NettyStudy.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket/src/main/java/NettyStudy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/ghj/bean/BeanCreationDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/com/ghj/bean/BeanCreationDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/ghj/bean/BeanDefinitionCreationDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/com/ghj/bean/BeanDefinitionCreationDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/ghj/cyclicDependency/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/com/ghj/cyclicDependency/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/ghj/bean/BeanCreationDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring/target/classes/com/ghj/bean/BeanCreationDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/ghj/bean/BeanDefinitionCreationDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring/target/classes/com/ghj/bean/BeanDefinitionCreationDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/ghj/cyclicDependency/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring/target/classes/com/ghj/cyclicDependency/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/spring/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/spring/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/target/spring-2.1.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/springboot/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot/target/classes/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/springboot/target/classes/META-INF/spring.factories" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot/target/classes/ThreadPoolAutoConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot/target/classes/ThreadPoolProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zk/src/main/java/com/ghj/DistributeLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/zk/src/main/java/com/ghj/DistributeLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zk/target/classes/com/ghj/DistributeLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/zk/target/classes/com/ghj/DistributeLock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,18 +109,18 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/foundation/src/main/resources" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/foundation/src/main/resources/META-INF" />
-      <recent name="$PROJECT_DIR$/thrift/src/main/java" />
-      <recent name="$PROJECT_DIR$/cola/cola-main/src/main" />
-      <recent name="$PROJECT_DIR$/springboot/src/main/resources/common/images" />
-      <recent name="$PROJECT_DIR$/springboot/src/main/resources/common/js" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/foundation/src/main/resources" />
+      <recent name="$PROJECT_DIR$/spring/src/main/resources" />
+      <recent name="$PROJECT_DIR$/cola/cola-service/src/main/java/flow" />
+      <recent name="$PROJECT_DIR$/cola/cola-main/src/main/java" />
+      <recent name="D:\gehj\projects1111\studynotes\cola\cola-service\src\main\java\executor" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="flow" />
@@ -173,31 +129,18 @@
       <recent name="controller" />
       <recent name="service.impl" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/foundation/src/main/resources" />
-      <recent name="$PROJECT_DIR$/spring/src/main/resources" />
-      <recent name="$PROJECT_DIR$/cola/cola-service/src/main/java/flow" />
-      <recent name="$PROJECT_DIR$/cola/cola-main/src/main/java" />
-      <recent name="D:\gehj\projects1111\studynotes\cola\cola-service\src\main\java\executor" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/jsr269/src/main/resources" />
+      <recent name="$PROJECT_DIR$/foundation/src/main/resources/META-INF" />
+      <recent name="$PROJECT_DIR$/thrift/src/main/java" />
+      <recent name="$PROJECT_DIR$/cola/cola-main/src/main" />
+      <recent name="$PROJECT_DIR$/springboot/src/main/resources/common/images" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ghj.Test" />
-      <module name="collection" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ghj.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ghj.jsr269.Test" />
-      <module name="foundation" />
+      <module name="jsr269" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ghj.jsr269.*" />
@@ -208,15 +151,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -271,7 +212,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -441,21 +381,10 @@
       <workItem from="1612165725699" duration="9322000" />
       <workItem from="1612319096674" duration="1840000" />
       <workItem from="1612321999012" duration="2118000" />
-      <workItem from="1612333699710" duration="1512000" />
-    </task>
-    <task id="LOCAL-00051" summary="分布式">
-      <created>1588744445840</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1588744445841</updated>
-    </task>
-    <task id="LOCAL-00052" summary="分布式">
-      <created>1588756653820</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1588756653820</updated>
+      <workItem from="1612333699710" duration="3876000" />
+      <workItem from="1612338796061" duration="2324000" />
+      <workItem from="1612403956188" duration="5187000" />
+      <workItem from="1612438116026" duration="3891000" />
     </task>
     <task id="LOCAL-00053" summary="规则引擎">
       <created>1588847732068</created>
@@ -786,7 +715,21 @@
       <option name="project" value="LOCAL" />
       <updated>1612169875151</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="JSR-269 修改字节码">
+      <created>1612335283527</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1612335283528</updated>
+    </task>
+    <task id="LOCAL-00101" summary="JSR-269 修改字节码">
+      <created>1612335302546</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1612335302546</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -870,87 +813,97 @@
     <option name="LAST_COMMIT_MESSAGE" value="JSR-269 修改字节码" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="366" y="173" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612333237637">
+    <state x="390" y="93" key="#Project_Structure" timestamp="1612443678832">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
-    <state x="366" y="173" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1009@0.23.1792.1009" timestamp="1612333237637" />
+    <state x="390" y="93" key="#Project_Structure/0.23.1792.1009@0.23.1792.1009" timestamp="1612443678832" />
+    <state x="366" y="173" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612439133243">
+      <screen x="0" y="23" width="1792" height="1009" />
+    </state>
+    <state x="366" y="173" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1009@0.23.1792.1009" timestamp="1612439133243" />
     <state x="727" y="212" key="#com.intellij.ide.util.MemberChooser" timestamp="1612178635328">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
     <state x="727" y="212" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1009@0.23.1792.1009" timestamp="1612178635328" />
-    <state width="1560" height="177" key="GridCell.Tab.0.bottom" timestamp="1612334377865">
+    <state x="484" y="443" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1612438978676">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
-    <state width="1560" height="177" key="GridCell.Tab.0.bottom/0.23.1792.1009@0.23.1792.1009" timestamp="1612334377865" />
+    <state x="484" y="443" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1792.1009@0.23.1792.1009" timestamp="1612438978676" />
+    <state width="1560" height="264" key="GridCell.Tab.0.bottom" timestamp="1612443657603">
+      <screen x="0" y="23" width="1792" height="1009" />
+    </state>
+    <state width="1560" height="264" key="GridCell.Tab.0.bottom/0.23.1792.1009@0.23.1792.1009" timestamp="1612443657603" />
     <state width="1560" height="322" key="GridCell.Tab.0.bottom/0.23.1920.969@0.23.1920.969" timestamp="1604564529569" />
-    <state width="1560" height="177" key="GridCell.Tab.0.center" timestamp="1612334377865">
+    <state width="1560" height="264" key="GridCell.Tab.0.center" timestamp="1612443657602">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
-    <state width="1560" height="177" key="GridCell.Tab.0.center/0.23.1792.1009@0.23.1792.1009" timestamp="1612334377865" />
+    <state width="1560" height="264" key="GridCell.Tab.0.center/0.23.1792.1009@0.23.1792.1009" timestamp="1612443657602" />
     <state width="1560" height="322" key="GridCell.Tab.0.center/0.23.1920.969@0.23.1920.969" timestamp="1604564529568" />
-    <state width="1560" height="177" key="GridCell.Tab.0.left" timestamp="1612334377864">
+    <state width="1560" height="264" key="GridCell.Tab.0.left" timestamp="1612443657602">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
-    <state width="1560" height="177" key="GridCell.Tab.0.left/0.23.1792.1009@0.23.1792.1009" timestamp="1612334377864" />
+    <state width="1560" height="264" key="GridCell.Tab.0.left/0.23.1792.1009@0.23.1792.1009" timestamp="1612443657602" />
     <state width="1560" height="322" key="GridCell.Tab.0.left/0.23.1920.969@0.23.1920.969" timestamp="1604564529568" />
-    <state width="1560" height="177" key="GridCell.Tab.0.right" timestamp="1612334377865">
+    <state width="1560" height="264" key="GridCell.Tab.0.right" timestamp="1612443657602">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
-    <state width="1560" height="177" key="GridCell.Tab.0.right/0.23.1792.1009@0.23.1792.1009" timestamp="1612334377865" />
+    <state width="1560" height="264" key="GridCell.Tab.0.right/0.23.1792.1009@0.23.1792.1009" timestamp="1612443657602" />
     <state width="1560" height="322" key="GridCell.Tab.0.right/0.23.1920.969@0.23.1920.969" timestamp="1604564529569" />
-    <state width="1560" height="177" key="GridCell.Tab.1.bottom" timestamp="1612334377867">
+    <state width="1560" height="177" key="GridCell.Tab.1.bottom" timestamp="1612443416611">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
-    <state width="1560" height="177" key="GridCell.Tab.1.bottom/0.23.1792.1009@0.23.1792.1009" timestamp="1612334377867" />
-    <state width="1560" height="177" key="GridCell.Tab.1.center" timestamp="1612334377866">
+    <state width="1560" height="177" key="GridCell.Tab.1.bottom/0.23.1792.1009@0.23.1792.1009" timestamp="1612443416611" />
+    <state width="1560" height="177" key="GridCell.Tab.1.center" timestamp="1612443416610">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
-    <state width="1560" height="177" key="GridCell.Tab.1.center/0.23.1792.1009@0.23.1792.1009" timestamp="1612334377866" />
-    <state width="1560" height="177" key="GridCell.Tab.1.left" timestamp="1612334377866">
+    <state width="1560" height="177" key="GridCell.Tab.1.center/0.23.1792.1009@0.23.1792.1009" timestamp="1612443416610" />
+    <state width="1560" height="177" key="GridCell.Tab.1.left" timestamp="1612443416610">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
-    <state width="1560" height="177" key="GridCell.Tab.1.left/0.23.1792.1009@0.23.1792.1009" timestamp="1612334377866" />
-    <state width="1560" height="177" key="GridCell.Tab.1.right" timestamp="1612334377866">
+    <state width="1560" height="177" key="GridCell.Tab.1.left/0.23.1792.1009@0.23.1792.1009" timestamp="1612443416610" />
+    <state width="1560" height="177" key="GridCell.Tab.1.right" timestamp="1612443416611">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
-    <state width="1560" height="177" key="GridCell.Tab.1.right/0.23.1792.1009@0.23.1792.1009" timestamp="1612334377866" />
+    <state width="1560" height="177" key="GridCell.Tab.1.right/0.23.1792.1009@0.23.1792.1009" timestamp="1612443416611" />
     <state x="490" y="261" key="IDE.errors.dialog" timestamp="1612182627528">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
     <state x="490" y="261" key="IDE.errors.dialog/0.23.1792.1009@0.23.1792.1009" timestamp="1612182627528" />
-    <state x="403" y="150" key="SettingsEditor" timestamp="1612334840754">
+    <state x="403" y="141" key="SettingsEditor" timestamp="1612443698006">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="403" y="141" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1612443698006" />
+    <state x="403" y="150" key="SettingsEditor/0.23.1792.1009@0.23.1792.1009" timestamp="1612439728530" />
+    <state x="528" y="237" key="Vcs.Push.Dialog.v2" timestamp="1612335308918">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
-    <state x="403" y="150" key="SettingsEditor/0.23.1792.1009@0.23.1792.1009" timestamp="1612334840754" />
-    <state x="528" y="237" key="Vcs.Push.Dialog.v2" timestamp="1612169887372">
-      <screen x="0" y="23" width="1792" height="1009" />
-    </state>
-    <state x="528" y="237" key="Vcs.Push.Dialog.v2/0.23.1792.1009@0.23.1792.1009" timestamp="1612169887372" />
+    <state x="528" y="237" key="Vcs.Push.Dialog.v2/0.23.1792.1009@0.23.1792.1009" timestamp="1612335308918" />
     <state x="201" y="123" width="1402" height="777" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1612333547047">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
     <state x="201" y="123" width="1402" height="777" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1792.1009@0.23.1792.1009" timestamp="1612333547047" />
-    <state x="732" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612169880033">
+    <state x="732" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612335305366">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
-    <state x="732" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1792.1009@0.23.1792.1009" timestamp="1612169880033" />
+    <state x="732" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1792.1009@0.23.1792.1009" timestamp="1612335305366" />
     <state x="635" y="298" width="598" height="490" key="find.popup" timestamp="1611996830229">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
     <state x="635" y="298" width="598" height="490" key="find.popup/0.23.1792.1009/-1920.-85.1920.1057@0.23.1792.1009" timestamp="1604408589707" />
     <state x="635" y="298" width="598" height="490" key="find.popup/0.23.1792.1009@0.23.1792.1009" timestamp="1611996830229" />
-    <state x="258" y="173" key="new project wizard" timestamp="1612164637955">
+    <state x="258" y="173" key="new project wizard" timestamp="1612438904801">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
-    <state x="258" y="173" key="new project wizard/0.23.1792.1009@0.23.1792.1009" timestamp="1612164637955" />
+    <state x="258" y="173" key="new project wizard/0.23.1792.1009@0.23.1792.1009" timestamp="1612438904801" />
     <state x="567" y="236" width="670" height="675" key="run.anything.popup" timestamp="1612172668100">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
     <state x="567" y="236" width="670" height="675" key="run.anything.popup/0.23.1792.1009@0.23.1792.1009" timestamp="1612172668100" />
-    <state x="641" y="324" width="670" height="166" key="search.everywhere.popup" timestamp="1604413987232">
+    <state x="641" y="324" width="670" height="166" key="search.everywhere.popup" timestamp="1612408282415">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
     <state x="641" y="324" width="670" height="166" key="search.everywhere.popup/0.23.1792.1009/-1920.-85.1920.1057@0.23.1792.1009" timestamp="1604413987232" />
+    <state x="641" y="324" width="670" height="166" key="search.everywhere.popup/0.23.1792.1009@0.23.1792.1009" timestamp="1612408282415" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1019,11 +972,6 @@
           <url>file://$PROJECT_DIR$/algorithm/src/main/java/TraceBackCombination.java</url>
           <line>40</line>
           <option name="timeStamp" value="84" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/foundation/src/main/java/com/ghj/jsr269/GetterProcessor.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="86" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
