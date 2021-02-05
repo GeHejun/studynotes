@@ -1,0 +1,11 @@
+//指定protobuf语法版本
+syntax = "proto3";
+//包名
+option java_package = "com.ghj.serializable";
+//源文件类名
+option java_outer_classname = "SimpleProtobuf";
+
+message Simple {
+  string param1 = 1;
+  int32 param2 = 2;
+}
