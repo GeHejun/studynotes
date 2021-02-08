@@ -1,0 +1,9 @@
+
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Õªİ÷şÿÿÿÿ8ÇÈ²Œ÷.
+E	java:S1089")Either remove or fill this block of code.(¤Ÿº„8ÇÈ²Œ÷.
+L
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ8ÇÈ²Œ÷.
+E	java:S1083")Either remove or fill this block of code.(Éì€Ú8ÇÈ²Œ÷.
+P
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8ÇÈ²Œ÷.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Ñšä8ÇÈ²Œ÷.

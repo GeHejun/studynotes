@@ -30,7 +30,7 @@
         <module>thrift</module>
         <module>sharding</module>
         <module>ddd-demo</module>
-        <module>jsr269</module>
+        <module>chick</module>
     </modules>
 
 

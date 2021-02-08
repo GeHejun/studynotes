@@ -28,36 +28,62 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1735b1db-e4e4-49c3-b0e9-3803553dd2df" name="Default Changelist" comment="JSR-269 修改字节码">
-      <change afterPath="$PROJECT_DIR$/foundation/src/main/java/com/ghj/serializable/KyroSerializable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foundation/src/main/java/com/ghj/serializable/Simple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foundation/src/main/java/proto/simple.proto" afterDir="false" />
+    <list default="true" id="1735b1db-e4e4-49c3-b0e9-3803553dd2df" name="Default Changelist" comment="序列化">
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/f/0fee4899444a0e8834123459df757b804f9f5541" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/4/140520110a22621fa301a5be0fcc30cb49039a4e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/3/43a5308667ece8e94baa8bed6e834c131d740080" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/d/bdadca88df4355aff9e3b1d8d907c2bee642ffae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chick/chick.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chick/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chick/src/main/java/annotation/Retry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chick/src/main/java/annotation/Rollback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chick/src/main/java/annotation/ThriftClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chick/src/main/java/annotation/ThriftMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chick/src/main/java/aspect/TransactionAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chick/src/main/java/bootstrap/ChickStarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chick/src/main/java/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chick/src/main/java/core/RedisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chick/src/main/java/core/TransactionContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chick/src/main/java/executor/TestExecutor1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chick/src/main/java/executor/TestExecutor2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chick/src/main/java/handler/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chick/src/main/java/handler/RetryHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chick/src/main/java/handler/RollbackHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chick/src/main/java/handler/TestRollbackHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chick/src/main/java/service/TestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chick/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/4/341a18d8c08c33901732639b4f334aa8f89a7e0f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/9/3940f06a06206fbf3dd443af2e3bfc85cbe06a89" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/9/3940f06a06206fbf3dd443af2e3bfc85cbe06a89" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/6/5645c184f239a39b0005f3f418196e734a2be57f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/1/7164f87571a5bb8618f8d94913dbc2d9dd357749" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/1/7164f87571a5bb8618f8d94913dbc2d9dd357749" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/9/a985f873cb8b1ddd65ba14ad948ce1177e10f563" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/4/b4e77a6862cb71b47cf391084444b6913c0d7644" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/5/d5086d34afc69c35abdc6ca1c38aedcb4bb91728" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/3/033a0b7aefb4aafbdd5a67e118c707a5624ff65b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/3/033a0b7aefb4aafbdd5a67e118c707a5624ff65b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/c/2c5dc08501c8ddbcbc47d94c11a3ea6c8b7ebd84" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/5/351823486a88550d48cc0c6f45067aa72cec486e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/7/47b6ebceb72828a16d7f5378665d5b7d032251df" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/0/60a47e3c34d43bcb92ef14fefbaab047150642d8" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/0/60a47e3c34d43bcb92ef14fefbaab047150642d8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/8/78018a07b869779d06726d533972cd6d1345834d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/4/941831841e69cebc1a1f049d15557833416cabec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/2/a226dcb8507fae5cb2066b63e2ee47580a1815cf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/2/d24030698414f37dfa8c6f053bdda61d43afcca8" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/2/d24030698414f37dfa8c6f053bdda61d43afcca8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/c/ec7bf8b5b19b202963129d82648c0fcb59b5307a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/a/faf2b3e6543533e0a73b4e16b76d3a2884a504d9" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foundation/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/foundation/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foundation/target/classes/com/ghj/exception/CustomExceptionDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foundation/target/classes/com/ghj/exception/MyCustomException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foundation/target/classes/com/ghj/java8/Lambda.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foundation/target/classes/com/ghj/java8/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foundation/target/classes/com/ghj/jsr269/Field.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foundation/target/classes/com/ghj/jsr269/Getter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foundation/target/classes/com/ghj/jsr269/GetterProcessor$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foundation/target/classes/com/ghj/jsr269/GetterProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foundation/target/classes/com/ghj/jsr269/JSRTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foundation/target/classes/com/ghj/jsr269/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foundation/target/classes/com/ghj/tryFinally/TryFinally.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foundation/target/foundation-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foundation/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foundation/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foundation/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsr269/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsr269/src/main/java/com/ghj/jsr269/Field.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsr269/src/main/java/com/ghj/jsr269/Getter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsr269/src/main/java/com/ghj/jsr269/GetterProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsr269/src/main/java/com/ghj/jsr269/JSRTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsr269/src/main/java/com/ghj/jsr269/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsr269/src/main/resources/META-INF/services/javax.annotation.processing.Processor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsr269/target/classes/META-INF/services/javax.annotation.processing.Processor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsr269/target/classes/com/ghj/jsr269/Field.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsr269/target/classes/com/ghj/jsr269/Getter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsr269/target/classes/com/ghj/jsr269/GetterProcessor$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsr269/target/classes/com/ghj/jsr269/GetterProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsr269/target/classes/com/ghj/jsr269/JSRTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsr269/target/classes/com/ghj/jsr269/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsr269/target/jsr269-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsr269/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +104,7 @@
         <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="Interface" />
+        <option value="Aspect" />
         <option value="AnnotationType" />
         <option value="Class" />
       </list>
@@ -120,7 +147,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/foundation/src/main/resources" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -148,7 +175,7 @@
       <recent name="D:\gehj\projects1111\studynotes\cola\cola-service\src\main\java\executor" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.ChickStarter">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ghj.jsr269.Test" />
       <module name="jsr269" />
@@ -220,8 +247,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ChickStarter" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="chick" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bootstrap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="bootstrap.ChickStarter" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ChickStarter" />
         <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
@@ -397,21 +438,11 @@
       <workItem from="1612403956188" duration="5187000" />
       <workItem from="1612438116026" duration="3973000" />
       <workItem from="1612515132048" duration="99000" />
-      <workItem from="1612515343094" duration="2361000" />
-    </task>
-    <task id="LOCAL-00055" summary="多线程打印foobar">
-      <created>1592706499012</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1592706499012</updated>
-    </task>
-    <task id="LOCAL-00056" summary="多线程打印foobar">
-      <created>1594184731151</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1594184731151</updated>
+      <workItem from="1612515343094" duration="2447000" />
+      <workItem from="1612697524758" duration="25000" />
+      <workItem from="1612698567250" duration="687000" />
+      <workItem from="1612749107944" duration="6591000" />
+      <workItem from="1612763892940" duration="3019000" />
     </task>
     <task id="LOCAL-00057" summary="多线程打印foobar">
       <created>1594184820639</created>
@@ -742,7 +773,21 @@
       <option name="project" value="LOCAL" />
       <updated>1612443797554</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="序列化">
+      <created>1612517779993</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1612517779993</updated>
+    </task>
+    <task id="LOCAL-00105" summary="序列化">
+      <created>1612517786658</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1612517786658</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -798,7 +843,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="bfs - dfs" />
     <MESSAGE value="concurrent-model" />
     <MESSAGE value="strategy模式" />
     <MESSAGE value="template模式" />
@@ -823,13 +867,14 @@
     <MESSAGE value="ddd-demo" />
     <MESSAGE value="lambda-filter" />
     <MESSAGE value="JSR-269 修改字节码" />
-    <option name="LAST_COMMIT_MESSAGE" value="JSR-269 修改字节码" />
+    <MESSAGE value="序列化" />
+    <option name="LAST_COMMIT_MESSAGE" value="序列化" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="390" y="93" key="#Project_Structure" timestamp="1612443678832">
+    <state x="390" y="93" key="#Project_Structure" timestamp="1612753583269">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
-    <state x="390" y="93" key="#Project_Structure/0.23.1792.1009@0.23.1792.1009" timestamp="1612443678832" />
+    <state x="390" y="93" key="#Project_Structure/0.23.1792.1009@0.23.1792.1009" timestamp="1612753583269" />
     <state x="366" y="173" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612439133243">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
@@ -838,10 +883,10 @@
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
     <state x="600" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1792.1009@0.23.1792.1009" timestamp="1612515986018" />
-    <state x="727" y="212" key="#com.intellij.ide.util.MemberChooser" timestamp="1612515831050">
+    <state x="727" y="212" key="#com.intellij.ide.util.MemberChooser" timestamp="1612767069004">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
-    <state x="727" y="212" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1009@0.23.1792.1009" timestamp="1612515831050" />
+    <state x="727" y="212" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1009@0.23.1792.1009" timestamp="1612767069004" />
     <state x="484" y="443" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1612517516122">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
@@ -850,42 +895,62 @@
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
     <state x="672" y="400" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.23.1792.1009@0.23.1792.1009" timestamp="1612517520972" />
-    <state width="1560" height="264" key="GridCell.Tab.0.bottom" timestamp="1612517618300">
+    <state width="468" height="466" key="DebuggerActiveHint" timestamp="1612755167269">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
-    <state width="1560" height="264" key="GridCell.Tab.0.bottom/0.23.1792.1009@0.23.1792.1009" timestamp="1612517618300" />
+    <state width="468" height="466" key="DebuggerActiveHint/0.23.1792.1009@0.23.1792.1009" timestamp="1612755167269" />
+    <state width="1560" height="231" key="GridCell.Tab.0.bottom" timestamp="1612756293401">
+      <screen x="0" y="23" width="1792" height="1009" />
+    </state>
+    <state width="1560" height="231" key="GridCell.Tab.0.bottom/0.23.1792.1009@0.23.1792.1009" timestamp="1612756293401" />
     <state width="1560" height="322" key="GridCell.Tab.0.bottom/0.23.1920.969@0.23.1920.969" timestamp="1604564529569" />
-    <state width="1560" height="264" key="GridCell.Tab.0.center" timestamp="1612517618299">
+    <state width="1560" height="231" key="GridCell.Tab.0.center" timestamp="1612756293400">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
-    <state width="1560" height="264" key="GridCell.Tab.0.center/0.23.1792.1009@0.23.1792.1009" timestamp="1612517618299" />
+    <state width="1560" height="231" key="GridCell.Tab.0.center/0.23.1792.1009@0.23.1792.1009" timestamp="1612756293400" />
     <state width="1560" height="322" key="GridCell.Tab.0.center/0.23.1920.969@0.23.1920.969" timestamp="1604564529568" />
-    <state width="1560" height="264" key="GridCell.Tab.0.left" timestamp="1612517618299">
+    <state width="1560" height="231" key="GridCell.Tab.0.left" timestamp="1612756293400">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
-    <state width="1560" height="264" key="GridCell.Tab.0.left/0.23.1792.1009@0.23.1792.1009" timestamp="1612517618299" />
+    <state width="1560" height="231" key="GridCell.Tab.0.left/0.23.1792.1009@0.23.1792.1009" timestamp="1612756293400" />
     <state width="1560" height="322" key="GridCell.Tab.0.left/0.23.1920.969@0.23.1920.969" timestamp="1604564529568" />
-    <state width="1560" height="264" key="GridCell.Tab.0.right" timestamp="1612517618300">
+    <state width="1560" height="231" key="GridCell.Tab.0.right" timestamp="1612756293401">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
-    <state width="1560" height="264" key="GridCell.Tab.0.right/0.23.1792.1009@0.23.1792.1009" timestamp="1612517618300" />
+    <state width="1560" height="231" key="GridCell.Tab.0.right/0.23.1792.1009@0.23.1792.1009" timestamp="1612756293401" />
     <state width="1560" height="322" key="GridCell.Tab.0.right/0.23.1920.969@0.23.1920.969" timestamp="1604564529569" />
-    <state width="1560" height="177" key="GridCell.Tab.1.bottom" timestamp="1612443815242">
+    <state width="1560" height="231" key="GridCell.Tab.1.bottom" timestamp="1612756293402">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
-    <state width="1560" height="177" key="GridCell.Tab.1.bottom/0.23.1792.1009@0.23.1792.1009" timestamp="1612443815242" />
-    <state width="1560" height="177" key="GridCell.Tab.1.center" timestamp="1612443815242">
+    <state width="1560" height="231" key="GridCell.Tab.1.bottom/0.23.1792.1009@0.23.1792.1009" timestamp="1612756293402" />
+    <state width="1560" height="231" key="GridCell.Tab.1.center" timestamp="1612756293401">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
-    <state width="1560" height="177" key="GridCell.Tab.1.center/0.23.1792.1009@0.23.1792.1009" timestamp="1612443815242" />
-    <state width="1560" height="177" key="GridCell.Tab.1.left" timestamp="1612443815242">
+    <state width="1560" height="231" key="GridCell.Tab.1.center/0.23.1792.1009@0.23.1792.1009" timestamp="1612756293401" />
+    <state width="1560" height="231" key="GridCell.Tab.1.left" timestamp="1612756293401">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
-    <state width="1560" height="177" key="GridCell.Tab.1.left/0.23.1792.1009@0.23.1792.1009" timestamp="1612443815242" />
-    <state width="1560" height="177" key="GridCell.Tab.1.right" timestamp="1612443815242">
+    <state width="1560" height="231" key="GridCell.Tab.1.left/0.23.1792.1009@0.23.1792.1009" timestamp="1612756293401" />
+    <state width="1560" height="231" key="GridCell.Tab.1.right" timestamp="1612756293401">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
-    <state width="1560" height="177" key="GridCell.Tab.1.right/0.23.1792.1009@0.23.1792.1009" timestamp="1612443815242" />
+    <state width="1560" height="231" key="GridCell.Tab.1.right/0.23.1792.1009@0.23.1792.1009" timestamp="1612756293401" />
+    <state width="1560" height="231" key="GridCell.Tab.2.bottom" timestamp="1612756293402">
+      <screen x="0" y="23" width="1792" height="1009" />
+    </state>
+    <state width="1560" height="231" key="GridCell.Tab.2.bottom/0.23.1792.1009@0.23.1792.1009" timestamp="1612756293402" />
+    <state width="1560" height="231" key="GridCell.Tab.2.center" timestamp="1612756293402">
+      <screen x="0" y="23" width="1792" height="1009" />
+    </state>
+    <state width="1560" height="231" key="GridCell.Tab.2.center/0.23.1792.1009@0.23.1792.1009" timestamp="1612756293402" />
+    <state width="1560" height="231" key="GridCell.Tab.2.left" timestamp="1612756293402">
+      <screen x="0" y="23" width="1792" height="1009" />
+    </state>
+    <state width="1560" height="231" key="GridCell.Tab.2.left/0.23.1792.1009@0.23.1792.1009" timestamp="1612756293402" />
+    <state width="1560" height="231" key="GridCell.Tab.2.right" timestamp="1612756293402">
+      <screen x="0" y="23" width="1792" height="1009" />
+    </state>
+    <state width="1560" height="231" key="GridCell.Tab.2.right/0.23.1792.1009@0.23.1792.1009" timestamp="1612756293402" />
     <state x="490" y="261" key="IDE.errors.dialog" timestamp="1612182627528">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
@@ -895,36 +960,40 @@
     </state>
     <state x="403" y="141" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1612443698006" />
     <state x="403" y="150" key="SettingsEditor/0.23.1792.1009@0.23.1792.1009" timestamp="1612517722655" />
-    <state x="528" y="237" key="Vcs.Push.Dialog.v2" timestamp="1612443804137">
+    <state x="528" y="237" key="Vcs.Push.Dialog.v2" timestamp="1612517792514">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
-    <state x="528" y="237" key="Vcs.Push.Dialog.v2/0.23.1792.1009@0.23.1792.1009" timestamp="1612443804137" />
+    <state x="528" y="237" key="Vcs.Push.Dialog.v2/0.23.1792.1009@0.23.1792.1009" timestamp="1612517792514" />
+    <state width="801" height="488" key="XDebugger.FullValuePopup" timestamp="1612755167265">
+      <screen x="0" y="23" width="1792" height="1009" />
+    </state>
+    <state width="801" height="488" key="XDebugger.FullValuePopup/0.23.1792.1009@0.23.1792.1009" timestamp="1612755167265" />
     <state x="201" y="123" width="1402" height="777" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1612333547047">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
     <state x="201" y="123" width="1402" height="777" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1792.1009@0.23.1792.1009" timestamp="1612333547047" />
-    <state x="732" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612443799738">
+    <state x="732" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612517789089">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
-    <state x="732" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1792.1009@0.23.1792.1009" timestamp="1612443799738" />
+    <state x="732" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1792.1009@0.23.1792.1009" timestamp="1612517789089" />
     <state x="635" y="298" width="598" height="490" key="find.popup" timestamp="1611996830229">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
     <state x="635" y="298" width="598" height="490" key="find.popup/0.23.1792.1009/-1920.-85.1920.1057@0.23.1792.1009" timestamp="1604408589707" />
     <state x="635" y="298" width="598" height="490" key="find.popup/0.23.1792.1009@0.23.1792.1009" timestamp="1611996830229" />
-    <state x="258" y="173" key="new project wizard" timestamp="1612438904801">
+    <state x="258" y="173" key="new project wizard" timestamp="1612698840055">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
-    <state x="258" y="173" key="new project wizard/0.23.1792.1009@0.23.1792.1009" timestamp="1612438904801" />
+    <state x="258" y="173" key="new project wizard/0.23.1792.1009@0.23.1792.1009" timestamp="1612698840055" />
     <state x="567" y="236" width="670" height="675" key="run.anything.popup" timestamp="1612172668100">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
     <state x="567" y="236" width="670" height="675" key="run.anything.popup/0.23.1792.1009@0.23.1792.1009" timestamp="1612172668100" />
-    <state x="641" y="324" width="670" height="166" key="search.everywhere.popup" timestamp="1612517138358">
+    <state x="641" y="324" width="670" height="166" key="search.everywhere.popup" timestamp="1612766600239">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
     <state x="641" y="324" width="670" height="166" key="search.everywhere.popup/0.23.1792.1009/-1920.-85.1920.1057@0.23.1792.1009" timestamp="1604413987232" />
-    <state x="641" y="324" width="670" height="166" key="search.everywhere.popup/0.23.1792.1009@0.23.1792.1009" timestamp="1612517138358" />
+    <state x="641" y="324" width="670" height="166" key="search.everywhere.popup/0.23.1792.1009@0.23.1792.1009" timestamp="1612766600239" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -993,6 +1062,11 @@
           <url>file://$PROJECT_DIR$/algorithm/src/main/java/TraceBackCombination.java</url>
           <line>40</line>
           <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/chick/src/main/java/controller/TestController.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="85" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
