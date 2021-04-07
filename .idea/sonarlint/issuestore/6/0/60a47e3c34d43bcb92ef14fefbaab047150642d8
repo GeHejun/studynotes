@@ -1,29 +1,29 @@
 
-<
-java:S1452	"&Remove usage of generic wildcard type.(“©ºï
-L
-java:S3740!"/Provide the parametrized type for this generic.(ÚàøŠ8†ÞÑâ÷.
-N	java:S106"9Replace this use of System.out or System.err by a logger.(¡ºÝ¸
-N	java:S106""9Replace this use of System.out or System.err by a logger.(Í’š—
+N	java:S106$"9Replace this use of System.out or System.err by a logger.(‰ƒâá
 Q
 java:S3740"/Provide the parametrized type for this generic.(ýïÚøüÿÿÿÿ8†ÞÑâ÷.
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ÅƒÇ‘ýÿÿÿÿ
-N	java:S106$"9Replace this use of System.out or System.err by a logger.(‰ƒâá
-O
-java:S1144,"4Remove this unused private "executeRollback" method.(ù‰¶½úÿÿÿÿ
+s	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(ýïÚøüÿÿÿÿ
+N	java:S106'"9Replace this use of System.out or System.err by a logger.(ò£Õ¬
 L
 java:S3740."/Provide the parametrized type for this generic.(ÚàøŠ8†ÞÑâ÷.
 G
 java:S5411"*Use the primitive boolean expression here.(ÈÆå¥8†ÞÑâ÷.
 R
 java:S2589 "7Remove this expression which always evaluates to "true"(ÆÌ­ìùÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÅƒÇ‘ýÿÿÿÿ
+O
+java:S1144,"4Remove this unused private "executeRollback" method.(ù‰¶½úÿÿÿÿ
+L
+java:S3740!"/Provide the parametrized type for this generic.(ÚàøŠ8†ÞÑâ÷.
 L
 java:S5411"*Use the primitive boolean expression here.(°¨Ïçþÿÿÿÿ8†ÞÑâ÷.
-G
-java:S5411#"*Use the primitive boolean expression here.(Œ¹¶8†ÞÑâ÷.
-s	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(ýïÚøüÿÿÿÿ
-k
-java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ÙƒÜªøÿÿÿÿ
+N	java:S106""9Replace this use of System.out or System.err by a logger.(Í’š—
 k
 java:S1149,"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ù‰¶½úÿÿÿÿ
-N	java:S106'"9Replace this use of System.out or System.err by a logger.(ò£Õ¬
+G
+java:S5411#"*Use the primitive boolean expression here.(Œ¹¶8†ÞÑâ÷.
+k
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ÙƒÜªøÿÿÿÿ
+<
+java:S1452	"&Remove usage of generic wildcard type.(“©ºï
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¡ºÝ¸

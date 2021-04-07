@@ -1,5 +1,5 @@
 
-X
-java:S1854"BRemove this useless assignment to local variable "beanDefinition".(Ë‘ç
 I
 java:S1481"3Remove this unused "beanDefinition" local variable.(Ë‘ç
+X
+java:S1854"BRemove this useless assignment to local variable "beanDefinition".(Ë‘ç

@@ -1,32 +1,27 @@
 package core;
 
+import java.util.Arrays;
+
 /**
  * @author gehejun
  */
 public class TransactionContext {
 
-    ThreadLocal<TransactionContext> context = new InheritableThreadLocal<>();
+    Thread currentThread;
 
-    String params;
+    Object[] params;
 
     Boolean isNeedRollback;
 
     Boolean isNeedRetry;
 
-    public ThreadLocal<TransactionContext> getContext() {
-        return context;
-    }
 
-    public void setContext(ThreadLocal<TransactionContext> context) {
-        this.context = context;
-    }
-
-    public String getParams() {
-        return params;
-    }
-
-    public void setParams(String params) {
+    public void setParams(Object[] params) {
         this.params = params;
+    }
+
+    public Object[] getParams() {
+        return params;
     }
 
     public Boolean getNeedRollback() {
@@ -43,5 +38,23 @@ public class TransactionContext {
 
     public void setNeedRetry(Boolean needRetry) {
         isNeedRetry = needRetry;
+    }
+
+    public void setCurrentThread(Thread currentThread) {
+        this.currentThread = currentThread;
+    }
+
+    public Thread getCurrentThread() {
+        return currentThread;
+    }
+
+    @Override
+    public String toString() {
+        return "TransactionContext{" +
+                "params=" + Arrays.toString(params) +
+                ", isNeedRollback=" + isNeedRollback +
+                ", isNeedRetry=" + isNeedRetry +
+                ", currentThread=" + currentThread +
+                '}';
     }
 }
