@@ -29,34 +29,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1735b1db-e4e4-49c3-b0e9-3803553dd2df" name="Default Changelist" comment="retry 和 rollback">
-      <change afterPath="$PROJECT_DIR$/chick/src/main/java/core/SpringBeanUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrent/src/main/java/com/ghj/thread/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrent/src/main/java/com/ghj/thread/ProviderConsumer1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrent/src/main/java/com/ghj/thread/ProviderConsumer2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/ghj/multiplebean/BeanConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/ghj/multiplebean/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/ghj/multiplebean/Drive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/ghj/multiplebean/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/ghj/multiplebean/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring/src/main/java/com/ghj/multiplebean/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrent/src/main/java/com/ghj/thread/Peach.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/1/0137bebd742cd4784fba8cab7c26f415bf17520f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/1/0137bebd742cd4784fba8cab7c26f415bf17520f" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/3/033a0b7aefb4aafbdd5a67e118c707a5624ff65b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/3/033a0b7aefb4aafbdd5a67e118c707a5624ff65b" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/a/3a65290ecae3177d826c55e3108661ebd20c9321" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/a/3a65290ecae3177d826c55e3108661ebd20c9321" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5/55898e113ac4b55cb0dd0d97e261c5ee0eebbed5" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5/55898e113ac4b55cb0dd0d97e261c5ee0eebbed5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/0/60a47e3c34d43bcb92ef14fefbaab047150642d8" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/0/60a47e3c34d43bcb92ef14fefbaab047150642d8" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/8/9861ddffbfdff38a11235cc27b75549dfb570d16" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/8/9861ddffbfdff38a11235cc27b75549dfb570d16" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/2/a2620d7ac85b419db8683c5bb502a7ab4962aa98" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/2/a2620d7ac85b419db8683c5bb502a7ab4962aa98" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/4/c4c57553ef9092f421397a7fb7b0b309ee1fdd80" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/4/c4c57553ef9092f421397a7fb7b0b309ee1fdd80" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/2/d24030698414f37dfa8c6f053bdda61d43afcca8" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/2/d24030698414f37dfa8c6f053bdda61d43afcca8" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/eff6c521947fa527ac99a3d94af0a61a73456fa2" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/eff6c521947fa527ac99a3d94af0a61a73456fa2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/3/f3329c64a759e356a17a6073ebb5b85d03009407" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/3/f3329c64a759e356a17a6073ebb5b85d03009407" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/d/fd4e1e07bb1ab091098c3e6e1655e002cf98b2aa" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/d/fd4e1e07bb1ab091098c3e6e1655e002cf98b2aa" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/3/43c33731973cd6be7c6463dea53aaccd36671cd2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cf0fb39a53bcb6573c429a97b59689e90b988903" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/f/fff00d8796e63ebdfdb904d21dd930a230ace7ea" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/f/fff00d8796e63ebdfdb904d21dd930a230ace7ea" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chick/src/main/java/aspect/TransactionAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/chick/src/main/java/aspect/TransactionAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chick/src/main/java/core/RedisUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/chick/src/main/java/core/RedisUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chick/src/main/java/core/TransactionContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/chick/src/main/java/core/TransactionContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chick/chick.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,13 +68,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="1aNtO8f0OQ3RmN9d97ki3etbQn7" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -117,7 +91,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597900272848" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/foundation/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -148,7 +122,20 @@
       <recent name="$PROJECT_DIR$/thrift/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProviderConsumer2">
+  <component name="RunManager" selected="Application.Peach">
+    <configuration name="Peach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ghj.thread.Peach" />
+      <module name="concurrent" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ghj.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProviderConsumer1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ghj.thread.ProviderConsumer1" />
       <module name="concurrent" />
@@ -175,38 +162,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ghj.multiplebean.Test" />
-      <module name="spring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ghj.multiplebean.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ghj.thread.Test" />
       <module name="concurrent" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ghj.thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ghj.multiplebean.Test" />
-      <module name="spring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ghj.multiplebean.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -223,17 +184,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -287,11 +237,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test1" />
+        <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.ProviderConsumer2" />
         <item itemvalue="Application.ProviderConsumer1" />
-        <item itemvalue="Application.Test (2)" />
-        <item itemvalue="Application.Test1" />
-        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.Peach" />
       </list>
     </recent_temporary>
   </component>
@@ -480,13 +430,13 @@
       <workItem from="1616759590053" duration="964000" />
       <workItem from="1616983304058" duration="482000" />
       <workItem from="1617339754467" duration="64000" />
-    </task>
-    <task id="LOCAL-00059" summary="数组中重复数字">
-      <created>1594564110573</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1594564110573</updated>
+      <workItem from="1617781364506" duration="235000" />
+      <workItem from="1618063471180" duration="1168000" />
+      <workItem from="1618229196833" duration="540000" />
+      <workItem from="1622114896938" duration="694000" />
+      <workItem from="1622115944168" duration="66000" />
+      <workItem from="1622116036161" duration="156000" />
+      <workItem from="1622116226356" duration="595000" />
     </task>
     <task id="LOCAL-00060" summary="数组中重复数字">
       <created>1596359959101</created>
@@ -824,7 +774,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612767801854</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="retry 和 rollback">
+      <created>1617781532525</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1617781532525</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -920,10 +877,10 @@
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
     <state x="600" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1792.1009@0.23.1792.1009" timestamp="1612515986018" />
-    <state x="727" y="212" key="#com.intellij.ide.util.MemberChooser" timestamp="1612769740357">
+    <state x="727" y="212" key="#com.intellij.ide.util.MemberChooser" timestamp="1618063533212">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
-    <state x="727" y="212" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1009@0.23.1792.1009" timestamp="1612769740357" />
+    <state x="727" y="212" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1009@0.23.1792.1009" timestamp="1618063533212" />
     <state x="484" y="443" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1614144091112">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
@@ -944,45 +901,45 @@
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
     <state width="519" height="466" key="DebuggerActiveHint/0.23.1792.1009@0.23.1792.1009" timestamp="1614171934292" />
-    <state width="1560" height="432" key="GridCell.Tab.0.bottom" timestamp="1616665197526">
+    <state width="1560" height="432" key="GridCell.Tab.0.bottom" timestamp="1618063973942">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
-    <state width="1560" height="432" key="GridCell.Tab.0.bottom/0.23.1792.1009@0.23.1792.1009" timestamp="1616665197526" />
+    <state width="1560" height="432" key="GridCell.Tab.0.bottom/0.23.1792.1009@0.23.1792.1009" timestamp="1618063973942" />
     <state width="1560" height="378" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1614686735081" />
-    <state width="1560" height="432" key="GridCell.Tab.0.center" timestamp="1616665197525">
+    <state width="1560" height="432" key="GridCell.Tab.0.center" timestamp="1618063973940">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
-    <state width="1560" height="432" key="GridCell.Tab.0.center/0.23.1792.1009@0.23.1792.1009" timestamp="1616665197525" />
+    <state width="1560" height="432" key="GridCell.Tab.0.center/0.23.1792.1009@0.23.1792.1009" timestamp="1618063973940" />
     <state width="1560" height="378" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1614686735080" />
-    <state width="1560" height="432" key="GridCell.Tab.0.left" timestamp="1616665197525">
+    <state width="1560" height="432" key="GridCell.Tab.0.left" timestamp="1618063973940">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
-    <state width="1560" height="432" key="GridCell.Tab.0.left/0.23.1792.1009@0.23.1792.1009" timestamp="1616665197525" />
+    <state width="1560" height="432" key="GridCell.Tab.0.left/0.23.1792.1009@0.23.1792.1009" timestamp="1618063973940" />
     <state width="1560" height="378" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1614686735080" />
-    <state width="1560" height="432" key="GridCell.Tab.0.right" timestamp="1616665197525">
+    <state width="1560" height="432" key="GridCell.Tab.0.right" timestamp="1618063973941">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
-    <state width="1560" height="432" key="GridCell.Tab.0.right/0.23.1792.1009@0.23.1792.1009" timestamp="1616665197525" />
+    <state width="1560" height="432" key="GridCell.Tab.0.right/0.23.1792.1009@0.23.1792.1009" timestamp="1618063973941" />
     <state width="1560" height="378" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1614686735080" />
-    <state width="1560" height="432" key="GridCell.Tab.1.bottom" timestamp="1616665197526">
+    <state width="1560" height="432" key="GridCell.Tab.1.bottom" timestamp="1618063973907">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
-    <state width="1560" height="432" key="GridCell.Tab.1.bottom/0.23.1792.1009@0.23.1792.1009" timestamp="1616665197526" />
+    <state width="1560" height="432" key="GridCell.Tab.1.bottom/0.23.1792.1009@0.23.1792.1009" timestamp="1618063973907" />
     <state width="1560" height="378" key="GridCell.Tab.1.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1614686735082" />
-    <state width="1560" height="432" key="GridCell.Tab.1.center" timestamp="1616665197526">
+    <state width="1560" height="432" key="GridCell.Tab.1.center" timestamp="1618063973906">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
-    <state width="1560" height="432" key="GridCell.Tab.1.center/0.23.1792.1009@0.23.1792.1009" timestamp="1616665197526" />
+    <state width="1560" height="432" key="GridCell.Tab.1.center/0.23.1792.1009@0.23.1792.1009" timestamp="1618063973906" />
     <state width="1560" height="378" key="GridCell.Tab.1.center/0.23.1792.1097@0.23.1792.1097" timestamp="1614686735081" />
-    <state width="1560" height="432" key="GridCell.Tab.1.left" timestamp="1616665197526">
+    <state width="1560" height="432" key="GridCell.Tab.1.left" timestamp="1618063973905">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
-    <state width="1560" height="432" key="GridCell.Tab.1.left/0.23.1792.1009@0.23.1792.1009" timestamp="1616665197526" />
+    <state width="1560" height="432" key="GridCell.Tab.1.left/0.23.1792.1009@0.23.1792.1009" timestamp="1618063973905" />
     <state width="1560" height="378" key="GridCell.Tab.1.left/0.23.1792.1097@0.23.1792.1097" timestamp="1614686735081" />
-    <state width="1560" height="432" key="GridCell.Tab.1.right" timestamp="1616665197526">
+    <state width="1560" height="432" key="GridCell.Tab.1.right" timestamp="1618063973906">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
-    <state width="1560" height="432" key="GridCell.Tab.1.right/0.23.1792.1009@0.23.1792.1009" timestamp="1616665197526" />
+    <state width="1560" height="432" key="GridCell.Tab.1.right/0.23.1792.1009@0.23.1792.1009" timestamp="1618063973906" />
     <state width="1560" height="378" key="GridCell.Tab.1.right/0.23.1792.1097@0.23.1792.1097" timestamp="1614686735081" />
     <state width="1560" height="231" key="GridCell.Tab.2.bottom" timestamp="1612756293402">
       <screen x="0" y="23" width="1792" height="1009" />
@@ -1009,10 +966,10 @@
     </state>
     <state x="403" y="141" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1612443698006" />
     <state x="403" y="150" key="SettingsEditor/0.23.1792.1009@0.23.1792.1009" timestamp="1612517722655" />
-    <state x="528" y="237" key="Vcs.Push.Dialog.v2" timestamp="1612767814239">
+    <state x="528" y="237" key="Vcs.Push.Dialog.v2" timestamp="1617781561213">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
-    <state x="528" y="237" key="Vcs.Push.Dialog.v2/0.23.1792.1009@0.23.1792.1009" timestamp="1612767814239" />
+    <state x="528" y="237" key="Vcs.Push.Dialog.v2/0.23.1792.1009@0.23.1792.1009" timestamp="1617781561213" />
     <state width="801" height="488" key="XDebugger.FullValuePopup" timestamp="1612755167265">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
@@ -1021,10 +978,10 @@
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
     <state x="201" y="123" width="1402" height="777" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1792.1009@0.23.1792.1009" timestamp="1612333547047" />
-    <state x="732" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612767809954">
+    <state x="732" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1617781557392">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
-    <state x="732" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1792.1009@0.23.1792.1009" timestamp="1612767809954" />
+    <state x="732" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1792.1009@0.23.1792.1009" timestamp="1617781557392" />
     <state x="635" y="298" width="598" height="490" key="find.popup" timestamp="1614482309504">
       <screen x="0" y="23" width="1792" height="1009" />
     </state>
