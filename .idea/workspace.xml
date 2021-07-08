@@ -29,9 +29,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1735b1db-e4e4-49c3-b0e9-3803553dd2df" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrent/src/main/java/com/ghj/thread/ForkJoinMerge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrent/src/main/java/com/ghj/thread/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrent/src/main/java/com/ghj/thread/NormalMerge.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrent/src/main/java/com/ghj/thread/ForkJoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrent/src/main/java/com/ghj/thread/ForkJoin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,8 +131,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProviderConsumer1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ghj.thread.ProviderConsumer1" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ghj.thread.MergeSort" />
       <module name="concurrent" />
       <extension name="coverage">
         <pattern>
@@ -156,7 +157,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ghj.thread.Test" />
       <module name="concurrent" />
       <extension name="coverage">
@@ -231,11 +232,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.ForkJoin" />
         <item itemvalue="Application.Test1" />
-        <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.ProviderConsumer2" />
-        <item itemvalue="Application.ProviderConsumer1" />
       </list>
     </recent_temporary>
   </component>
@@ -431,13 +431,6 @@
       <workItem from="1622115944168" duration="66000" />
       <workItem from="1622116036161" duration="156000" />
       <workItem from="1622116226356" duration="595000" />
-    </task>
-    <task id="LOCAL-00061" summary="数组中重复数字">
-      <created>1596816102769</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1596816102770</updated>
     </task>
     <task id="LOCAL-00062" summary="数组中重复数字">
       <created>1596816146541</created>
@@ -775,7 +768,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625626962774</updated>
     </task>
-    <option name="localTasksCounter" value="110" />
+    <task id="LOCAL-00110" summary="retry 和 rollback">
+      <created>1625640265976</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1625640265976</updated>
+    </task>
+    <option name="localTasksCounter" value="111" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
